@@ -13,6 +13,7 @@ const Footer = () => {
                     <Link><img src="https://i.ibb.co/yNrzH9F/ri-threads-fill.png" className="w-9 h-9 bg-[#EBF5FF] p-2 rounded-full" alt="" /></Link>
                 </div>
             </aside>
+            
             <nav>
                 <header className="font-bold mb-2">SEO Impact</header>
                 <Link className="mb-2" to='/'>Home</Link>
@@ -47,7 +48,7 @@ const Footer = () => {
 
                 </div>
             </nav>
-            
+
         </footer>
     );
 };
