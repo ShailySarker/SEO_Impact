@@ -2,11 +2,11 @@
 const ClientReview = () => {
     return (
         <div className="mb-52">
-            <div className="flex justify-end mt-40">
+            <div className="flex justify-end mt-36">
                 <img className="" src="https://i.ibb.co/x6mHm6H/Rectangle-12.png" alt="" />
             </div>
-            <div className="flex justify-center flex-col absolute -mt-[380px]">
-                <h2 className="text-3xl px-96 text-center font-bold"> <span className="text-[#379FFF]">“SEO Impact</span> a Keyword Research tool like Google Trends, Woorank, Seobility”</h2>
+            <div className="flex justify-center flex-col absolute -mt-[390px]">
+                <h2 className="text-4xl px-80 text-center font-bold"> <span className="text-[#379FFF]">“SEO Impact</span> a Keyword Research tool like Google Trends, Woorank, Seobility”</h2>
                 <div className="mt-12 flex flex-col justify-center mx-auto text-center ">
                     <img className="w-52 mx-auto " src="https://i.ibb.co/wR4F3cc/Ellipse-10.png" alt="" />
 

@@ -2,6 +2,8 @@ import Banner from "../Banner/Banner";
 import ClientReview from "../ClientReview/ClientReview/ClientReview";
 import CompanyOverview from "../CompanyOverview/CompanyOverview";
 import Features from "../Features/Features";
+import MarketInsights from "../MarketInsights/MarketInsights";
+import SEOTools from "../SEOTools/SEOTools";
 import TrustedCompanies from "../TrustedCompanies/TrustedCompanies";
 
 const Home = () => {
@@ -12,6 +14,8 @@ const Home = () => {
             <ClientReview></ClientReview>
             <TrustedCompanies></TrustedCompanies>
             <CompanyOverview></CompanyOverview>
+            <SEOTools></SEOTools>
+            <MarketInsights></MarketInsights>
         </div>
     );
 };

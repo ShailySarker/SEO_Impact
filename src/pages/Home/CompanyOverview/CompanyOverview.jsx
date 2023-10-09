@@ -1,7 +1,7 @@
 
 const CompanyOverview = () => {
     return (
-        <div className="my-28 flex px-20 justify-center gap-28">
+        <div className="mt-28 mb-20 flex px-20 justify-center gap-28">
             <div className="">
                 <div className="">
                     <h1 className="text-6xl rounded-full py-24 px-[87px] bg-[#f92f613f] font-bold">5M</h1>
