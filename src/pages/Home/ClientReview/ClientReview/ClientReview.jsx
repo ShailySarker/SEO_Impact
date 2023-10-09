@@ -1,7 +1,7 @@
 
 const ClientReview = () => {
     return (
-        <div className="mb-44">
+        <div className="mb-52">
             <div className="flex justify-end mt-40">
                 <img className="" src="https://i.ibb.co/x6mHm6H/Rectangle-12.png" alt="" />
             </div>
