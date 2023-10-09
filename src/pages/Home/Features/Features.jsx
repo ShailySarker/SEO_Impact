@@ -8,7 +8,7 @@ const Features = () => {
                     <FeatureSectionSearchBar></FeatureSectionSearchBar>
                 </div>
                 <div className="">
-                    <h3 className="text-white text-3xl">“See What’s Inside”</h3>
+                    <h3 className="text-white text-3xl font-bold">“See What’s Inside”</h3>
                 </div>
             </div>
             <div className="grid grid-cols-2 gap-12 mx-28 p-12 border-2 rounded-3xl absolute -mt-44 mb-96 bg-white ">
