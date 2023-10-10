@@ -3,14 +3,14 @@ import NavMenu from "../NavMenu/NavMenu";
 
 const Header = () => {
     return (
-        <nav>
+        <nav >
             <div className="navbar bg-[#379FFF1A]
 ]
-              lg:px-10 px-2 py-3 mb-28 lg:mb-0">
+              lg:px-10 px-2 py-6 mb-28 lg:mb-0">
                 <div className="navbar-start">
                     <div className="flex lg:flex-col flex-row 
                     justify-center items-center lg:ml-0">
-                        <img className="" src='https://i.ibb.co/LgjTcLv/Group-157.png' alt="" />
+                        <img className="border-r-2 pr-28" src='https://i.ibb.co/LgjTcLv/Group-157.png' alt="" />
                     </div>
                 </div>
                 <div className="navbar-center hidden lg:flex">
