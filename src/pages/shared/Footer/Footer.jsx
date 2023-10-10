@@ -2,18 +2,21 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
     return (
-        <footer className="footer p-10  text-base-content ">
-            <aside className="flex flex-col items-center justify-center">
+        <footer className="footer p-10 border-t-2  text-base-content ">
+            <nav className="flex border-r-2 justify-end items-center pr-16 py-24">
+                <aside className="flex flex-col items-center justify-center gap-6">
 
-                <img src="https://i.ibb.co/LgjTcLv/Group-157.png" alt="" />
-                <div className="flex gap-4">
-                    <Link><img src="https://i.ibb.co/Gc1rFqk/teenyicons-facebook-solid.png" className="w-9 h-9 bg-[#EBF5FF] p-2 rounded-full" alt="" /></Link>
-                    <Link><img src="https://i.ibb.co/Wg2bGcC/mdi-twitter.png" className="w-9 h-9 bg-[#EBF5FF] p-2 rounded-full" alt="" /></Link>
-                    <Link><img src="https://i.ibb.co/Y3jtCND/teenyicons-instagram-solid.png" className="w-9 h-9 bg-[#EBF5FF] p-2 rounded-full" alt="" /></Link>
-                    <Link><img src="https://i.ibb.co/yNrzH9F/ri-threads-fill.png" className="w-9 h-9 bg-[#EBF5FF] p-2 rounded-full" alt="" /></Link>
-                </div>
-            </aside>
-            
+                    <img className="w-60" src="https://i.ibb.co/LgjTcLv/Group-157.png" alt="" />
+                    <div className="flex gap-4">
+                        <Link><img src="https://i.ibb.co/Gc1rFqk/teenyicons-facebook-solid.png" className="w-11 h-11 bg-[#EBF5FF] p-2 rounded-full" alt="" /></Link>
+                        <Link><img src="https://i.ibb.co/Wg2bGcC/mdi-twitter.png" className="w-11 h-11 bg-[#EBF5FF] p-2 rounded-full" alt="" /></Link>
+                        <Link><img src="https://i.ibb.co/Y3jtCND/teenyicons-instagram-solid.png" className="w-11 h-11 bg-[#EBF5FF] p-2 rounded-full" alt="" /></Link>
+                        <Link><img src="https://i.ibb.co/yNrzH9F/ri-threads-fill.png" className="w-11 h-11 bg-[#EBF5FF] p-2 rounded-full" alt="" /></Link>
+                    </div>
+                </aside>
+                
+            </nav>
+
             <nav>
                 <header className="font-bold mb-2">SEO Impact</header>
                 <Link className="mb-2" to='/'>Home</Link>
