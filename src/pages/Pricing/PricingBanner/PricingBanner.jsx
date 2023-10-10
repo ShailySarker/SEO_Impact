@@ -11,7 +11,7 @@ const PricingBanner = () => {
                 </div>
                 <div className="flex justify-end items-center">
                     <img className="w-[600px] h-[500px] relative left-96" src="https://i.ibb.co/1MpKpby/Group-147.png" alt="" />
-                    <img className="w-[600px]" src="https://i.ibb.co/51nsq4L/Ellipse-42.png" alt="" />
+                    <img className="w-[600px] h-[600px]" src="https://i.ibb.co/51nsq4L/Ellipse-42.png" alt="" />
                 </div>
             </div>
         </div>
