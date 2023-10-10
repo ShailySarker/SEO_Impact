@@ -1,3 +1,4 @@
+import DifferentPackages from "../DifferentPackages/DifferentPackages";
 import PricingBanner from "../PricingBanner/PricingBanner";
 import PricingDesign from "../PricingDesign/PricingDesign";
 
@@ -6,6 +7,7 @@ const Pricing = () => {
         <div>
             <PricingBanner></PricingBanner>
             <PricingDesign></PricingDesign>
+            <DifferentPackages></DifferentPackages>
         </div>
     );
 };
