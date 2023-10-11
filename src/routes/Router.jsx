@@ -5,7 +5,7 @@ import Pricing from "../pages/Pricing/Pricing/Pricing";
 import Careers from "../pages/Careers/Careers/Careers";
 import Resources from "../pages/Resources/Resources";
 import ContactUs from "../pages/ContactUs/ContactUs";
-import AboutUs from "../pages/AboutUs/AboutUs";
+import AboutUs from "../pages/AboutUs/AboutUs/AboutUs";
 
 export const router = createBrowserRouter([
     {
