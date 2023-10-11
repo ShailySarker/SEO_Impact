@@ -14,6 +14,9 @@ const AboutUsBanner = () => {
                     <img src="https://i.ibb.co/YNmfjxB/pana.png" alt="" />
                 </div>
             </div>
+            <div className=" my-36">
+                <img src="https://i.ibb.co/d4WCd6z/Vector-10.png" alt="" />
+            </div>
         </div>
     );
 };
