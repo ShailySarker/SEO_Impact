@@ -6,6 +6,8 @@ import Careers from "../pages/Careers/Careers/Careers";
 import Resources from "../pages/Resources/Resources";
 import ContactUs from "../pages/ContactUs/ContactUs";
 import AboutUs from "../pages/AboutUs/AboutUs/AboutUs";
+import Login from "../pages/RegisterLogin/Login/Login";
+import Register from "../pages/RegisterLogin/Register/Register";
 
 export const router = createBrowserRouter([
     {
@@ -38,4 +40,12 @@ export const router = createBrowserRouter([
         }
       ]
     },
+    {
+        path: "/login",
+        element: <Login></Login>
+    },
+    {
+        path: "/signUp",
+        element: <Register></Register>
+    }
   ]);
