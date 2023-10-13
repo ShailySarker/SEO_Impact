@@ -20,7 +20,7 @@ const DashboardLayout = () => {
                         {/* Sidebar content here */}
 
                         <>
-                            <li className="font-semibold text-lg mt-12 mb-4 ">
+                            <li className="font-semibold text-lg mt-5 mb-4 ">
                                 <NavLink className={({ isActive }) => isActive ? "flex flex-row items-center p-4 gap-4 border-2 rounded-xl text-[#007BFE] bg-[#EBF5FF]" : "flex flex-row items-center p-4 gap-4 border-2 rounded-xl text-slate-400"}
                                     to='myProjects'>
                                     <img src="https://i.ibb.co/WWZRP9v/fluent-home-12-filled.png" alt="" />
