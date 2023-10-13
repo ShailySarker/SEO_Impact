@@ -11,7 +11,7 @@ const DashboardLayout = () => {
                 <div className="drawer-content flex flex-col-reverse lg:flex-col ">
                     {/* Page content here */}
                     <Outlet></Outlet>
-                    <label htmlFor="my-drawer-2" className="btn btn-warning drawer-button lg:hidden">Open drawer</label>
+                    {/* <label htmlFor="my-drawer-2" className="btn btn-warning drawer-button lg:hidden">Open drawer</label> */}
 
                 </div>
                 <div className="drawer-side">
