@@ -11,6 +11,7 @@ import Register from "../pages/RegisterLogin/Register/Register";
 import DashboardLayout from "../layout/DashboardLayout/DashboardLayout";
 import MyProjects from "../pages/Resources/MyProjects/MyProjects";
 import ResourcesHomePage from "../pages/Resources/ResourcesHomePage/ResourcesHomePage";
+import KeywordChecker from "../pages/Resources/KeywordChecker/KeywordChecker";
 
 export const router = createBrowserRouter([
     {
@@ -64,6 +65,10 @@ export const router = createBrowserRouter([
             {
                 path: "myProjects",
                 element: <MyProjects></MyProjects>
+            },
+            {
+                path: "keywordChecker",
+                element: <KeywordChecker></KeywordChecker>
             }
         ]
     },
