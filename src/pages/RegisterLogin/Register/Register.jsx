@@ -2,7 +2,8 @@ import SignUpDesign from "../../../components/SignUpDesign/SignUpDesign";
 import CheckBox from "../../../components/CheckBox/CheckBox";
 
 const Register = () => {
-    return (
+
+        return (
         <div className="mt-12 ml-36">
             <div className="flex justify-between">
                 <div>
@@ -53,8 +54,8 @@ const Register = () => {
                                 <input
                                     required
                                     type="password"
-                                    name="conformPassword"
-                                    placeholder="Conform Password"
+                                    name="confirmPassword"
+                                    placeholder="Confirm Password"
                                     className="input input-bordered" />
                             </div>
 
