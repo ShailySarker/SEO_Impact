@@ -7,7 +7,7 @@ const BackLinkResultDescription = () => {
                 <h4 className="text-3xl font-semibold text-[#379FFF]">https://sms.tcndigital.in</h4>
             </div>
             <div className="flex gap-[72px] mt-8">
-                <h4 className="text-3xl font-semibold text-slate-500" >BackLinks : </h4>
+                <h4 className="text-3xl font-semibold text-slate-500" >Backlinks : </h4>
                 <div className="">
                     <select className="select select-ghost w-full max-w-xs text-3xl font-semibold text-slate-500">
                         <option selected>7</option>

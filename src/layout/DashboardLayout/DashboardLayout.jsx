@@ -43,7 +43,7 @@ const DashboardLayout = () => {
                             <li className="font-semibold text-lg mb-4">
                                 <NavLink className={({ isActive }) => isActive ? "flex flex-row items-center p-4 gap-4 border-2 rounded-xl text-[#007BFE] bg-[#EBF5FF]" : "flex flex-row items-center p-4 gap-4 border-2 rounded-xl text-slate-400"}
                                     to='backLinkChecker'><img src="https://i.ibb.co/6DSpcCK/codicon-tools.png" alt="" />
-                                    <p>BackLink Checker</p>
+                                    <p>Backlink Checker</p>
                                 </NavLink>
                             </li>
                             <li className="font-semibold text-lg mb-4">
