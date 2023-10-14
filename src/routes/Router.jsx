@@ -13,6 +13,8 @@ import MyProjects from "../pages/Resources/MyProjects/MyProjects";
 import ResourcesHomePage from "../pages/Resources/ResourcesHomePage/ResourcesHomePage";
 import KeywordChecker from "../pages/Resources/KeywordChecker/KeywordChecker/KeywordChecker";
 import KeywordCheckerAfterCheck from "../pages/Resources/KeywordChecker/KeywordCheckerAfterCheck/KeywordCheckerAfterCheck";
+import BackLinkChecker from "../pages/Resources/BackLinkChecker/BackLinkChecker/BackLinkChecker";
+import BackLinkCheckerAfterCheck from "../pages/Resources/BackLinkChecker/BackLinkCheckerAfterCheck/BackLinkCheckerAfterCheck";
 
 export const router = createBrowserRouter([
     {
@@ -74,6 +76,14 @@ export const router = createBrowserRouter([
             {
                 path:"keywordCheckerAfterChecking",
                 element: <KeywordCheckerAfterCheck></KeywordCheckerAfterCheck>
+            },
+            {
+                path: "backLinkChecker",
+                element: <BackLinkChecker></BackLinkChecker>
+            },
+            {
+                path: "backLinkCheckerAfterChecking",
+                element: <BackLinkCheckerAfterCheck></BackLinkCheckerAfterCheck>
             }
         ]
     },
