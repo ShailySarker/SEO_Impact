@@ -1,9 +1,9 @@
-import DeleteRound from "../../../components/DeleteRound/DeleteRound";
-import ProgressBarAmber from "../../../components/ProgressBarAmber/ProgressBarAmber";
-import ProgressBarCyan from "../../../components/ProgressBarCyan/ProgressBarCyan";
-import ProgressBarPurple from "../../../components/ProgressBarPurple/ProgressBarPurple";
-import ProgressBarRed from "../../../components/ProgressBarRed/ProgressBarRed";
-import SearchBarRound from "../../../components/SearchBarRound/SearchBarRound";
+import DeleteRound from "../../../../components/DeleteRound/DeleteRound";
+import ProgressBarAmber from "../../../../components/ProgressBarAmber/ProgressBarAmber";
+import ProgressBarCyan from "../../../../components/ProgressBarCyan/ProgressBarCyan";
+import ProgressBarPurple from "../../../../components/ProgressBarPurple/ProgressBarPurple";
+import ProgressBarRed from "../../../../components/ProgressBarRed/ProgressBarRed";
+import SearchBarRound from "../../../../components/SearchBarRound/SearchBarRound";
 
 const ResourcesHomePageResultingOverview = () => {
     return (

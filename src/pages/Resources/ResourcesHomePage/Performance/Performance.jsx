@@ -6,12 +6,12 @@ import "./Performance.css";
 
 const Performance = () => {
     return (
-        <div className="mt-24">
+        <div className="mt-28">
             <h2 className="font-bold text-5xl mb-12">Performance</h2>
-            <div className="mr-16">
-                <img src="https://i.ibb.co/qyR4pWM/Frame-75.png" alt="" />
+            <div className="mr-28">
+                <img className="flex" src="https://i.ibb.co/qyR4pWM/Frame-75.png" alt="" />
                 <div className="flex justify-between items-center mt-12">
-                    <div className="flex items-center gap-10">
+                    <div className="flex items-center gap-12">
                         <div>
                             <p className="w-14 h-14 bg-[#F84B4C] rounded-full"></p>
                             <img className="relative -mb-3 bottom-[38px] -right-[17px]" src="https://i.ibb.co/xXrVh1t/Vector-6.png" alt="" />

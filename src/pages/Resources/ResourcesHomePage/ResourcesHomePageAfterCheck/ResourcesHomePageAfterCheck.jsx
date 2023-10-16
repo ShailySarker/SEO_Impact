@@ -1,6 +1,7 @@
 import SearchBar from "../../../../components/SearchBar/SearchBar";
-import ResourcesHomePageResultingOverview from "../../ResourcesHomePageResultingOverview/ResourcesHomePageResultingOverview";
+import ResourcesHomePageResultingOverview from "../../MyProjects/ResourcesHomePageResultingOverview/ResourcesHomePageResultingOverview";
 import Performance from "../Performance/Performance";
+import SEOPart from "../SEOPart/SEOPart";
 
 const ResourcesHomePageAfterCheck = () => {
     return (
@@ -12,7 +13,7 @@ const ResourcesHomePageAfterCheck = () => {
             <div className="my-24 mx-36">
                 <ResourcesHomePageResultingOverview></ResourcesHomePageResultingOverview>
                 <Performance></Performance>
-                
+                <SEOPart></SEOPart>
             </div>
         </div>
     );
