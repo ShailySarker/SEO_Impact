@@ -41,7 +41,7 @@ const SEOPart = () => {
                         </div>
                         <div className="text-center">
                             <h3 className="font-bold text-2xl pb-8">Granted</h3>
-                            <p className="text-lg font-medium text-slate-500 pb-3">Borem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. </p>
+                            <p className="text-lg font-medium text-slate-500 pb-3">Borem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent. </p>
                         </div>
                     </div>
                 </div>
@@ -69,7 +69,7 @@ const SEOPart = () => {
                         </div>
                         <div className="text-center">
                             <h3 className="font-bold text-2xl pb-8">Nice, Nice, Nice!! Good Job.</h3>
-                            <p className="text-lg font-medium text-slate-500 pb-3">Morem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+                            <p className="text-lg font-medium text-slate-500 pb-3">Morem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent.</p>
                         </div>
                     </div>
                 </div>
@@ -82,7 +82,7 @@ const SEOPart = () => {
                         </div>
                         <div className="text-center">
                             <h3 className="font-bold text-2xl pb-8">Here, Your links make sense!</h3>
-                            <p className="text-lg font-medium text-slate-500 pb-3">Horem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+                            <p className="text-lg font-medium text-slate-500 pb-3">Horem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent.</p>
                         </div>
                     </div>
                 </div>

@@ -3,6 +3,7 @@ import ResourcesHomePageResultingOverview from "../../MyProjects/ResourcesHomePa
 import Mobile from "../Mobile/Mobile";
 import Performance from "../Performance/Performance";
 import SEOPart from "../SEOPart/SEOPart";
+import Security from "../Security/Security";
 
 const ResourcesHomePageAfterCheck = () => {
     return (
@@ -16,6 +17,7 @@ const ResourcesHomePageAfterCheck = () => {
                 <Performance></Performance>
                 <SEOPart></SEOPart>
                 <Mobile></Mobile>
+                <Security></Security>
             </div>
         </div>
     );
