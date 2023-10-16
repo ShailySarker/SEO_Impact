@@ -1,5 +1,6 @@
 import SearchBar from "../../../../components/SearchBar/SearchBar";
 import ResourcesHomePageResultingOverview from "../../ResourcesHomePageResultingOverview/ResourcesHomePageResultingOverview";
+import Performance from "../Performance/Performance";
 
 const ResourcesHomePageAfterCheck = () => {
     return (
@@ -8,8 +9,10 @@ const ResourcesHomePageAfterCheck = () => {
                 <SearchBar></SearchBar>
             </div>
 
-            <div className="my-24 mx-48">
+            <div className="my-24 mx-36">
                 <ResourcesHomePageResultingOverview></ResourcesHomePageResultingOverview>
+                <Performance></Performance>
+                
             </div>
         </div>
     );
