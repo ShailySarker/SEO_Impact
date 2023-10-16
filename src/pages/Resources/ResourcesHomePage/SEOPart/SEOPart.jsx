@@ -22,7 +22,7 @@ const SEOPart = () => {
                         <div>
                             <progress
                                 className="flex items-center progress custom2-progress h-8 w-96"
-                                value="50"
+                                value="80"
                                 max="100"
                             ></progress>
                         </div>

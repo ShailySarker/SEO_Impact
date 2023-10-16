@@ -1,5 +1,6 @@
 import SearchBar from "../../../../components/SearchBar/SearchBar";
 import ResourcesHomePageResultingOverview from "../../MyProjects/ResourcesHomePageResultingOverview/ResourcesHomePageResultingOverview";
+import Mobile from "../Mobile/Mobile";
 import Performance from "../Performance/Performance";
 import SEOPart from "../SEOPart/SEOPart";
 
@@ -14,6 +15,7 @@ const ResourcesHomePageAfterCheck = () => {
                 <ResourcesHomePageResultingOverview></ResourcesHomePageResultingOverview>
                 <Performance></Performance>
                 <SEOPart></SEOPart>
+                <Mobile></Mobile>
             </div>
         </div>
     );
