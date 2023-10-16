@@ -4,6 +4,7 @@ import Mobile from "../Mobile/Mobile";
 import Performance from "../Performance/Performance";
 import SEOPart from "../SEOPart/SEOPart";
 import Security from "../Security/Security";
+import WhatNext from "../WhatNext/WhatNext";
 
 const ResourcesHomePageAfterCheck = () => {
     return (
@@ -18,6 +19,7 @@ const ResourcesHomePageAfterCheck = () => {
                 <SEOPart></SEOPart>
                 <Mobile></Mobile>
                 <Security></Security>
+                <WhatNext></WhatNext>
             </div>
         </div>
     );
