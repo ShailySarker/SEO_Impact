@@ -19,7 +19,7 @@ const NavMenu = () => {
             <li className="font-semibold lg:text-lg"><NavLink to='/careers' className={
                 ({ isActive }) => isActive ? " text-[#007BFE]" : ""
             }>Careers</NavLink> </li>
-            <li className="font-semibold lg:text-lg"><NavLink to='/resources' className={
+            <li className="font-semibold lg:text-lg"><NavLink to='/resources/homePage' className={
                 ({ isActive }) => isActive ? "text-[#007BFE]" : ""
             }>Resources</NavLink> </li>
             <li className="font-semibold lg:text-lg"><NavLink to='/contact' className={

@@ -1,0 +1,10 @@
+
+.custom4-progress::-webkit-progress-value {
+    background-color:#F89E4B;
+   
+}
+
+.custom4-progress::-moz-progress-bar {
+    background-color: #F89E4B;
+   
+}
