@@ -1,7 +1,6 @@
-import { Link } from "react-router-dom";
 import NavMenu from "../NavMenu/NavMenu";
 
-const Header = () => {
+const DashboardHeader = () => {
     return (
         <nav >
             <div className="navbar bg-[#379FFF1A]
@@ -17,15 +16,14 @@ const Header = () => {
                         <NavMenu></NavMenu>
                     </ul>
                 </div>
-                <div className="navbar-end">
-                    <Link to='/login'><button className="py-2 px-3 rounded-xl text-white w-20 bg-[#007BFE] font-semibold mr-6">Login</button></Link>
-                    <Link to='/signUp'><button className=" py-2 px-3 rounded-xl border-2 font-semibold w-20">Signup</button></Link>
+                <div className="navbar-end flex gap-4 items-center">
+                    <img src="https://i.ibb.co/Qj1nvF2/Group-177.png" alt="" />
+                    <h4 className="font-semibold text-lg">Sai Chittala</h4>
                 </div>
             </div>
         </nav>
 
-
     );
 };
 
-export default Header;
+export default DashboardHeader;

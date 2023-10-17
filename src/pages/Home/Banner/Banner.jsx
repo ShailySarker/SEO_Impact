@@ -12,9 +12,9 @@ const Banner = () => {
                     <p className="text-slate-400">Click here to know more!</p>
 
                 </div>
-                <div className="mt-12 flex flex-col">
+                <div className="mt-12 flex flex-col ">
                     <input className="py-4 px-7 border-2 rounded-lg" type="text" name="enterWebsite" id="" placeholder="Enter your website here...." />
-                    <button className="text-white bg-[#007BFE] py-3 px-6 rounded-xl font-semibold mt-5 mx-44 ">Check Score</button>
+                    <button className="text-white bg-[#007BFE] py-3 px-6 rounded-xl font-semibold mt-6 w-40 ml-44 text-center ">Check Score</button>
                 </div>
             </div>
             <div>

@@ -1,11 +1,12 @@
 import { NavLink, Outlet } from "react-router-dom";
-import Header from "../../pages/shared/Header/Header";
+import DashboardHeader from "../../pages/shared/DashboardHeader/DashboardHeader";
 
 const DashboardLayout = () => {
     return (
         <div>
-            <Header></Header>
-
+            {/* design purpose only dashboardHeader */}
+            <DashboardHeader></DashboardHeader> 
+            
             <div className="drawer drawer-open">
                 <input id="my-drawer-2" type="checkbox" className="drawer-toggle" />
                 <div className="drawer-content flex flex-col-reverse lg:flex-col ">

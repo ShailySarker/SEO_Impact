@@ -1,7 +1,7 @@
 
 const BackLinkResultOverview = () => {
     return (
-        <div className="mt-28 mr-48">
+        <div className="mt-28 mr-44">
             <div className="grid grid-cols-3  gap-10">
                 <div className="bg-[#379FFF1A] py-6 px-7 rounded-xl">
                     <div className="flex gap-6 items-center ">
@@ -24,7 +24,7 @@ const BackLinkResultOverview = () => {
                 <div className="bg-[#379FFF1A] py-5 px-7 rounded-xl">
                     <div className="flex gap-6 items-center ">
                         <img src="https://i.ibb.co/x8k7prj/solar-link-bold.png" alt="" />
-                        <h3 className=" text-2xl font-semibold">s</h3>
+                        <h3 className=" text-2xl font-semibold">Backlinks</h3>
                     </div>
                     <div>
                         <h2 className="text-4xl font-bold text-center pt-8">7</h2>

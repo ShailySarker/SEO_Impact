@@ -1,5 +1,5 @@
 import SearchBar from "../../../../components/SearchBar/SearchBar";
-import ResourcesHomePageResultingOverview from "../../MyProjects/ResourcesHomePageResultingOverview/ResourcesHomePageResultingOverview";
+import ResourcesHomePageResultingOverview from "../ResourcesHomePageResultingOverview/ResourcesHomePageResultingOverview";
 import Mobile from "../Mobile/Mobile";
 import Performance from "../Performance/Performance";
 import SEOPart from "../SEOPart/SEOPart";
