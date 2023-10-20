@@ -10,7 +10,7 @@ import TrustedCompanies from "../TrustedCompanies/TrustedCompanies";
 const Home = () => {
     return (
         <div className="">
-            {/* <Banner></Banner> */}
+            <Banner></Banner>
             {/* <Features></Features>
             <ClientReview></ClientReview>
             <TrustedCompanies></TrustedCompanies>

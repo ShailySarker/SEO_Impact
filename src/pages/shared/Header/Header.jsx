@@ -5,7 +5,7 @@ const Header = () => {
     return (
         <nav >
             <div className="navbar bg-[#379FFF1A]
-              lg:px-10 px-2 py-6 mb-28 lg:mb-0 md:px-24">
+              lg:px-10 px-2 py-6 mb-8 md:px-24">
                 <div className="navbar-start">
                     <div className="flex lg:flex-col flex-row 
                     justify-center items-center lg:ml-0">
