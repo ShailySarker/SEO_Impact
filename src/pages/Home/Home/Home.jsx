@@ -16,8 +16,8 @@ const Home = () => {
             <TrustedCompanies></TrustedCompanies>
             <CompanyOverview></CompanyOverview>
             <SEOTools></SEOTools>
-            {/* <MarketInsights></MarketInsights>
-            <SEOImpact></SEOImpact> */}
+            <MarketInsights></MarketInsights>
+            {/* <SEOImpact></SEOImpact> */}
         </div>
     );
 };
