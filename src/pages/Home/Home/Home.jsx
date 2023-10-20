@@ -14,8 +14,8 @@ const Home = () => {
             <Features></Features>
             <ClientReview></ClientReview>
             <TrustedCompanies></TrustedCompanies>
-            {/* <CompanyOverview></CompanyOverview>
-            <SEOTools></SEOTools>
+            <CompanyOverview></CompanyOverview>
+            {/* <SEOTools></SEOTools>
             <MarketInsights></MarketInsights>
             <SEOImpact></SEOImpact> */}
         </div>
