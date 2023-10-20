@@ -1,7 +1,7 @@
 
 const Banner = () => {
     return (
-        <div className="grid lg:grid-cols-2 grid-cols-1 lg:px-28 lg:py-16 md:gap-20 gap-5 items-center">
+        <div className="grid lg:grid-cols-2 grid-cols-1 lg:px-28 lg:py-16 lg:gap-20 md:gap-7 gap-5 items-center">
             <div className="md:p-12 p-6">
                 <img className="md:w-64 w-48" src="https://i.ibb.co/5BLCp4c/Introducing.png" alt="" />
                 <h2 className="text-[#379FFF] font-bold md:text-5xl text-3xl mt-5 mb-7 ">SEO Impact</h2>
