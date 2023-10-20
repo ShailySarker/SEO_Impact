@@ -1,7 +1,7 @@
 import Banner from "../Banner/Banner";
-import ClientReview from "../ClientReview/ClientReview/ClientReview";
-import CompanyOverview from "../CompanyOverview/CompanyOverview";
+import ClientReview from "../ClientReview/ClientReview";
 import Features from "../Features/Features";
+import CompanyOverview from "../CompanyOverview/CompanyOverview";
 import MarketInsights from "../MarketInsights/MarketInsights";
 import SEOImpact from "../SEOImpact/SEOImpact";
 import SEOTools from "../SEOTools/SEOTools";
@@ -12,9 +12,9 @@ const Home = () => {
         <div className="">
             <Banner></Banner>
             <Features></Features>
-            {/* <ClientReview></ClientReview>
-            <TrustedCompanies></TrustedCompanies>
-            <CompanyOverview></CompanyOverview>
+            <ClientReview></ClientReview>
+            {/* <TrustedCompanies></TrustedCompanies> */}
+            {/* <CompanyOverview></CompanyOverview>
             <SEOTools></SEOTools>
             <MarketInsights></MarketInsights>
             <SEOImpact></SEOImpact> */}

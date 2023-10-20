@@ -2,7 +2,7 @@ import FeatureSectionSearchBar from "../../../components/FeatureSectionSearchBar
 
 const Features = () => {
     return (
-        <div className="md:mt-32 mt-12 lg:mt-0">
+        <div className="md:mt-32 mt-12 lg:mt-0 md:mb-0">
             <div className="bg-[#007BFE] lg:pt-12 md:pt-8 pt-8 pb-56 md:pb-44 items-center flex lg:gap-80 md:flex-row flex-col relative">
                 <div className="md:justify-start lg:w-auto md:w-72 w-24">
                     <FeatureSectionSearchBar></FeatureSectionSearchBar>
