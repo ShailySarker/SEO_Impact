@@ -19,24 +19,31 @@ const Footer = () => {
 
             <nav>
                 <header className="font-bold mb-2">SEO Impact</header>
-                <Link className="mb-2" to='/'>Home</Link>
-                <Link className="mb-2" to='/pricing'>Pricing</Link>
-
+                <Link className="mb-2 font-semibold" to='/'>Home</Link>
+                <Link className="mb-2 font-semibold" to='/pricing'>Pricing</Link>
+            </nav>
+            <nav>
+                <header className="font-bold mb-2">Social Impact</header>
+                <Link className="mb-2 font-semibold" to='/socialImpact/whatIsNew'>What is New?</Link>
+                <Link className="mb-2 font-semibold" to='/socialImpact/blogs'>Blogs</Link>
+                <Link className="mb-2 font-semibold" to='/socialImpact/clientReview'>Client Review</Link>
+                <Link className="mb-2 font-semibold" to='/socialImpact/socialMediaReview'>Social Media Review</Link>
+                <Link className="mb-2 font-semibold" to='/socialImpact/FAQs'>FAQs</Link>
             </nav>
             <nav>
                 <header className="font-bold mb-2">Resources</header>
-                <a className="link link-hover mb-2 ">Keyword Checker</a>
-                <a className="link link-hover mb-2">Ranking Checker</a>
-                <a className="link link-hover mb-2">Backlink Checker</a>
-                <a className="link link-hover mb-2">Snippet Generator</a>
-                <a className="link link-hover mb-2">Keyword Research Tool</a>
+                <a className="link link-hover mb-2 font-semibold ">Keyword Checker</a>
+                <a className="link link-hover mb-2 font-semibold">Ranking Checker</a>
+                <a className="link link-hover mb-2 font-semibold">Backlink Checker</a>
+                <a className="link link-hover mb-2 font-semibold">Snippet Generator</a>
+                <a className="link link-hover mb-2 font-semibold">Keyword Research Tool</a>
             </nav>
             <nav>
                 <div className="flex gap-8">
                     <div className="flex flex-col">
                         <header className="font-bold mb-3">Contact</header>
-                        <Link className="mb-3" to='/about'>About Us</Link>
-                        <Link className="mb-3" to='/contact'>Contact us</Link>
+                        <Link className="mb-3 font-semibold" to='/about'>About Us</Link>
+                        <Link className="mb-3 font-semibold" to='/contact'>Contact us</Link>
                     </div>
                     <div>
                         <button className="py-3 px-7 bg-[#007BFE] text-white rounded-lg font-semibold">Try SEO Impact</button>
@@ -48,7 +55,6 @@ const Footer = () => {
                         <input className="px-6 py-2 rounded-lg" type="text" name="email" id="" placeholder="Enter your email address...." />
                         <button className="font-bold">Send</button>
                     </div>
-
                 </div>
             </nav>
 
