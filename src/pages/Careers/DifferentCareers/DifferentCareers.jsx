@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const DifferentCareers = () => {
     return (
-        <div className="lg:mx-24 md:mx-12 mx-7 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-12 relative lg:bottom-[800px] md:bottom-[520px] bottom-[230px] lg:-mb-[670px] md:-mb-[450px] -mb-[160px]">
+        <div className="lg:mx-24 md:mx-12 mx-7 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-12 relative lg:bottom-[800px] md:bottom-[520px] bottom-[230px] lg:-mb-[650px] md:-mb-[450px] -mb-[160px]">
             <div className="border-2 md:p-8 p-6 rounded-lg shadow-xl bg-white">
                 <div className="border-b-2 pb-9">
                     <img className="mx-auto w-48 h-36" src="https://i.ibb.co/dt8kcVN/rafiki.png" alt="" />
