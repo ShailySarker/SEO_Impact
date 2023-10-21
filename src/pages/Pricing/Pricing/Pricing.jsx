@@ -9,7 +9,7 @@ const Pricing = () => {
             <PricingBanner></PricingBanner>
             <PricingDesign></PricingDesign>
             <DifferentPackages></DifferentPackages>
-            {/* <Buying></Buying> */}
+            <Buying></Buying>
         </div>
     );
 };
