@@ -11,7 +11,7 @@ const Careers = () => {
             <DifferentCareers></DifferentCareers>
             <Benefits></Benefits>
             <JobOpening></JobOpening>
-            {/* <SEOImpactRating></SEOImpactRating> */}
+            <SEOImpactRating></SEOImpactRating>
         </div>
     );
 };
