@@ -7,9 +7,9 @@ const Pricing = () => {
     return (
         <div>
             <PricingBanner></PricingBanner>
-            <PricingDesign></PricingDesign>
+            {/* <PricingDesign></PricingDesign>
             <DifferentPackages></DifferentPackages>
-            <Buying></Buying>
+            <Buying></Buying> */}
         </div>
     );
 };
