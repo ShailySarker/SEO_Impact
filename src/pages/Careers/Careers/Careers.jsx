@@ -8,10 +8,10 @@ const Careers = () => {
     return (
         <div>
             <CareersBanner></CareersBanner>
-            <DifferentCareers></DifferentCareers>
+            {/* <DifferentCareers></DifferentCareers>
             <Benefits></Benefits>
             <JobOpening></JobOpening>
-            <SEOImpactRating></SEOImpactRating>
+            <SEOImpactRating></SEOImpactRating> */}
         </div>
     );
 };
