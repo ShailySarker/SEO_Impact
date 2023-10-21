@@ -1,13 +1,13 @@
 
 const DifferentPackages = () => {
     return (
-        <div className="grid grid-cols-3 gap-10 mx-16 mb-24">
-            <div>
+        <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 lg:gap-10 gap-20 lg:mx-16 md:mx-10 mx-6 mb-24">
+            <div className="pb-6">
                 <div className="border-2 p-5 rounded-3xl">
                     <div className="flex flex-col text-center border-b-2">
                         <img className="mx-auto pt-4" src="https://i.ibb.co/tpxtkdM/Group-25.png" alt="" />
-                        <h2 className="font-bold text-5xl mt-5 mb-2 text-[#007BFE]">$350.00</h2>
-                        <h4 className="text-[#DEDEDE] text-xl font-bold  pb-10">$450.00 | 35% OFF</h4>
+                        <h2 className="font-bold lg:text-5xl md:text-4xl text-3xl mt-5 mb-2 text-[#007BFE]">$350.00</h2>
+                        <h4 className="text-[#DEDEDE] md:text-xl text-lg font-bold pb-10">$450.00 | 35% OFF</h4>
                     </div>
                     <div>
                         <h3 className="text-lg font-bold mt-6">More data and insignts for growing business</h3>
@@ -37,12 +37,12 @@ const DifferentPackages = () => {
                     <button className="text-white bg-[#007BFE] w-40 py-3 px-6 rounded-xl font-semibold">Try Basic</button>
                 </div>
             </div>
-            <div>
+            <div className="pb-6">
                 <div className="border-2 p-5 rounded-3xl">
                     <div className="flex flex-col text-center border-b-2">
                         <img className="mx-auto pt-4" src="https://i.ibb.co/CW0J2Zg/Group-25-1.png" alt="" />
-                        <h2 className="font-bold text-5xl mt-5 mb-2 text-[#007BFE]">$1050.00</h2>
-                        <h4 className="text-[#DEDEDE] text-xl font-bold  pb-10">$450.00 | 35% OFF</h4>
+                        <h2 className="font-bold lg:text-5xl md:text-4xl text-3xl mt-5 mb-2 text-[#007BFE]">$1050.00</h2>
+                        <h4 className="text-[#DEDEDE] md:text-xl text-lg font-bold pb-10">$450.00 | 35% OFF</h4>
                     </div>
                     <div>
                         <h3 className="text-lg font-bold mt-6">More data and insignts for growing business</h3>
@@ -72,12 +72,12 @@ const DifferentPackages = () => {
                     <button className="text-white bg-[#007BFE] w-40 py-3 px-6 rounded-xl font-semibold">Try Premium</button>
                 </div>
             </div>
-            <div>
+            <div className="pb-6">
                 <div className="border-2 p-5 rounded-3xl">
                     <div className="flex flex-col text-center border-b-2">
                         <img className="mx-auto pt-4" src="https://i.ibb.co/XtWq9sW/Group-25-2.png" alt="" />
-                        <h2 className="font-bold text-5xl mt-5 mb-2 text-[#007BFE]">$2050.00</h2>
-                        <h4 className="text-[#DEDEDE] text-xl font-bold  pb-10">$2550.00 | 35% OFF</h4>
+                        <h2 className="font-bold lg:text-5xl md:text-4xl text-3xl mt-5 mb-2 text-[#007BFE]">$2050.00</h2>
+                        <h4 className="text-[#DEDEDE] md:text-xl text-lg font-bold pb-10">$2550.00 | 35% OFF</h4>
                     </div>
                     <div>
                         <h3 className="text-lg font-bold mt-6">More data and insights for growing business</h3>
