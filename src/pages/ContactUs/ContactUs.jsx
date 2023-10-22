@@ -2,12 +2,12 @@
 const ContactUs = () => {
     return (
         <div className="my-12">
-            <h2 className="font-bold text-5xl text-center mb-36">Contact Us</h2>
-            <div className="grid grid-cols-2 items-center mb-24">
+            <h2 className="font-bold md:text-5xl text-3xl text-center lg:mb-36 md:mb-28 mb-20">Contact Us</h2>
+            <div className="grid lg:grid-cols-2 grid-cols-1 items-center lg:mx-0 md:mx-36 mx-6 lg:mb-40 mb-20 lg:gap-0 md:gap-28 gap-16">
                 <div>
-                    <img src="https://i.ibb.co/1QVyPwJ/Rectangle-135.png" alt="" />
+                    <img className="w-auto lg:h-[440px]"  src="https://i.ibb.co/1QVyPwJ/Rectangle-135.png" alt="" />
                 </div>
-                <div className="ml-44 mr-24">
+                <div className="lg:ml-44 lg:mr-24 md:mx-10">
                     <form>
                         <div className="card-body">
                             <div className="form-control">
@@ -40,7 +40,7 @@ const ContactUs = () => {
                             <input
                                 type="submit"
                                 value="Send"
-                                className="text-white bg-[#007BFE] py-3 px-6 rounded-xl font-semibold mt-10 mx-28"
+                                className="text-white bg-[#007BFE] md:py-3 md:px-6 p-2 lg:w-32 w-24 rounded-xl font-semibold mt-14 mx-auto"
                             />
                         </div>
                     </form>

@@ -2,7 +2,7 @@
 const CareersBanner = () => {
     return (
         <div className="my-12">
-            <h2 className="font-bold text-5xl text-center md:mb-36 mb-24">Careers</h2>
+            <h2 className="font-bold text-5xl text-center lg:mb-36 mb-24">Careers</h2>
 
             <div className="lg:ml-28 md:ml-12 ml-6 lg:mr-[900px] md:mr-60 mr-10">
                 <h2 className="font-bold md:text-5xl text-3xl pb-7">Join Us</h2>

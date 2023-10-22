@@ -10,7 +10,7 @@ const DifferentCareers = () => {
                 </div>
                 <div>
                     <h4 className="md:text-lg text-base font-semibold text-slate-400 md:pt-9 pt-6 md:pb-12 pb-8 pr-3">Lorem ipsum dolor sit amet consectetur. In rhoncus aliquet nunc cursus. Eu aliquam egestas donec facilisi. Accumsan urna consectetur facilisis ante facilisi ut ut.</h4>
-                    <Link className="flex items-center gap-5 md:p-4 p-3 bg-[#F1F8FF] justify-center mx-7 rounded-lg md:mx-5 ">
+                    <Link className="flex items-center gap-5 md:p-4 p-3 bg-[#F1F8FF] justify-center mx-7 rounded-lg md:mx-3 ">
                         <img className="md:w-6 w-4" src="https://i.ibb.co/RgGVRfB/Group.png" alt="" />
                         <p className="md:text-xl text-lg font-semibold">View Openings</p>
                     </Link>
@@ -23,7 +23,7 @@ const DifferentCareers = () => {
                 </div>
                 <div>
                     <h4 className="md:text-lg text-base font-semibold text-slate-400 md:pt-9 pt-6 md:pb-12 pb-8 pr-3">Lorem ipsum dolor sit amet consectetur. In rhoncus aliquet nunc cursus. Eu aliquam egestas donec facilisi. Accumsan urna consectetur facilisis ante facilisi ut ut.</h4>
-                    <Link className="flex items-center gap-5 md:p-4 p-3 bg-[#F1F8FF] justify-center mx-7 rounded-lg md:mx-5 ">
+                    <Link className="flex items-center gap-5 md:p-4 p-3 bg-[#F1F8FF] justify-center mx-7 rounded-lg md:mx-3 ">
                         <img className="md:w-6 w-4" src="https://i.ibb.co/RgGVRfB/Group.png" alt="" />
                         <p className="md:text-xl text-lg font-semibold">View Openings</p>
                     </Link>
@@ -36,7 +36,7 @@ const DifferentCareers = () => {
                 </div>
                 <div>
                     <h4 className="md:text-lg text-base font-semibold text-slate-400 md:pt-9 pt-6 md:pb-12 pb-8 pr-3">Lorem ipsum dolor sit amet consectetur. In rhoncus aliquet nunc cursus. Eu aliquam egestas donec facilisi. Accumsan urna consectetur facilisis ante facilisi ut ut.</h4>
-                    <Link className="flex items-center gap-5 md:p-4 p-3 bg-[#F1F8FF] justify-center mx-7 rounded-lg md:mx-5 ">
+                    <Link className="flex items-center gap-5 md:p-4 p-3 bg-[#F1F8FF] justify-center mx-7 rounded-lg md:mx-3 ">
                         <img className="md:w-6 w-4" src="https://i.ibb.co/RgGVRfB/Group.png" alt="" />
                         <p className="md:text-xl text-lg font-semibold">View Openings</p>
                     </Link>
