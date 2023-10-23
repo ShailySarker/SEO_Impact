@@ -5,7 +5,7 @@ const AboutUs = () => {
     return (
         <div>
             <AboutUsBanner></AboutUsBanner>
-            {/* <OurFeatures></OurFeatures> */}
+            <OurFeatures></OurFeatures>
         </div>
     );
 };

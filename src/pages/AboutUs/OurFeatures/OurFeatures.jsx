@@ -2,7 +2,7 @@
 const OurFeatures = () => {
     return (
         <div>
-            <div className="grid grid-cols-2 gap-12 mx-44 mt-24 p-12 mb-20">
+            <div className="grid md:grid-cols-2 gap-12 lg:mx-44 mx-16 lg:mt-8 md:mt-0 mt-16 lg:p-12 md:p-8 mb-20">
                 <div>
                     <img src="https://i.ibb.co/F6JGYmS/Frame-3.png" alt="" />
                 </div>
