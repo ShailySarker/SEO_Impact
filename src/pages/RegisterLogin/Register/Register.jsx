@@ -4,7 +4,7 @@ import CheckBox from "../../../components/CheckBox/CheckBox";
 const Register = () => {
 
         return (
-        <div className="mt-12 ml-36">
+        <div className="lg:mt-12 md:mt-20 mt-12 lg:ml-36 md:ml-16 ml-6">
             <div className="flex justify-between">
                 <div>
                     <img src="https://i.ibb.co/LgjTcLv/Group-157.png" alt="" />
@@ -12,9 +12,9 @@ const Register = () => {
                 <SignUpDesign></SignUpDesign>
             </div>
             <div className="">
-                <div className="mx-auto flex relative -top-[10px] -mt-[670px]">
-                    <div>
-                        <h2 className="font-bold text-5xl mb-20">SignUp</h2>
+                <div className="lg:mx-auto flex relative lg:-top-[10px] md:-mt-[670px] -mt-[460px] ">
+                    <div className="">
+                        <h2 className="font-bold md:text-5xl text-3xl md:mb-20 mb-12">SignUp</h2>
                         <form>
                             <div className="form-control my-5">
                                 <input
@@ -66,13 +66,13 @@ const Register = () => {
                             <input
                                 type="submit"
                                 value="Sign Up"
-                                className="text-white bg-[#007BFE] py-3 px-6 rounded-xl font-semibold mt-12 mx-28 w-40"
+                                className="text-white bg-[#007BFE] md:py-3 md:px-6 p-2 rounded-xl font-semibold mt-12 lg:mx-28 md:mr-48 lg:w-40 w-32 border-white border-2"
                             />
 
                         </form>
                     </div>
-                    <div className="relative bottom-16 -right-2">
-                        <img src="https://i.ibb.co/zQc6j1B/Group-176.png" alt="" />
+                    <div className="relative lg:bottom-16 md:bottom-28 -bottom-60 lg:right-2 md:right-20 right-24 ">
+                        <img className="lg:w-auto w-24 lg:h-auto md:h-[720px] h-[300px] md:w-[280px] " src="https://i.ibb.co/zQc6j1B/Group-176.png" alt="" />
                     </div>
                 </div>
             </div>
