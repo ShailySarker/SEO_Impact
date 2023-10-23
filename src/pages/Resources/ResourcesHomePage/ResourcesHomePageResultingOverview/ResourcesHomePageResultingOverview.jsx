@@ -8,24 +8,24 @@ import SearchBarRound from "../../../../components/SearchBarRound/SearchBarRound
 const ResourcesHomePageResultingOverview = () => {
     return (
         <div>
-            <h4 className="font-semibold text-3xl">Your results for cbb.coastalbroadband.in </h4>
+            <h4 className="font-semibold md:text-3xl text-xl lg:text-start text-center">Your results for cbb.coastalbroadband.in </h4>
             <div className="my-20 flex flex-col justify-center items-center">
                 <div className="radial-progress text-[#007BFE] transform " style={{
                     "--value": 76, "--size": "16rem", "--thickness": "1rem",
                     transform: "rotate(223.5deg)"
                 }}>
-                    <span style={{ transform: "rotate(136deg)" }} className="text-7xl font-semibold text-black">76</span>
+                    <span style={{ transform: "rotate(136deg)" }} className="md:text-7xl text-5xl font-semibold text-black">76</span>
                 </div>
-                <p className="text-3xl font-bold text-center relative bottom-3 ">Overall Score</p>
+                <p className="md:text-3xl text-xl font-bold text-center relative bottom-3 ">Overall Score</p>
             </div>
-            <div className="border-2 py-12 px-16 rounded-xl">
+            <div className="border-2 py-12 lg:px-16 md:px-0  rounded-xl">
                 <div>
-                    <img className="mx-auto" src="https://i.ibb.co/cCxhYYh/Macbook.png" alt="" />
-                    <h4 className="text-center mt-16 mb-5 font-semibold text-2xl">https://cbb.coastalbroadband.in</h4>
-                    <h5 className="text-xl font-semibold text-center text-slate-500 border-b-2 pb-11">August 25 16:00:34</h5>
+                    <img className="mx-auto md:w-auto w-60" src="https://i.ibb.co/cCxhYYh/Macbook.png" alt="" />
+                    <h4 className="text-center mt-16 mb-5 font-semibold md:text-2xl text-lg">https://cbb.coastalbroadband.in</h4>
+                    <h5 className="md:text-xl font-semibold text-center text-slate-500 border-b-2 pb-11">August 25 16:00:34</h5>
                 </div>
-                <div className="mt-16 px-16">
-                    <div className="flex justify-between items-center">
+                <div className="mt-16 lg:px-16 px-8">
+                    <div className="flex justify-between items-center md:flex-row flex-col gap-4">
                         <div className="flex items-center gap-6">
                             <DeleteRound></DeleteRound>
                             <h3 className="font-semibold text-xl">Performance</h3>
@@ -35,7 +35,7 @@ const ResourcesHomePageResultingOverview = () => {
                             <ProgressBarRed></ProgressBarRed>
                         </div>
                     </div>
-                    <div className="flex justify-between items-center mt-7">
+                    <div className="flex justify-between items-center md:flex-row flex-col gap-4 md:mt-7 mt-16">
                         <div className="flex items-center gap-6">
                             <SearchBarRound></SearchBarRound>
                             <h3 className="font-semibold text-xl">SEO</h3>
@@ -45,7 +45,7 @@ const ResourcesHomePageResultingOverview = () => {
                             <ProgressBarCyan></ProgressBarCyan>
                         </div>
                     </div>
-                    <div className="flex justify-between items-center mt-7">
+                    <div className="flex justify-between items-center md:flex-row flex-col gap-4 md:mt-7 mt-16">
                         <div className="flex items-center gap-6">
                             <p className="w-10 h-10 bg-[#CB4BF8] rounded-full"></p>
                             <h3 className="font-semibold text-xl">Mobile</h3>
@@ -55,7 +55,7 @@ const ResourcesHomePageResultingOverview = () => {
                             <ProgressBarPurple></ProgressBarPurple>
                         </div>
                     </div>
-                    <div className="flex justify-between items-center mt-7">
+                    <div className="flex justify-between items-center md:flex-row flex-col gap-4 md:mt-7 mt-16">
                         <div className="flex items-center gap-6">
                             <p className="w-10 h-10 bg-[#F89E4B] rounded-full"></p>
                             <h3 className="font-semibold text-xl">Security</h3>

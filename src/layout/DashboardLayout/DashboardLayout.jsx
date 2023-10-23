@@ -12,7 +12,7 @@ const DashboardLayout = () => {
                 <div className="drawer-content flex md:items-center flex-col-reverse lg:flex-col ">
                     {/* Page content here */}
                     <Outlet></Outlet>
-                    <label htmlFor="my-drawer-3" className="text-white bg-[#007BFE] py-3 px-6 rounded-xl font-semibold  drawer-button lg:hidden md:w-52 w-36 text-lg mb-20">Show All Resources</label>
+                    <label htmlFor="my-drawer-3" className="text-white bg-[#007BFE] py-3 px-6 rounded-xl font-semibold  drawer-button lg:hidden md:w-52 w-36 text-lg mb-20 md:ml-0 ml-3">Show All Resources</label>
 
                 </div>
                 <div className="drawer-side lg:top-0 top-24">

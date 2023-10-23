@@ -9,17 +9,17 @@ import WhatNext from "../WhatNext/WhatNext";
 const ResourcesHomePageAfterCheck = () => {
     return (
         <div className="mt-12 ">
-            <div className="ml-16">
+            <div className="md:ml-16 ml-6">
                 <SearchBar></SearchBar>
             </div>
 
-            <div className="my-24 mx-36">
+            <div className="my-24 lg:mx-36 md:mx-16 mx-6">
                 <ResourcesHomePageResultingOverview></ResourcesHomePageResultingOverview>
-                <Performance></Performance>
+                {/* <Performance></Performance>
                 <SEOPart></SEOPart>
                 <Mobile></Mobile>
                 <Security></Security>
-                <WhatNext></WhatNext>
+                <WhatNext></WhatNext> */}
             </div>
         </div>
     );
