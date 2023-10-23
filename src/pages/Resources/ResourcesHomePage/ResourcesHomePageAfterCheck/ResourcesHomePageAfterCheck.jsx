@@ -19,7 +19,7 @@ const ResourcesHomePageAfterCheck = () => {
                 <SEOPart></SEOPart>
                 <Mobile></Mobile>
                 <Security></Security>
-                {/* <WhatNext></WhatNext> */}
+                <WhatNext></WhatNext>
             </div>
         </div>
     );
