@@ -29,18 +29,18 @@ const SEOPart = () => {
                     </div>
                 </div>
             </div>
-            <div className="mt-28 grid md:grid-cols-2 grid-cols-1 gap-16">
+            <div className="mt-28 grid md:grid-cols-2 grid-cols-1 gap-16 md:mx-0 mx-4">
 
                 {/* 1 */}
                 <div className="">
                     <PassedBox></PassedBox>
                     <div className="border-2 px-5 py-10 shadow-xl h-[550px]">
-                        <h3 className="font-semibold text-center text-3xl">Permission to Index</h3>
+                        <h3 className="font-semibold text-center md:text-3xl text-xl">Permission to Index</h3>
                         <div className="flex justify-center my-16">
                             <StarRight></StarRight>
                         </div>
                         <div className="text-center">
-                            <h3 className="font-bold text-2xl pb-8">Granted</h3>
+                            <h3 className="font-bold md:text-2xl text-lg pb-8">Granted</h3>
                             <p className="text-lg font-medium text-slate-500 pb-3">Borem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.</p>
                         </div>
                     </div>
@@ -48,12 +48,12 @@ const SEOPart = () => {
                 <div className="">
                     <FailBox></FailBox>
                     <div className="border-2 px-5 py-10 shadow-xl h-[550px]">
-                        <h3 className="font-semibold text-center text-3xl">Meta Description</h3>
+                        <h3 className="font-semibold text-center md:text-3xl text-xl">Meta Description</h3>
                         <div className="flex justify-center my-16">
                             <StarClose></StarClose>
                         </div>
                         <div className="text-center">
-                            <h3 className="font-bold text-2xl pb-8">Missed</h3>
+                            <h3 className="font-bold md:text-2xl text-lg pb-8">Missed</h3>
                             <p className="text-lg font-medium text-slate-500 pb-3">Yorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.</p>
                         </div>
                     </div>
@@ -63,12 +63,12 @@ const SEOPart = () => {
                 <div className="">
                     <PassedBox></PassedBox>
                     <div className="border-2 px-5 py-10 shadow-xl h-[550px]">
-                        <h3 className="font-semibold text-center text-3xl">Content Plugin!</h3>
+                        <h3 className="font-semibold text-center md:text-3xl text-xl">Content Plugin!</h3>
                         <div className="flex justify-center my-16">
                             <StarRight></StarRight>
                         </div>
                         <div className="text-center">
-                            <h3 className="font-bold text-2xl pb-8">Nice, Nice, Nice!! Good Job.</h3>
+                            <h3 className="font-bold md:text-2xl text-lg pb-8">Nice, Nice, Nice!! Good Job.</h3>
                             <p className="text-lg font-medium text-slate-500 pb-3">Morem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.</p>
                         </div>
                     </div>
@@ -76,12 +76,12 @@ const SEOPart = () => {
                 <div className="">
                     <PassedBox></PassedBox>
                     <div className="border-2 px-5 py-10 shadow-xl h-[550px]">
-                        <h3 className="font-semibold text-center text-3xl">Descriptive link text!</h3>
+                        <h3 className="font-semibold text-center md:text-3xl text-xl">Descriptive link text!</h3>
                         <div className="flex justify-center my-16">
                             <StarRight></StarRight>
                         </div>
                         <div className="text-center">
-                            <h3 className="font-bold text-2xl pb-8">Here, Your links make sense!</h3>
+                            <h3 className="font-bold md:text-2xl text-lg pb-8">Here, Your links make sense!</h3>
                             <p className="text-lg font-medium text-slate-500 pb-3">Horem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.</p>
                         </div>
                     </div>

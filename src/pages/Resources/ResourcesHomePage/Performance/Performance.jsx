@@ -31,7 +31,7 @@ const Performance = () => {
                 </div>
             </div>
             {/* 1 */}
-            <div className="mt-28 grid md:grid-cols-2 grid-cols-1 gap-16">
+            <div className="mt-28 grid md:grid-cols-2 grid-cols-1 gap-16 md:mx-0 mx-4">
                 <div className="border-2 py-10 px-5 shadow-xl">
                     <h3 className="font-semibold text-center md:text-3xl text-xl">Page Size</h3>
                     <div className="my-12 flex flex-col justify-center items-center">
