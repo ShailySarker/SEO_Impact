@@ -89,7 +89,7 @@ const Performance = () => {
                 {/* 2 */}
                 <div className="">
                     <FailBox></FailBox>
-                    <div className="border-2 px-5 py-10 shadow-xl h-[500px]">
+                    <div className="border-2 px-5 py-10 shadow-xl h-[550px]">
                         <h3 className="font-semibold text-center md:text-3xl text-xl">Minified Javascript</h3>
                         <div className="flex justify-center my-16">
                             <StarClose></StarClose>
@@ -102,7 +102,7 @@ const Performance = () => {
                 </div>
                 <div className="">
                     <PassedBox></PassedBox>
-                    <div className="border-2 px-5 py-10 shadow-xl h-[500px]">
+                    <div className="border-2 px-5 py-10 shadow-xl h-[550px]">
                         <h3 className="font-semibold text-center md:text-3xl text-xl">Browser Caching</h3>
                         <div className="flex justify-center my-16">
                             <StarRight></StarRight>
@@ -117,7 +117,7 @@ const Performance = () => {
                 {/* 3 */}
                 <div className="">
                     <PassedBox></PassedBox>
-                    <div className="border-2 px-5 py-10 shadow-xl h-[500px]">
+                    <div className="border-2 px-5 py-10 shadow-xl h-[550px]">
                         <h3 className="font-semibold text-center md:text-3xl text-xl">Minimal Page Redirects</h3>
                         <div className="flex justify-center my-16">
                             <StarRight></StarRight>
@@ -130,7 +130,7 @@ const Performance = () => {
                 </div>
                 <div className="">
                     <PassedBox></PassedBox>
-                    <div className="border-2 px-5 py-10 shadow-xl h-[500px]">
+                    <div className="border-2 px-5 py-10 shadow-xl h-[550px]">
                         <h3 className="font-semibold text-center md:text-3xl text-xl">Image Size</h3>
                         <div className="flex justify-center my-16">
                             <StarRight></StarRight>
@@ -145,7 +145,7 @@ const Performance = () => {
                 {/* 4 */}
                 <div className="">
                     <FailBox></FailBox>
-                    <div className="border-2 px-5 py-10 shadow-xl h-[500px]">
+                    <div className="border-2 px-5 py-10 shadow-xl h-[550px]">
                         <h3 className="font-semibold text-center md:text-3xl text-xl">Minified Javascript</h3>
                         <div className="flex justify-center my-16">
                             <StarClose></StarClose>
@@ -158,7 +158,7 @@ const Performance = () => {
                 </div>
                 <div className="">
                     <PassedBox></PassedBox>
-                    <div className="border-2 px-5 py-10 shadow-xl h-[500px]">
+                    <div className="border-2 px-5 py-10 shadow-xl h-[550px]">
                         <h3 className="font-semibold text-center md:text-3xl text-xl">Minified CSS</h3>
                         <div className="flex justify-center my-16">
                             <StarRight></StarRight>
