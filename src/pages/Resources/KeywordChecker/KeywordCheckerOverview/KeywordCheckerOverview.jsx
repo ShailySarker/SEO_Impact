@@ -5,8 +5,8 @@ const KeywordCheckerOverview = () => {
         <div className="mt-32">
             <h2 className="font-semibold lg:text-5xl md:text-4xl text-3xl">Overview of Keyword Check</h2>
             <div className="mt-24">
-                <img className="mx-auto" src="https://i.ibb.co/S5hv5z5/Rectangle-173.png" alt="" />
-                <div className="mt-20 lg:mx-56 md:mx-10">
+                <img className="mx-auto w-4/5" src="https://i.ibb.co/S5hv5z5/Rectangle-173.png" alt="" />
+                <div className="mt-20 lg:mx-44 md:mx-10">
                     <div className="grid grid-cols-2 items-center">
                         <h3 className="md:text-2xl text-lg font-semibold">Meta Attributes</h3>
                         <progress className="progress progress-info h-4" value="60" max="100"></progress>
@@ -24,7 +24,7 @@ const KeywordCheckerOverview = () => {
 
 
             {/* Meta Attributes Section */}
-            <div className="mt-28 lg:mr-56">
+            <div className="mt-28 lg:mr-44">
                 <div className="flex items-center gap-20">
                     <h3 className="font-bold lg:text-5xl md:text-4xl text-3xl ">Meta Attributes</h3>
                     <p className="bg-[#379FFF] text-white font-semibold text-xl rounded-full w-16 h-16 flex justify-center items-center">60%</p>
@@ -59,7 +59,7 @@ const KeywordCheckerOverview = () => {
 
 
             {/* HTML Content Section */}
-            <div className="mt-28 lg:mr-56">
+            <div className="mt-28 lg:mr-44">
                 <div className="flex items-center gap-20">
                     <h3 className="font-bold lg:text-5xl md:text-4xl text-3xl ">HTML Content</h3>
                     <p className="bg-[#379FFF] text-white font-semibold text-xl rounded-full w-16 h-16 flex justify-center items-center">60%</p>
@@ -142,12 +142,12 @@ const KeywordCheckerOverview = () => {
                     </div>
                 </div>
                 <div className="bg-[#F1D2CE] py-10 px-8 mt-16">
-                    <h3 className="text-3xl font-semibold">Missing keywords in H1 headings : Google</h3>
+                    <h3 className="lg:text-3xl md:text-2xl text-xl font-semibold">Missing keywords in H1 headings : Google</h3>
                 </div>
             </div>
 
             {/* Others Section */}
-            <div className="mt-28 lg:mr-56">
+            <div className="mt-28 lg:mr-44">
                 <div className="flex items-center gap-20">
                     <h3 className="font-bold lg:text-5xl md:text-4xl text-3xl ">Others</h3>
                     <p className="bg-[#379FFF] text-white font-semibold text-xl rounded-full w-16 h-16 flex justify-center items-center">60%</p>

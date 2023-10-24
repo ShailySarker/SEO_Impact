@@ -15,7 +15,7 @@ const KeywordCheckerAfterCheck = () => {
             </div>
             <KeywordScore></KeywordScore>
             <KeywordCheckerOverview></KeywordCheckerOverview>
-            {/* <SEOImprovements></SEOImprovements> */}
+            <SEOImprovements></SEOImprovements>
         </div>
     );
 };
