@@ -8,15 +8,15 @@ import SearchBarRound from "../../../../components/SearchBarRound/SearchBarRound
 const ResourcesHomePageResultingOverview = () => {
     return (
         <div>
-            <h4 className="font-semibold md:text-3xl text-xl lg:text-start text-center">Your results for cbb.coastalbroadband.in </h4>
+            <h4 className="font-semibold lg:text-3xl md:text-2xl text-xl lg:text-start text-center">Your results for cbb.coastalbroadband.in </h4>
             <div className="my-20 flex flex-col justify-center items-center">
                 <div className="radial-progress text-[#007BFE] transform " style={{
                     "--value": 76, "--size": "16rem", "--thickness": "1rem",
                     transform: "rotate(223.5deg)"
                 }}>
-                    <span style={{ transform: "rotate(136deg)" }} className="md:text-7xl text-5xl font-semibold text-black">76</span>
+                    <span style={{ transform: "rotate(136deg)" }} className="lg:text-7xl md:text-6xl text-5xl font-semibold text-black">76</span>
                 </div>
-                <p className="md:text-3xl text-xl font-bold text-center relative bottom-3 ">Overall Score</p>
+                <p className="lg:text-3xl md:text-2xl text-xl font-bold text-center relative bottom-3 ">Overall Score</p>
             </div>
             <div className="border-2 py-12 lg:px-16 md:px-0  rounded-xl">
                 <div>
