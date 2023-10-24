@@ -2,7 +2,7 @@
 const SEOTools = () => {
     return (
         <div className="md:px-20 px-10 mb-36">
-            <h2 className="font-bold md:text-5xl text-3xl text-center mb-16 text-[#212121]">Unlock your success now with our <br /> SEO Tools </h2>
+            <h2 className="font-bold lg:text-5xl md:text-4xl text-3xl text-center mb-16 text-[#212121]">Unlock your success now with our <br /> SEO Tools </h2>
             <div className="lg:flex lg:flex-row grid md:grid-cols-2 grid-cols-1 lg:gap-24 lg:justify-center lg:mx-auto gap-16">
                 <div>
                     <img className="flex mx-auto bg-[#EBF5FF] p-5 w-24 rounded-t-full relative -mb-10" src="https://i.ibb.co/6HxwJxW/material-symbols-alarm.png" alt="" />

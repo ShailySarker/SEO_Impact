@@ -4,7 +4,7 @@ const Banner = () => {
         <div className="grid lg:grid-cols-2 grid-cols-1 lg:px-28 lg:py-16 lg:gap-20 md:gap-7 gap-5 items-center">
             <div className="md:p-12 p-6">
                 <img className="md:w-64 w-48" src="https://i.ibb.co/5BLCp4c/Introducing.png" alt="" />
-                <h2 className="text-[#379FFF] font-bold md:text-5xl text-3xl mt-5 mb-7 ">SEO Impact</h2>
+                <h2 className="text-[#379FFF] font-bold lg:text-5xl md:text-4xl text-3xl mt-5 mb-7 ">SEO Impact</h2>
                 <p className="pr-16 md:text-lg text-slate-500 mb-8">Korem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. </p>
                 <div className="flex md:gap-5 gap-3 items-center">
                     <button className="text-white bg-[#007BFE] md:py-3 md:px-6 p-2 rounded-xl font-semibold">Get Started</button>
