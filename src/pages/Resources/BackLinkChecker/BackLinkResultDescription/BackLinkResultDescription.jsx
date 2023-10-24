@@ -1,15 +1,15 @@
 
 const BackLinkResultDescription = () => {
     return (
-        <div className="my-28 border-2 mr-44 py-16 px-16 rounded-xl">
-            <div className="flex gap-[114px]">
-                <h4 className="text-3xl font-semibold text-slate-500" >Domain : </h4>
-                <h4 className="text-3xl font-semibold text-[#379FFF]">https://sms.tcndigital.in</h4>
+        <div className="my-28 border-2 lg:mr-44 md:mr-16 py-16 px-10 rounded-xl">
+            <div className="grid md:grid-cols-2 grid-cols-1 md:gap-0 gap-3">
+                <h4 className="lg:text-3xl text-center md:text-start md:text-2xl text-xl font-semibold text-slate-500" >Domain : </h4>
+                <h4 className="lg:text-3xl text-center md:text-start md:text-2xl text-xl font-semibold text-[#379FFF]">https://sms.tcndigital.in</h4>
             </div>
-            <div className="flex gap-[79px] mt-8">
-                <h4 className="text-3xl font-semibold text-slate-500" >Backlinks : </h4>
+            <div className="grid md:grid-cols-2 grid-cols-1 md:gap-0 gap-3 md:mt-11 mt-12">
+                <h4 className="lg:text-3xl md:text-2xl text-xl font-semibold text-slate-500 text-center md:text-start" >Backlinks : </h4>
                 <div className="">
-                    <select className="select select-ghost w-full max-w-xs text-3xl font-semibold text-slate-500">
+                    <select className="select select-ghost w-1/5 lg:text-3xl md:text-2xl text-xl font-semibold text-slate-500 px-0 py-0 md:mx-0 mx-28">
                         <option selected>7</option>
                         <option>6</option>
                         <option>5</option>
@@ -20,13 +20,13 @@ const BackLinkResultDescription = () => {
                     </select>
                 </div>
             </div>
-            <div className="flex gap-16 mt-8">
-                <h4 className="text-3xl font-semibold text-slate-500" >Do - Follow : </h4>
-                <h4 className="text-3xl font-semibold text-slate-500">7</h4>
+            <div className="grid md:grid-cols-2 grid-cols-1 md:gap-0 gap-3 md:mt-8 mt-11">
+                <h4 className="lg:text-3xl md:text-2xl text-xl font-semibold text-slate-500 text-center md:text-start" >Do - Follow : </h4>
+                <h4 className="lg:text-3xl md:text-2xl text-xl font-semibold text-slate-500 text-center md:text-start">7</h4>
             </div>
-            <div className="flex gap-16 mt-8">
-                <h4 className="text-3xl font-semibold text-slate-500" >First - Seen - </h4>
-                <h4 className="text-3xl font-semibold text-slate-500">2022 - 10 - 15 13:39:29 +00.00</h4>
+            <div className="grid md:grid-cols-2 grid-cols-1 md:gap-0 gap-3 md:mt-11 mt-12">
+                <h4 className="lg:text-3xl md:text-2xl text-xl font-semibold text-slate-500 text-center md:text-start" >First - Seen - </h4>
+                <h4 className="lg:text-3xl md:text-2xl text-xl font-semibold text-slate-500 text-center md:text-start">2022 - 10 - 15 13:39:29 +00.00</h4>
             </div>
         </div>
     );

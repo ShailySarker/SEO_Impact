@@ -9,7 +9,7 @@ const BackLinkCheckerAfterCheck = () => {
                 <input className="border-2 py-3 px-7 md:w-96 w-72 rounded-lg" type="search" name="" id="" placeholder="cbb.coastalbroadband.in" disabled/>
             </div>
             <BackLinkResultOverview></BackLinkResultOverview>
-            {/* <BackLinkResultDescription></BackLinkResultDescription> */}
+            <BackLinkResultDescription></BackLinkResultDescription>
         </div>
     );
 };
