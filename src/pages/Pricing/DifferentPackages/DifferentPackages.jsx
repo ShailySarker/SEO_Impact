@@ -1,7 +1,7 @@
 
 const DifferentPackages = () => {
     return (
-        <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 lg:gap-10 gap-20 lg:mx-16 md:mx-10 mx-6 mb-24">
+        <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 lg:gap-10 gap-20 lg:mx-16 md:mx-12 mx-6 mb-24">
             <div className="pb-6">
                 <div className="border-2 p-5 rounded-3xl">
                     <div className="flex flex-col text-center border-b-2">
