@@ -8,7 +8,7 @@ const KeywordScore = () => {
                     "--value": 76, "--size": "16rem", "--thickness": "1rem",
                     transform: "rotate(223.5deg)"
                 }}>
-                    <span style={{ transform: "rotate(136deg)"}} className="md:text-7xl text-5xl font-semibold text-black">76</span>
+                    <span style={{ transform: "rotate(136deg)"}} className="lg:text-7xl md:text-6xl text-5xl font-semibold text-black">76</span>
                 </div>
                 <p className="md:text-3xl text-xl font-bold text-center relative bottom-3 ">Overall Score</p>
 
