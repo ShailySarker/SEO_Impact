@@ -6,10 +6,3 @@
     background-color: #007BFE;
 }
 
-.customOnRed-progress::-webkit-progress-value {
-    background-color: #FF3737;
-}
-
-.customOnRed-progress::-moz-progress-bar {
-    background-color: #FF3737;
-}

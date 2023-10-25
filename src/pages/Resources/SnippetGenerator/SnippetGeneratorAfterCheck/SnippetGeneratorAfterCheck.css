@@ -6,4 +6,5 @@
 
 .custom-toggle {
     transform: scale(2);
+    border-width: 2px;
 }

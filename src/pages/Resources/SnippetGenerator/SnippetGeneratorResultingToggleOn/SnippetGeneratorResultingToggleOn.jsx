@@ -21,7 +21,7 @@ const SnippetGeneratorResultingToggleOn = () => {
                 </div>
                 <progress
                     className="flex items-center progress customOnBlue-progress h-5 "
-                    value="73"
+                    value="63"
                     max="100"
                 ></progress>
 
@@ -35,7 +35,7 @@ const SnippetGeneratorResultingToggleOn = () => {
                     <h3 className="lg:text-3xl md:text-3xl text-2xl font-medium text-[#999999]">400/900 Pixel</h3>
                 </div>
                 <progress
-                    className="flex items-center progress customOnRed-progress h-5 "
+                    className="flex items-center progress customOnBlue-progress h-5 "
                     value="44"
                     max="100"
                 ></progress>

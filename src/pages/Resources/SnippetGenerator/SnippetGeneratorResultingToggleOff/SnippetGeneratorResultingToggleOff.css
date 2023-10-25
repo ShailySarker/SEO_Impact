@@ -1,0 +1,15 @@
+.customOffBlue-progress::-webkit-progress-value {
+    background-color: #007BFE;
+}
+
+.customOffBlue-progress::-moz-progress-bar {
+    background-color: #007BFE;
+}
+
+.customOffRed-progress::-webkit-progress-value {
+    background-color: #FF3737;
+}
+
+.customOffRed-progress::-moz-progress-bar {
+    background-color: #FF3737;
+}
