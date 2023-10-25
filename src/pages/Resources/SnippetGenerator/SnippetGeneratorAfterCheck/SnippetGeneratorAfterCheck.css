@@ -1,0 +1,9 @@
+.custom-toggle:checked {
+    background-color: #007BFE;
+    border-color:#007BFE
+
+}
+
+.custom-toggle {
+    transform: scale(2);
+}
