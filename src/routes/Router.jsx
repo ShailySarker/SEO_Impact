@@ -22,6 +22,8 @@ import Blogs from "../pages/SocialImpact/Blogs/Blogs";
 import ClientReview from "../pages/SocialImpact/ClientReview/ClientReview";
 import SocialMediaReview from "../pages/SocialImpact/SocialMediaReview/SocialMediaReview";
 import FAQs from "../pages/SocialImpact/FAQs/FAQs";
+import SnippetGenerator from "../pages/Resources/SnippetGenerator/SnippetGenerator/SnippetGenerator";
+import SnippetGeneratorAfterCheck from "../pages/Resources/SnippetGenerator/SnippetGeneratorAfterCheck/SnippetGeneratorAfterCheck";
 
 export const router = createBrowserRouter([
     {
@@ -96,6 +98,14 @@ export const router = createBrowserRouter([
             {
                 path: "backLinkCheckerAfterChecking",
                 element: <BackLinkCheckerAfterCheck></BackLinkCheckerAfterCheck>
+            },
+            {
+                path: "snippetGenerator",
+                element: <SnippetGenerator></SnippetGenerator>
+            },
+            {
+                path: "snippetGeneratorAfterChecking",
+                element: <SnippetGeneratorAfterCheck></SnippetGeneratorAfterCheck>
             }
         ]
     },
