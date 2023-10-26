@@ -7,6 +7,8 @@ import SEOImpact from "../SEOImpact/SEOImpact";
 import SEOTools from "../SEOTools/SEOTools";
 import TrustedCompanies from "../TrustedCompanies/TrustedCompanies";
 import FeaturesAdvertising from "../FeaturesAdvertising/FeaturesAdvertising";
+import WhatIsNew from "../WhatIsNew/WhatIsNew";
+import FAQs from "../FAQs/FAQs";
 
 const Home = () => {
     return (
@@ -14,11 +16,13 @@ const Home = () => {
             <Banner></Banner>
             <FeaturesAdvertising></FeaturesAdvertising>
             <Features></Features>
+            {/* <WhatIsNew></WhatIsNew> */}
             <ClientReview></ClientReview>
             <TrustedCompanies></TrustedCompanies>
             <CompanyOverview></CompanyOverview>
             <SEOTools></SEOTools>
             <MarketInsights></MarketInsights>
+            <FAQs></FAQs>
             <SEOImpact></SEOImpact>
         </div>
     );
