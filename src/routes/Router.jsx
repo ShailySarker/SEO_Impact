@@ -24,6 +24,8 @@ import SocialMediaReview from "../pages/SocialImpact/SocialMediaReview/SocialMed
 import FAQs from "../pages/SocialImpact/FAQs/FAQs";
 import SnippetGenerator from "../pages/Resources/SnippetGenerator/SnippetGenerator/SnippetGenerator";
 import SnippetGeneratorAfterCheck from "../pages/Resources/SnippetGenerator/SnippetGeneratorAfterCheck/SnippetGeneratorAfterCheck";
+import KeywordResearchTool from "../pages/Resources/KeywordResearchTool/KeywordResearchTool/KeywordResearchTool";
+import KeywordResearchToolAfterCheck from "../pages/Resources/KeywordResearchTool/KeywordResearchToolAfterCheck/KeywordResearchToolAfterCheck";
 
 export const router = createBrowserRouter([
     {
@@ -106,6 +108,14 @@ export const router = createBrowserRouter([
             {
                 path: "snippetGeneratorAfterChecking",
                 element: <SnippetGeneratorAfterCheck></SnippetGeneratorAfterCheck>
+            },
+            {
+                path: "keywordResearchTool",
+                element: <KeywordResearchTool></KeywordResearchTool>
+            },
+            {
+                path: "keywordResearchToolAfterChecking",
+                element: <KeywordResearchToolAfterCheck></KeywordResearchToolAfterCheck>
             }
         ]
     },
