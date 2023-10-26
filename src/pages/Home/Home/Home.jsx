@@ -9,6 +9,7 @@ import TrustedCompanies from "../TrustedCompanies/TrustedCompanies";
 import FeaturesAdvertising from "../FeaturesAdvertising/FeaturesAdvertising";
 import WhatIsNew from "../WhatIsNew/WhatIsNew";
 import FAQs from "../FAQs/FAQs";
+import WhyChooseUs from "../WhyChooseUs/WhyChooseUs";
 
 const Home = () => {
     return (
@@ -22,6 +23,7 @@ const Home = () => {
             <CompanyOverview></CompanyOverview>
             <SEOTools></SEOTools>
             <MarketInsights></MarketInsights>
+            <WhyChooseUs></WhyChooseUs>
             <FAQs></FAQs>
             <SEOImpact></SEOImpact>
         </div>

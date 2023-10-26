@@ -1,7 +1,7 @@
 
 const FAQs = () => {
     return (
-        <div className="lg:mt-20 md:mt-16 mt-12 mb-28 lg:mx-72 md:mx-16 mx-6">
+        <div className="lg:mt-20 md:mt-16 mt-12 mb-28 lg:mx-60 md:mx-16 mx-6">
             <h3 className="text-center font-bold lg:text-5xl md:text-4xl text-3xl md:mb-24 mb-16">Frequently Asked Questions</h3>
             <div className="collapse collapse-plus bg-[#EBF5FF] mb-5 ">
                 <input type="radio" name="my-accordion-3" />
