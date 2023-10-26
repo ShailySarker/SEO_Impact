@@ -6,11 +6,13 @@ import MarketInsights from "../MarketInsights/MarketInsights";
 import SEOImpact from "../SEOImpact/SEOImpact";
 import SEOTools from "../SEOTools/SEOTools";
 import TrustedCompanies from "../TrustedCompanies/TrustedCompanies";
+import FeaturesAdvertising from "../FeaturesAdvertising/FeaturesAdvertising";
 
 const Home = () => {
     return (
         <div className="">
             <Banner></Banner>
+            <FeaturesAdvertising></FeaturesAdvertising>
             <Features></Features>
             <ClientReview></ClientReview>
             <TrustedCompanies></TrustedCompanies>
