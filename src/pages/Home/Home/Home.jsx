@@ -10,6 +10,7 @@ import FeaturesAdvertising from "../FeaturesAdvertising/FeaturesAdvertising";
 import WhatIsNew from "../WhatIsNew/WhatIsNew";
 import FAQs from "../FAQs/FAQs";
 import WhyChooseUs from "../WhyChooseUs/WhyChooseUs";
+import Purpose from "../Purpose/Purpose";
 
 const Home = () => {
     return (
@@ -23,6 +24,7 @@ const Home = () => {
             <CompanyOverview></CompanyOverview>
             <SEOTools></SEOTools>
             <MarketInsights></MarketInsights>
+            <Purpose></Purpose>
             <WhyChooseUs></WhyChooseUs>
             <FAQs></FAQs>
             <SEOImpact></SEOImpact>
