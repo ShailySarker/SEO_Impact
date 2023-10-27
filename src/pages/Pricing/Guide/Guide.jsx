@@ -31,36 +31,6 @@ const Guide = () => {
                         <h3 className="md:text-3xl text-xl font-semibold p-5 ">Complete the Process of Buying</h3>
                     </div>
                 </div>
-                {/* <div className="flex items-center justify-center gap-8">
-                    <div>
-                        <h2 className="md:text-3xl text-xl font-semibold text-[#007BFE]">Step_01:</h2>
-                    </div>
-                    <div className="bg-[#EBF5FF] hover:bg-[#007BFE] hover:text-white rounded-xl flex justify-center items-center shadow-lg text-center border-2 border-[#007BFE]">
-                        <h3 className="md:text-3xl text-xl font-semibold p-5 ">Visit Different Packages Section</h3>
-                    </div>
-                </div>
-                <div className="flex items-center justify-center gap-8">
-                    <div>
-                        <h2 className="md:text-3xl text-xl font-semibold text-[#007BFE]">Step_01:</h2>
-                    </div>
-                    <div className="bg-[#EBF5FF] hover:bg-[#007BFE] hover:text-white rounded-xl flex justify-center items-center shadow-lg text-center border-2 border-[#007BFE]">
-                        <h3 className="md:text-3xl text-xl font-semibold p-5 ">Visit Different Packages Section</h3>
-                    </div>
-                </div> */}
-                {/* <div className="md:mt-24 mt-16 grid grid-cols-2 md:gap-20 gap-10 lg:gap-20">
-                    <div className="bg-[#EBF5FF] hover:bg-[#007BFE] hover:text-white rounded-xl flex justify-center items-center shadow-lg text-center border-2 border-[#007BFE]">
-                        <h3 className="md:text-3xl text-xl font-semibold p-5 ">Easily Usable </h3>
-                    </div>
-                    <div className="bg-[#EBF5FF] hover:bg-[#007BFE] hover:text-white rounded-xl flex justify-center items-center shadow-lg text-center border-2 border-[#007BFE]">
-                        <h3 className="md:text-3xl text-xl font-semibold p-5 ">Quick Service</h3>
-                    </div>
-                    <div className="bg-[#EBF5FF] hover:bg-[#007BFE] hover:text-white rounded-xl flex justify-center items-center shadow-lg text-center border-2 border-[#007BFE]">
-                        <h3 className="md:text-3xl text-xl font-semibold p-5 ">Trustable </h3>
-                    </div>
-                    <div className="bg-[#EBF5FF] hover:bg-[#007BFE] hover:text-white rounded-xl flex justify-center items-center shadow-lg text-center border-2 border-[#007BFE]">
-                        <h3 className="md:text-3xl text-xl font-semibold p-5 ">Better Result </h3>
-                    </div>
-                </div> */}
             </div>
         </div >
     );
