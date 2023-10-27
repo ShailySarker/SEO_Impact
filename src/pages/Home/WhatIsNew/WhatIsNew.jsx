@@ -1,17 +1,43 @@
+import NewLogo from "../../../components/NewLogo/NewLogo";
 
 const WhatIsNew = () => {
     return (
-        <div>
-            <div className="card w-96 glass">
-                <figure><img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="car!" /></figure>
-                <div className="card-body">
-                    <h2 className="card-title">Life hack</h2>
-                    <p>How to park your car at your garage?</p>
-                    <div className="card-actions justify-end">
-                        <button className="btn btn-primary">Learn now!</button>
+        <div className="lg:mt-10 md:mt-12 mt-8 pb-28 lg:mx-36 md:mx-16 mx-6">
+            <h3 className="text-center font-bold lg:text-5xl md:text-4xl text-3xl md:mb-16 mb-10">What’s <span className="text-[#007BFE]">New?</span></h3>
+            <p className="lg:text-2xl md:text-xl text-lg text-[#757575] font-semibold md:text-center text-start">New features refer to the latest additions or improvements in a service. They enhance functionality, offer fresh capabilities, and often provide a better user experience. In software, new features can include additional tools, improved performance, and updated designs, keeping products up-to-date and competitive. Let’s introduce our new features:</p>
+            <div className="grid lg:grid-cols-3 grid-cols-1 lg:gap-12 gap-16 mt-20 md:mr-0 mr-8">
+                <div>
+                    <NewLogo></NewLogo>
+                    <div className="border-2 shadow-lg py-10 px-7 rounded-xl lg:h-[450px]">
+                        <h2 className="lg:text-4xl md:text-3xl text-2xl font-semibold text-center mb-3">Snippet Generator</h2>`
+                        <p className="text-lg  text-[#757575] font-medium mb-12">A Snippet Generator is a tool that helps optimize search engine result snippets, improving click-through rates and enhancing SEO impact.</p>
+                        <div className="card-actions justify-center">
+                            <button className="text-white bg-[#007BFE] md:py-3 md:px-6 p-2 rounded-xl font-semibold md:w-auto w-24">Try Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <NewLogo></NewLogo>
+                    <div className="border-2 shadow-lg py-10 px-7 rounded-xl lg:h-[450px]">
+                        <h2 className="lg:text-4xl md:text-3xl text-2xl font-semibold text-center mb-3">Keyword Research Tool</h2>`
+                        <p className="text-lg  text-[#757575] font-medium mb-12">A Keyword Research Tool enhances SEO by identifying valuable keywords for content optimization.</p>
+                        <div className="card-actions justify-center lg:pt-14">
+                            <button className="text-white bg-[#007BFE] md:py-3 md:px-6 p-2 rounded-xl font-semibold md:w-auto w-24">Try Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <NewLogo></NewLogo>
+                    <div className="border-2 shadow-lg py-10 px-7 rounded-xl lg:h-[450px]">
+                        <h2 className="lg:text-4xl md:text-3xl text-2xl font-semibold text-center mb-3">Ranking Checker</h2>`
+                        <p className="text-lg  text-[#757575] font-medium mb-12">A Ranking Checker is a tool that assesses a website’s position in search engine results, helping SEO efforts by tracking keyword rankings.</p>
+                        <div className="card-actions justify-center">
+                            <button className="text-white bg-[#007BFE] md:py-3 md:px-6 p-2 rounded-xl font-semibold md:w-auto w-24">Try Now</button>
+                        </div>
                     </div>
                 </div>
             </div>
+
         </div>
     );
 };

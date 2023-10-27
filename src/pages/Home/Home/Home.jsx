@@ -18,12 +18,12 @@ const Home = () => {
             <Banner></Banner>
             <FeaturesAdvertising></FeaturesAdvertising>
             <Features></Features>
-            {/* <WhatIsNew></WhatIsNew> */}
             <ClientReview></ClientReview>
             <TrustedCompanies></TrustedCompanies>
             <CompanyOverview></CompanyOverview>
             <SEOTools></SEOTools>
             <MarketInsights></MarketInsights>
+            <WhatIsNew></WhatIsNew>
             <Purpose></Purpose>
             <WhyChooseUs></WhyChooseUs>
             <FAQs></FAQs>
