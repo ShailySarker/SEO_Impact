@@ -1,4 +1,5 @@
 import Buying from "../Buying/Buying";
+import DemoVideo from "../DemoVideo/DemoVideo";
 import DifferentPackages from "../DifferentPackages/DifferentPackages";
 import Guide from "../Guide/Guide";
 import PopularPackages from "../PopularPackages/PopularPackages";
@@ -15,6 +16,7 @@ const Pricing = () => {
             <DifferentPackages></DifferentPackages>
             <PopularPackages></PopularPackages>
             <WebsiteGrowth></WebsiteGrowth>
+            <DemoVideo></DemoVideo>
             <Buying></Buying>
         </div>
     );

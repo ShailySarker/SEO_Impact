@@ -66,8 +66,7 @@ const data = [
 
 const WebsiteGrowthBarChart = () => {
     return (
-        // 
-        <div style={{ width: '100%', height: 650 }}> {/* Adjust the height as needed */}
+            <div style={{ width: '100%', height: 650 }}> 
             <ResponsiveContainer width="100%" height="100%">
                 <BarChart
                     data={data}
