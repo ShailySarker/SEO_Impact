@@ -1,3 +1,4 @@
+import ApplicationProcess from "../ApplicationProcess/ApplicationProcess";
 import Benefits from "../Benefits/Benefits";
 import CareersBanner from "../CareersBanner/CareersBanner";
 import DifferentCareers from "../DifferentCareers/DifferentCareers";
@@ -13,6 +14,7 @@ const Careers = () => {
             <Benefits></Benefits>
             <JobOpening></JobOpening>
             <InternshipOpportunities></InternshipOpportunities>
+            <ApplicationProcess></ApplicationProcess>
             <SEOImpactRating></SEOImpactRating>
         </div>
     );
