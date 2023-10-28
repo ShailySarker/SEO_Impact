@@ -4,6 +4,7 @@ import Guide from "../Guide/Guide";
 import PopularPackages from "../PopularPackages/PopularPackages";
 import PricingBanner from "../PricingBanner/PricingBanner";
 import PricingDesign from "../PricingDesign/PricingDesign";
+import WebsiteGrowth from "../WebsiteGrowth/WebsiteGrowth";
 
 const Pricing = () => {
     return (
@@ -13,6 +14,7 @@ const Pricing = () => {
             <Guide></Guide>
             <DifferentPackages></DifferentPackages>
             <PopularPackages></PopularPackages>
+            <WebsiteGrowth></WebsiteGrowth>
             <Buying></Buying>
         </div>
     );
