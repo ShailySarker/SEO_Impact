@@ -1,3 +1,4 @@
+import FeedbackUs from "../FeedbackUs/FeedbackUs";
 import SocialMedia from "../SocialMedia/SocialMedia";
 
 const ContactUs = () => {
@@ -48,6 +49,7 @@ const ContactUs = () => {
                 </div>
             </div>
             <SocialMedia></SocialMedia>
+            <FeedbackUs></FeedbackUs>
         </div>
     );
 };
