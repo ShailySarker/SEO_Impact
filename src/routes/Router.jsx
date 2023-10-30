@@ -4,7 +4,7 @@ import Home from "../pages/Home/Home/Home";
 import Pricing from "../pages/Pricing/Pricing/Pricing";
 import Careers from "../pages/Careers/Careers/Careers";
 // import Resources from "../pages/Resources/ResourcesHomePage/ResourcesHomePage";
-import ContactUs from "../pages/ContactUs/ContactUs";
+import ContactUs from "../pages/ContactUs/ContactUs/ContactUs";
 import AboutUs from "../pages/AboutUs/AboutUs/AboutUs";
 import Login from "../pages/RegisterLogin/Login/Login";
 import Register from "../pages/RegisterLogin/Register/Register";

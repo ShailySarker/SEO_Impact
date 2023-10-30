@@ -1,3 +1,4 @@
+import SocialMedia from "../SocialMedia/SocialMedia";
 
 const ContactUs = () => {
     return (
@@ -46,6 +47,7 @@ const ContactUs = () => {
                     </form>
                 </div>
             </div>
+            <SocialMedia></SocialMedia>
         </div>
     );
 };
