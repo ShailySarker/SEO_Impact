@@ -1,7 +1,7 @@
 
 const ContactRecruiter = () => {
     return (
-        <div className="md:pt-8 pt-12 mb-36 lg:mx-16 md:mx-16 mx-6">
+        <div className="md:pt-8 pt-0 mb-36 lg:mx-16 md:mx-16 mx-6">
             <div>
                 <h3 className="text-center font-bold lg:text-5xl md:text-4xl text-3xl md:mb-16 mb-10">Contact Our <span className="text-[#007BFE]">Recruiters</span></h3>
                 <p className="lg:text-2xl md:text-xl text-lg text-[#757575] font-semibold lg:mx-36 text-center ">Lorem ipsum dolor sit amet consectetur. Quis eget vivamus neque velit enim id urna pharetra vel. Sapien ut natoque facilisi tortor viverra eget.</p>
