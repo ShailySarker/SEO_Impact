@@ -7,6 +7,7 @@ import EmployeeTestimonials from "../EmployeeTestimonials/EmployeeTestimonials";
 import InternshipOpportunities from "../InternshipOpportunities/InternshipOpportunities";
 import JobOpening from "../JobOpening/JobOpening";
 import SEOImpactRating from "../SEOImpactRating/SEOImpactRating";
+import TrainingAndDevelopment from "../TrainingAndDevelopment/TrainingAndDevelopment";
 
 const Careers = () => {
     return (
@@ -19,6 +20,7 @@ const Careers = () => {
             <ApplicationProcess></ApplicationProcess>
             <ContactRecruiter></ContactRecruiter>
             <EmployeeTestimonials></EmployeeTestimonials>
+            <TrainingAndDevelopment></TrainingAndDevelopment>
             <SEOImpactRating></SEOImpactRating>
         </div>
     );
