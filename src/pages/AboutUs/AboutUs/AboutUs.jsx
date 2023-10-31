@@ -1,5 +1,6 @@
 // import { lazy } from "react";
 import AboutUsBanner from "../AboutUsBanner/AboutUsBanner";
+import Blogs from "../Blogs/Blogs";
 import ClientReviews from "../ClientReviews/ClientReviews";
 import OurFeatures from "../OurFeatures/OurFeatures";
 import OurGoals from "../OurGoals/OurGoals";
@@ -13,6 +14,7 @@ const AboutUs = () => {
             <OurFeatures></OurFeatures>
             <OurTeam></OurTeam>
             <OurGoals></OurGoals>
+            <Blogs></Blogs>
             <ClientReviews></ClientReviews>
         </div>
     );
