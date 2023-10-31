@@ -14,7 +14,7 @@ const AboutUsBanner = () => {
                     <img src="https://i.ibb.co/YNmfjxB/pana.png" alt="" />
                 </div>
             </div>
-            <div className=" lg:py-40 md:py-20 py-10">
+            <div className=" lg:py-32 md:py-20 py-10">
                 <img src="https://i.ibb.co/d4WCd6z/Vector-10.png" alt="" />
             </div>
         </div>

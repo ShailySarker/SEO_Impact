@@ -1,3 +1,6 @@
+import { Suspense } from "react";
+import { lazy } from "react";
+
 import { createBrowserRouter } from "react-router-dom";
 import MainLayout from "../layout/MainLayout/MainLayout";
 import Home from "../pages/Home/Home/Home";
@@ -5,7 +8,9 @@ import Pricing from "../pages/Pricing/Pricing/Pricing";
 import Careers from "../pages/Careers/Careers/Careers";
 // import Resources from "../pages/Resources/ResourcesHomePage/ResourcesHomePage";
 import ContactUs from "../pages/ContactUs/ContactUs/ContactUs";
-import AboutUs from "../pages/AboutUs/AboutUs/AboutUs";
+// import AboutUs from "../pages/AboutUs/AboutUs/AboutUs";
+const AboutUs = lazy(() => import("../pages/AboutUs/AboutUs/AboutUs"));
+
 import Login from "../pages/RegisterLogin/Login/Login";
 import Register from "../pages/RegisterLogin/Register/Register";
 import DashboardLayout from "../layout/DashboardLayout/DashboardLayout";
@@ -54,7 +59,13 @@ export const router = createBrowserRouter([
             },
             {
                 path: "/about",
-                element: <AboutUs></AboutUs>
+                element: <Suspense fallback={
+                    <div className="flex flex-col justify-center items-center my-20 gap-10">
+                        <span className="loading loading-spinner w-52 text-[#007BFE]"></span>
+                        <h3 className="text-3xl font-semibold">Please wait...</h3>
+                    </div>}>
+                    <AboutUs />
+                </Suspense>
             }
         ]
     },
@@ -90,7 +101,7 @@ export const router = createBrowserRouter([
                 element: <KeywordChecker></KeywordChecker>
             },
             {
-                path:"keywordCheckerAfterChecking",
+                path: "keywordCheckerAfterChecking",
                 element: <KeywordCheckerAfterCheck></KeywordCheckerAfterCheck>
             },
             {
@@ -122,7 +133,7 @@ export const router = createBrowserRouter([
 
     // Social Impact
     {
-        path:"/socialImpact",
+        path: "/socialImpact",
         element: <SocialImpactLayout></SocialImpactLayout>,
         children: [
             {
@@ -131,11 +142,11 @@ export const router = createBrowserRouter([
             },
             {
                 path: "blogs",
-                element:<Blogs></Blogs>
+                element: <Blogs></Blogs>
             },
             {
                 path: "clientReview",
-                element:<ClientReview></ClientReview>
+                element: <ClientReview></ClientReview>
             },
             {
                 path: "socialMediaReview",
