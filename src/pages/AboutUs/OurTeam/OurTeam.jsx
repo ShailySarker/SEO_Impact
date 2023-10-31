@@ -42,49 +42,49 @@ const OurTeam = () => {
                         className="swiper_container lg:h-[675px] md:h-[660px] h-[540px] relative"
                     >
                         <SwiperSlide>
-                            <div className='border-4 p-5 bg-[#EBF5FF] border-2 border-[#007BFE] rounded-2xl'>
+                            <div className='border-4 p-5 bg-[#EBF5FF] border-[#007BFE] rounded-2xl'>
                                 <img className='' src="https://i.ibb.co/wR4F3cc/Ellipse-10.png" alt="slide_image" />
                                 <h3 className="font-bold pt-12 md:text-3xl text-2xl text-center">Lucy William</h3>
                                 <p className="pt-8 md:text-xl text-lg font-semibold text-center pb-8">Software Analyst, SEO Impact</p>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
-                            <div className='border-4 p-5 bg-[#EBF5FF] border-2 border-[#007BFE] rounded-2xl'>
+                            <div className='border-4 p-5 bg-[#EBF5FF] border-[#007BFE] rounded-2xl'>
                                 <img className='' src="https://i.ibb.co/wR4F3cc/Ellipse-10.png" alt="slide_image" />
                                 <h3 className="font-bold pt-12 md:text-3xl text-2xl text-center">Lucy William</h3>
                                 <p className="pt-8 md:text-xl text-lg font-semibold text-center pb-8">Software Analyst, SEO Impact</p>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
-                            <div className='border-4 p-5 bg-[#EBF5FF] border-2 border-[#007BFE] rounded-2xl'>
+                            <div className='border-4 p-5 bg-[#EBF5FF] border-[#007BFE] rounded-2xl'>
                                 <img className='' src="https://i.ibb.co/wR4F3cc/Ellipse-10.png" alt="slide_image" />
                                 <h3 className="font-bold pt-12 md:text-3xl text-2xl text-center">Lucy William</h3>
                                 <p className="pt-8 md:text-xl text-lg font-semibold text-center pb-8">Software Analyst, SEO Impact</p>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
-                            <div className='border-4 p-5 bg-[#EBF5FF] border-2 border-[#007BFE] rounded-2xl'>
+                            <div className='border-4 p-5 bg-[#EBF5FF] border-[#007BFE] rounded-2xl'>
                                 <img className='' src="https://i.ibb.co/wR4F3cc/Ellipse-10.png" alt="slide_image" />
                                 <h3 className="font-bold pt-12 md:text-3xl text-2xl text-center">Lucy William</h3>
                                 <p className="pt-8 md:text-xl text-lg font-semibold text-center pb-8">Software Analyst, SEO Impact</p>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
-                            <div className='border-4 p-5 bg-[#EBF5FF] border-2 border-[#007BFE] rounded-2xl'>
+                            <div className='border-4 p-5 bg-[#EBF5FF] border-[#007BFE] rounded-2xl'>
                                 <img className='' src="https://i.ibb.co/wR4F3cc/Ellipse-10.png" alt="slide_image" />
                                 <h3 className="font-bold pt-12 md:text-3xl text-2xl text-center">Lucy William</h3>
                                 <p className="pt-8 md:text-xl text-lg font-semibold text-center pb-8">Software Analyst, SEO Impact</p>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
-                            <div className='border-4 p-5 bg-[#EBF5FF] border-2 border-[#007BFE] rounded-2xl'>
+                            <div className='border-4 p-5 bg-[#EBF5FF] border-[#007BFE] rounded-2xl'>
                                 <img className='' src="https://i.ibb.co/wR4F3cc/Ellipse-10.png" alt="slide_image" />
                                 <h3 className="font-bold pt-12 md:text-3xl text-2xl text-center">Lucy William</h3>
                                 <p className="pt-8 md:text-xl text-lg font-semibold text-center pb-8">Software Analyst, SEO Impact</p>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
-                            <div className='border-4 p-5 bg-[#EBF5FF] border-2 border-[#007BFE] rounded-2xl'>
+                            <div className='border-4 p-5 bg-[#EBF5FF] border-[#007BFE] rounded-2xl'>
                                 <img className='' src="https://i.ibb.co/wR4F3cc/Ellipse-10.png" alt="slide_image" />
                                 <h3 className="font-bold pt-12 md:text-3xl text-2xl text-center">Lucy William</h3>
                                 <p className="pt-8 md:text-xl text-lg font-semibold text-center pb-8">Software Analyst, SEO Impact</p>

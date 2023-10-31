@@ -21,12 +21,6 @@ import KeywordCheckerAfterCheck from "../pages/Resources/KeywordChecker/KeywordC
 import BackLinkChecker from "../pages/Resources/BackLinkChecker/BackLinkChecker/BackLinkChecker";
 import BackLinkCheckerAfterCheck from "../pages/Resources/BackLinkChecker/BackLinkCheckerAfterCheck/BackLinkCheckerAfterCheck";
 import ResourcesHomePageAfterCheck from "../pages/Resources/ResourcesHomePage/ResourcesHomePageAfterCheck/ResourcesHomePageAfterCheck";
-import SocialImpactLayout from "../layout/SocialImpactLayout/SocialImpactLayout";
-import WhatIsNew from "../pages/SocialImpact/WhatIsNew/WhatIsNew";
-import Blogs from "../pages/SocialImpact/Blogs/Blogs";
-import ClientReview from "../pages/SocialImpact/ClientReview/ClientReview";
-import SocialMediaReview from "../pages/SocialImpact/SocialMediaReview/SocialMediaReview";
-import FAQs from "../pages/SocialImpact/FAQs/FAQs";
 import SnippetGenerator from "../pages/Resources/SnippetGenerator/SnippetGenerator/SnippetGenerator";
 import SnippetGeneratorAfterCheck from "../pages/Resources/SnippetGenerator/SnippetGeneratorAfterCheck/SnippetGeneratorAfterCheck";
 import KeywordResearchTool from "../pages/Resources/KeywordResearchTool/KeywordResearchTool/KeywordResearchTool";
@@ -130,35 +124,5 @@ export const router = createBrowserRouter([
             }
         ]
     },
-
-    // Social Impact
-    {
-        path: "/socialImpact",
-        element: <SocialImpactLayout></SocialImpactLayout>,
-        children: [
-            {
-                path: "whatIsNew",
-                element: <WhatIsNew></WhatIsNew>
-            },
-            {
-                path: "blogs",
-                element: <Blogs></Blogs>
-            },
-            {
-                path: "clientReview",
-                element: <ClientReview></ClientReview>
-            },
-            {
-                path: "socialMediaReview",
-                element: <SocialMediaReview></SocialMediaReview>
-            },
-            {
-                path: "FAQs",
-                element: <FAQs></FAQs>
-            }
-        ]
-    }
-
-
 
 ]);
