@@ -11,7 +11,7 @@ const Guide = () => {
                     <div>
                         <h2 className="md:text-3xl text-xl font-semibold text-[#007BFE]">Step_01:</h2>
                     </div>
-                    <div className="bg-[#EBF5FF] hover:bg-[#007BFE] hover:text-white rounded-xl flex justify-center items-center shadow-lg text-center border-2 border-[#007BFE] w-full">
+                    <div className="bg-[#EBF5FF] rounded-xl flex justify-center items-center shadow-lg text-center border-2 border-[#007BFE] w-full transition duration-300 ease-in-out hover:bg-[#007BFE] hover:text-white transform hover:scale-105">
                         <h3 className="md:text-3xl text-xl font-semibold p-5 ">Visit Different Packages Section</h3>
                     </div>
                 </div>
@@ -19,7 +19,7 @@ const Guide = () => {
                     <div>
                         <h2 className="md:text-3xl text-xl font-semibold text-[#007BFE]">Step_02:</h2>
                     </div>
-                    <div className="bg-[#EBF5FF] hover:bg-[#007BFE] hover:text-white rounded-xl flex justify-center items-center shadow-lg text-center border-2 border-[#007BFE] w-full">
+                    <div className="bg-[#EBF5FF] rounded-xl flex justify-center items-center shadow-lg text-center border-2 border-[#007BFE] w-full transition duration-300 ease-in-out hover:bg-[#007BFE] hover:text-white transform hover:scale-105">
                         <h3 className="md:text-3xl text-xl font-semibold p-5 ">Choose Your Suitable One</h3>
                     </div>
                 </div>
@@ -27,7 +27,7 @@ const Guide = () => {
                     <div>
                         <h2 className="md:text-3xl text-xl font-semibold text-[#007BFE]">Step_03:</h2>
                     </div>
-                    <div className="bg-[#EBF5FF] hover:bg-[#007BFE] hover:text-white rounded-xl flex justify-center items-center shadow-lg text-center border-2 border-[#007BFE] w-full">
+                    <div className="bg-[#EBF5FF] rounded-xl flex justify-center items-center shadow-lg text-center border-2 border-[#007BFE] w-full transition duration-300 ease-in-out hover:bg-[#007BFE] hover:text-white transform hover:scale-105">
                         <h3 className="md:text-3xl text-xl font-semibold p-5 ">Complete the Process of Buying</h3>
                     </div>
                 </div>
