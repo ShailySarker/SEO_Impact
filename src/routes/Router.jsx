@@ -9,9 +9,13 @@ const Home = lazy(() => import("../pages/Home/Home/Home"));
 // import Pricing from "../pages/Pricing/Pricing/Pricing";
 const Pricing = lazy(() => import("../pages/Pricing/Pricing/Pricing"));
 
-import Careers from "../pages/Careers/Careers/Careers";
+// import Careers from "../pages/Careers/Careers/Careers";
+const Careers = lazy(() => import("../pages/Careers/Careers/Careers"));
+
 // import Resources from "../pages/Resources/ResourcesHomePage/ResourcesHomePage";
-import ContactUs from "../pages/ContactUs/ContactUs/ContactUs";
+// import ContactUs from "../pages/ContactUs/ContactUs/ContactUs";
+const ContactUs = lazy(() => import("../pages/ContactUs/ContactUs/ContactUs"));
+
 // import AboutUs from "../pages/AboutUs/AboutUs/AboutUs";
 const AboutUs = lazy(() => import("../pages/AboutUs/AboutUs/AboutUs"));
 
@@ -42,8 +46,8 @@ export const router = createBrowserRouter([
                         <span className="loading loading-spinner w-52 text-[#007BFE]"></span>
                         <h3 className="text-3xl font-bold">Please wait ...</h3>
                     </div>}>
-                    <Home/>
-                </Suspense>               
+                    <Home />
+                </Suspense>
             },
             {
                 path: "/pricing",
@@ -52,12 +56,18 @@ export const router = createBrowserRouter([
                         <span className="loading loading-spinner w-52 text-[#007BFE]"></span>
                         <h3 className="text-3xl font-bold">Please wait ...</h3>
                     </div>}>
-                    <Pricing/>
-                </Suspense>          
+                    <Pricing />
+                </Suspense>
             },
             {
                 path: "/careers",
-                element: <Careers></Careers>
+                element: <Suspense fallback={
+                    <div className="flex flex-col justify-center items-center my-20 gap-12">
+                        <span className="loading loading-spinner w-52 text-[#007BFE]"></span>
+                        <h3 className="text-3xl font-bold">Please wait ...</h3>
+                    </div>}>
+                    <Careers />
+                </Suspense>
             },
             // {
             //     path:"/resources",
@@ -65,7 +75,13 @@ export const router = createBrowserRouter([
             // },
             {
                 path: "/contact",
-                element: <ContactUs></ContactUs>
+                element: <Suspense fallback={
+                    <div className="flex flex-col justify-center items-center my-20 gap-12">
+                        <span className="loading loading-spinner w-52 text-[#007BFE]"></span>
+                        <h3 className="text-3xl font-bold">Please wait ...</h3>
+                    </div>}>
+                    <ContactUs />
+                </Suspense>
             },
             {
                 path: "/about",
