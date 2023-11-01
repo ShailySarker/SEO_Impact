@@ -26,7 +26,9 @@ const Login = lazy(() => import("../pages/RegisterLogin/Login/Login"));
 const Register = lazy(() => import("../pages/RegisterLogin/Register/Register"));
 
 import DashboardLayout from "../layout/DashboardLayout/DashboardLayout";
-import MyProjects from "../pages/Resources/MyProjects/MyProjects";
+// import MyProjects from "../pages/Resources/MyProjects/MyProjects";
+const MyProjects = lazy(() => import("../pages/Resources/MyProjects/MyProjects"));
+
 import KeywordChecker from "../pages/Resources/KeywordChecker/KeywordChecker/KeywordChecker";
 import KeywordCheckerAfterCheck from "../pages/Resources/KeywordChecker/KeywordCheckerAfterCheck/KeywordCheckerAfterCheck";
 import BackLinkChecker from "../pages/Resources/BackLinkChecker/BackLinkChecker/BackLinkChecker";
@@ -124,7 +126,13 @@ export const router = createBrowserRouter([
         children: [
             {
                 path: "myProjects",
-                element: <MyProjects></MyProjects>
+                element: <Suspense fallback={
+                    <div className="flex flex-col justify-center items-center my-20 gap-12">
+                        <span className="loading loading-spinner w-52 text-[#007BFE]"></span>
+                        <h3 className="text-3xl font-bold">Please wait ...</h3>
+                    </div>}>
+                    <MyProjects />
+                </Suspense>            
             },
             {
                 path: "keywordChecker",
