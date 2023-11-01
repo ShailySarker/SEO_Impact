@@ -38,6 +38,7 @@ import SnippetGeneratorAfterCheck from "../pages/Resources/SnippetGenerator/Snip
 import KeywordResearchTool from "../pages/Resources/KeywordResearchTool/KeywordResearchTool/KeywordResearchTool";
 import KeywordResearchToolAfterCheck from "../pages/Resources/KeywordResearchTool/KeywordResearchToolAfterCheck/KeywordResearchToolAfterCheck";
 import RankingChecker from "../pages/Resources/RankingChecker/RankingChecker/RankingChecker";
+import RankingCheckerAfterCheck from "../pages/Resources/RankingChecker/RankingCheckerAfterCheck/RankingCheckerAfterCheck";
 
 export const router = createBrowserRouter([
     {
@@ -152,8 +153,8 @@ export const router = createBrowserRouter([
                 element: <RankingChecker></RankingChecker>
             },
             {
-                path: "homePageAfterChecking",
-                element: <ResourcesHomePageAfterCheck></ResourcesHomePageAfterCheck>
+                path: "rankingCheckerAfterChecking",
+                element: <RankingCheckerAfterCheck></RankingCheckerAfterCheck>
             },
             {
                 path: "backLinkChecker",
