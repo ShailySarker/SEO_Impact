@@ -13,8 +13,8 @@ const PopularPackages = () => {
                     <div className="border-2 border-[#007BFE] p-5 shadow-lg rounded-3xl">
                         <div className="flex flex-col text-center">
                             <img className="mx-auto pt-4" src="https://i.ibb.co/CW0J2Zg/Group-25-1.png" alt="" />
-                            <h2 className="font-bold lg:text-5xl md:text-4xl text-3xl mt-5 mb-2 text-[#007BFE]">$1050.00</h2>
-                            <h4 className="text-[#DEDEDE] md:text-xl text-lg font-bold pb-10">$450.00 | 35% OFF</h4>
+                            <h2 className="font-bold lg:text-5xl md:text-4xl text-3xl mt-5 mb-2 text-[#007BFE]">$850.00</h2>
+                            <h4 className="text-[#DEDEDE] md:text-xl text-lg font-bold pb-10"><span className="line-through">1050.00</span> | 35% OFF</h4>
                         </div>
                         <div>
                             <h3 className="text-lg font-bold  text-[#007BFE] pt-3 pb-8">Top Features :</h3>
@@ -48,7 +48,7 @@ const PopularPackages = () => {
                         <div className="flex flex-col text-center">
                             <img className="mx-auto pt-4" src="https://i.ibb.co/XtWq9sW/Group-25-2.png" alt="" />
                             <h2 className="font-bold lg:text-5xl md:text-4xl text-3xl mt-5 mb-2 text-[#007BFE]">$2050.00</h2>
-                            <h4 className="text-[#DEDEDE] md:text-xl text-lg font-bold pb-10">$2550.00 | 35% OFF</h4>
+                            <h4 className="text-[#DEDEDE] md:text-xl text-lg font-bold pb-10"><span className="line-through">$2550.00</span> | 35% OFF</h4>
                         </div>
                         <div>
                             <h3 className="text-lg font-bold  text-[#007BFE] pt-3 pb-8">Top Features :</h3>
