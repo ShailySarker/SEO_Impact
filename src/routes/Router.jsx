@@ -177,11 +177,17 @@ export const router = createBrowserRouter([
             },
             {
                 path: "backLinkChecker",
-                element: <BackLinkChecker></BackLinkChecker>
+                element: <Suspense fallback={
+                    <LazyLoaderDesign/>}>
+                    <BackLinkChecker />
+                </Suspense>
             },
             {
                 path: "backLinkCheckerAfterChecking",
-                element: <BackLinkCheckerAfterCheck></BackLinkCheckerAfterCheck>
+                element: <Suspense fallback={
+                    <LazyLoaderDesign/>}>
+                    <BackLinkCheckerAfterCheck />
+                </Suspense>
             },
             {
                 path: "snippetGenerator",
