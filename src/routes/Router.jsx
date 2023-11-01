@@ -41,8 +41,12 @@ const BackLinkChecker = lazy(() => import("../pages/Resources/BackLinkChecker/Ba
 // import BackLinkCheckerAfterCheck from "../pages/Resources/BackLinkChecker/BackLinkCheckerAfterCheck/BackLinkCheckerAfterCheck";
 const BackLinkCheckerAfterCheck = lazy(() => import("../pages/Resources/BackLinkChecker/BackLinkCheckerAfterCheck/BackLinkCheckerAfterCheck"));
 
-import SnippetGenerator from "../pages/Resources/SnippetGenerator/SnippetGenerator/SnippetGenerator";
-import SnippetGeneratorAfterCheck from "../pages/Resources/SnippetGenerator/SnippetGeneratorAfterCheck/SnippetGeneratorAfterCheck";
+// import SnippetGenerator from "../pages/Resources/SnippetGenerator/SnippetGenerator/SnippetGenerator";
+const SnippetGenerator = lazy(() => import("../pages/Resources/SnippetGenerator/SnippetGenerator/SnippetGenerator"));
+
+// import SnippetGeneratorAfterCheck from "../pages/Resources/SnippetGenerator/SnippetGeneratorAfterCheck/SnippetGeneratorAfterCheck";
+const SnippetGeneratorAfterCheck = lazy(() => import("../pages/Resources/SnippetGenerator/SnippetGeneratorAfterCheck/SnippetGeneratorAfterCheck"));
+
 import KeywordResearchTool from "../pages/Resources/KeywordResearchTool/KeywordResearchTool/KeywordResearchTool";
 import KeywordResearchToolAfterCheck from "../pages/Resources/KeywordResearchTool/KeywordResearchToolAfterCheck/KeywordResearchToolAfterCheck";
 // import RankingChecker from "../pages/Resources/RankingChecker/RankingChecker/RankingChecker";
@@ -191,11 +195,17 @@ export const router = createBrowserRouter([
             },
             {
                 path: "snippetGenerator",
-                element: <SnippetGenerator></SnippetGenerator>
+                element: <Suspense fallback={
+                    <LazyLoaderDesign/>}>
+                    <SnippetGenerator />
+                </Suspense>
             },
             {
                 path: "snippetGeneratorAfterChecking",
-                element: <SnippetGeneratorAfterCheck></SnippetGeneratorAfterCheck>
+                element: <Suspense fallback={
+                    <LazyLoaderDesign/>}>
+                    <SnippetGeneratorAfterCheck />
+                </Suspense>
             },
             {
                 path: "keywordResearchTool",
