@@ -35,14 +35,22 @@ const KeywordChecker = lazy(() => import("../pages/Resources/KeywordChecker/Keyw
 // import KeywordCheckerAfterCheck from "../pages/Resources/KeywordChecker/KeywordCheckerAfterCheck/KeywordCheckerAfterCheck";
 const KeywordCheckerAfterCheck = lazy(() => import("../pages/Resources/KeywordChecker/KeywordCheckerAfterCheck/KeywordCheckerAfterCheck"));
 
-import BackLinkChecker from "../pages/Resources/BackLinkChecker/BackLinkChecker/BackLinkChecker";
-import BackLinkCheckerAfterCheck from "../pages/Resources/BackLinkChecker/BackLinkCheckerAfterCheck/BackLinkCheckerAfterCheck";
+// import BackLinkChecker from "../pages/Resources/BackLinkChecker/BackLinkChecker/BackLinkChecker";
+const BackLinkChecker = lazy(() => import("../pages/Resources/BackLinkChecker/BackLinkChecker/BackLinkChecker"));
+
+// import BackLinkCheckerAfterCheck from "../pages/Resources/BackLinkChecker/BackLinkCheckerAfterCheck/BackLinkCheckerAfterCheck";
+const BackLinkCheckerAfterCheck = lazy(() => import("../pages/Resources/BackLinkChecker/BackLinkCheckerAfterCheck/BackLinkCheckerAfterCheck"));
+
 import SnippetGenerator from "../pages/Resources/SnippetGenerator/SnippetGenerator/SnippetGenerator";
 import SnippetGeneratorAfterCheck from "../pages/Resources/SnippetGenerator/SnippetGeneratorAfterCheck/SnippetGeneratorAfterCheck";
 import KeywordResearchTool from "../pages/Resources/KeywordResearchTool/KeywordResearchTool/KeywordResearchTool";
 import KeywordResearchToolAfterCheck from "../pages/Resources/KeywordResearchTool/KeywordResearchToolAfterCheck/KeywordResearchToolAfterCheck";
-import RankingChecker from "../pages/Resources/RankingChecker/RankingChecker/RankingChecker";
-import RankingCheckerAfterCheck from "../pages/Resources/RankingChecker/RankingCheckerAfterCheck/RankingCheckerAfterCheck";
+// import RankingChecker from "../pages/Resources/RankingChecker/RankingChecker/RankingChecker";
+const RankingChecker = lazy(() => import("../pages/Resources/RankingChecker/RankingChecker/RankingChecker"));
+
+// import RankingCheckerAfterCheck from "../pages/Resources/RankingChecker/RankingCheckerAfterCheck/RankingCheckerAfterCheck";
+const RankingCheckerAfterCheck = lazy(() => import("../pages/Resources/RankingChecker/RankingCheckerAfterCheck/RankingCheckerAfterCheck"));
+
 import LazyLoaderDesign from "../components/LazyLoaderDesign/LazyLoaderDesign";
 
 export const router = createBrowserRouter([
@@ -155,11 +163,17 @@ export const router = createBrowserRouter([
             },
             {
                 path: "rankingChecker",
-                element: <RankingChecker></RankingChecker>
+                element: <Suspense fallback={
+                    <LazyLoaderDesign/>}>
+                    <RankingChecker />
+                </Suspense>
             },
             {
                 path: "rankingCheckerAfterChecking",
-                element: <RankingCheckerAfterCheck></RankingCheckerAfterCheck>
+                element: <Suspense fallback={
+                    <LazyLoaderDesign/>}>
+                    <RankingCheckerAfterCheck />
+                </Suspense>
             },
             {
                 path: "backLinkChecker",
