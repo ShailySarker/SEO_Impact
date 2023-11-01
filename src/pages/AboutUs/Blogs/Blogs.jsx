@@ -23,7 +23,7 @@ const Blogs = () => {
                 }
             },
             {
-                breakpoint: 480,
+                breakpoint: 575,
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1
