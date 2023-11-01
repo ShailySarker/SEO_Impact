@@ -6,7 +6,9 @@ import MainLayout from "../layout/MainLayout/MainLayout";
 // import Home from "../pages/Home/Home/Home";
 const Home = lazy(() => import("../pages/Home/Home/Home"));
 
-import Pricing from "../pages/Pricing/Pricing/Pricing";
+// import Pricing from "../pages/Pricing/Pricing/Pricing";
+const Pricing = lazy(() => import("../pages/Pricing/Pricing/Pricing"));
+
 import Careers from "../pages/Careers/Careers/Careers";
 // import Resources from "../pages/Resources/ResourcesHomePage/ResourcesHomePage";
 import ContactUs from "../pages/ContactUs/ContactUs/ContactUs";
@@ -41,13 +43,17 @@ export const router = createBrowserRouter([
                         <h3 className="text-3xl font-bold">Please wait ...</h3>
                     </div>}>
                     <Home/>
-                </Suspense>
-                
-                
+                </Suspense>               
             },
             {
                 path: "/pricing",
-                element: <Pricing></Pricing>
+                element: <Suspense fallback={
+                    <div className="flex flex-col justify-center items-center my-20 gap-12">
+                        <span className="loading loading-spinner w-52 text-[#007BFE]"></span>
+                        <h3 className="text-3xl font-bold">Please wait ...</h3>
+                    </div>}>
+                    <Pricing/>
+                </Suspense>          
             },
             {
                 path: "/careers",
