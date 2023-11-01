@@ -29,8 +29,12 @@ import DashboardLayout from "../layout/DashboardLayout/DashboardLayout";
 // import MyProjects from "../pages/Resources/MyProjects/MyProjects";
 const MyProjects = lazy(() => import("../pages/Resources/MyProjects/MyProjects"));
 
-import KeywordChecker from "../pages/Resources/KeywordChecker/KeywordChecker/KeywordChecker";
-import KeywordCheckerAfterCheck from "../pages/Resources/KeywordChecker/KeywordCheckerAfterCheck/KeywordCheckerAfterCheck";
+// import KeywordChecker from "../pages/Resources/KeywordChecker/KeywordChecker/KeywordChecker";
+const KeywordChecker = lazy(() => import("../pages/Resources/KeywordChecker/KeywordChecker/KeywordChecker"));
+
+// import KeywordCheckerAfterCheck from "../pages/Resources/KeywordChecker/KeywordCheckerAfterCheck/KeywordCheckerAfterCheck";
+const KeywordCheckerAfterCheck = lazy(() => import("../pages/Resources/KeywordChecker/KeywordCheckerAfterCheck/KeywordCheckerAfterCheck"));
+
 import BackLinkChecker from "../pages/Resources/BackLinkChecker/BackLinkChecker/BackLinkChecker";
 import BackLinkCheckerAfterCheck from "../pages/Resources/BackLinkChecker/BackLinkCheckerAfterCheck/BackLinkCheckerAfterCheck";
 import SnippetGenerator from "../pages/Resources/SnippetGenerator/SnippetGenerator/SnippetGenerator";
@@ -39,6 +43,7 @@ import KeywordResearchTool from "../pages/Resources/KeywordResearchTool/KeywordR
 import KeywordResearchToolAfterCheck from "../pages/Resources/KeywordResearchTool/KeywordResearchToolAfterCheck/KeywordResearchToolAfterCheck";
 import RankingChecker from "../pages/Resources/RankingChecker/RankingChecker/RankingChecker";
 import RankingCheckerAfterCheck from "../pages/Resources/RankingChecker/RankingCheckerAfterCheck/RankingCheckerAfterCheck";
+import LazyLoaderDesign from "../components/LazyLoaderDesign/LazyLoaderDesign";
 
 export const router = createBrowserRouter([
     {
@@ -136,11 +141,17 @@ export const router = createBrowserRouter([
             },
             {
                 path: "keywordChecker",
-                element: <KeywordChecker></KeywordChecker>
+                element: <Suspense fallback={
+                    <LazyLoaderDesign/>}>
+                    <KeywordChecker />
+                </Suspense>
             },
             {
                 path: "keywordCheckerAfterChecking",
-                element: <KeywordCheckerAfterCheck></KeywordCheckerAfterCheck>
+                element: <Suspense fallback={
+                    <LazyLoaderDesign/>}>
+                    <KeywordCheckerAfterCheck />
+                </Suspense>
             },
             {
                 path: "rankingChecker",
