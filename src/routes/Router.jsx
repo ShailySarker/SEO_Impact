@@ -47,8 +47,12 @@ const SnippetGenerator = lazy(() => import("../pages/Resources/SnippetGenerator/
 // import SnippetGeneratorAfterCheck from "../pages/Resources/SnippetGenerator/SnippetGeneratorAfterCheck/SnippetGeneratorAfterCheck";
 const SnippetGeneratorAfterCheck = lazy(() => import("../pages/Resources/SnippetGenerator/SnippetGeneratorAfterCheck/SnippetGeneratorAfterCheck"));
 
-import KeywordResearchTool from "../pages/Resources/KeywordResearchTool/KeywordResearchTool/KeywordResearchTool";
-import KeywordResearchToolAfterCheck from "../pages/Resources/KeywordResearchTool/KeywordResearchToolAfterCheck/KeywordResearchToolAfterCheck";
+// import KeywordResearchTool from "../pages/Resources/KeywordResearchTool/KeywordResearchTool/KeywordResearchTool";
+const KeywordResearchTool = lazy(() => import("../pages/Resources/KeywordResearchTool/KeywordResearchTool/KeywordResearchTool"));
+
+// import KeywordResearchToolAfterCheck from "../pages/Resources/KeywordResearchTool/KeywordResearchToolAfterCheck/KeywordResearchToolAfterCheck";
+const KeywordResearchToolAfterCheck = lazy(() => import("../pages/Resources/KeywordResearchTool/KeywordResearchToolAfterCheck/KeywordResearchToolAfterCheck"));
+
 // import RankingChecker from "../pages/Resources/RankingChecker/RankingChecker/RankingChecker";
 const RankingChecker = lazy(() => import("../pages/Resources/RankingChecker/RankingChecker/RankingChecker"));
 
@@ -209,11 +213,17 @@ export const router = createBrowserRouter([
             },
             {
                 path: "keywordResearchTool",
-                element: <KeywordResearchTool></KeywordResearchTool>
+                element: <Suspense fallback={
+                    <LazyLoaderDesign/>}>
+                    <KeywordResearchTool />
+                </Suspense>
             },
             {
                 path: "keywordResearchToolAfterChecking",
-                element: <KeywordResearchToolAfterCheck></KeywordResearchToolAfterCheck>
+                element: <Suspense fallback={
+                    <LazyLoaderDesign/>}>
+                    <KeywordResearchToolAfterCheck />
+                </Suspense>
             }
         ]
     },
