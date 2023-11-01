@@ -27,12 +27,10 @@ const Register = lazy(() => import("../pages/RegisterLogin/Register/Register"));
 
 import DashboardLayout from "../layout/DashboardLayout/DashboardLayout";
 import MyProjects from "../pages/Resources/MyProjects/MyProjects";
-import ResourcesHomePage from "../pages/Resources/ResourcesHomePage/ResourcesHomePage/ResourcesHomePage";
 import KeywordChecker from "../pages/Resources/KeywordChecker/KeywordChecker/KeywordChecker";
 import KeywordCheckerAfterCheck from "../pages/Resources/KeywordChecker/KeywordCheckerAfterCheck/KeywordCheckerAfterCheck";
 import BackLinkChecker from "../pages/Resources/BackLinkChecker/BackLinkChecker/BackLinkChecker";
 import BackLinkCheckerAfterCheck from "../pages/Resources/BackLinkChecker/BackLinkCheckerAfterCheck/BackLinkCheckerAfterCheck";
-import ResourcesHomePageAfterCheck from "../pages/Resources/ResourcesHomePage/ResourcesHomePageAfterCheck/ResourcesHomePageAfterCheck";
 import SnippetGenerator from "../pages/Resources/SnippetGenerator/SnippetGenerator/SnippetGenerator";
 import SnippetGeneratorAfterCheck from "../pages/Resources/SnippetGenerator/SnippetGeneratorAfterCheck/SnippetGeneratorAfterCheck";
 import KeywordResearchTool from "../pages/Resources/KeywordResearchTool/KeywordResearchTool/KeywordResearchTool";
@@ -75,10 +73,6 @@ export const router = createBrowserRouter([
                     <Careers />
                 </Suspense>
             },
-            // {
-            //     path:"/resources",
-            //     element:<Resources></Resources>
-            // },
             {
                 path: "/contact",
                 element: <Suspense fallback={
@@ -140,14 +134,6 @@ export const router = createBrowserRouter([
                 path: "keywordCheckerAfterChecking",
                 element: <KeywordCheckerAfterCheck></KeywordCheckerAfterCheck>
             },
-            // {
-            //     path: "homePage",
-            //     element: <ResourcesHomePage></ResourcesHomePage>
-            // },
-            // {
-            //     path: "homePageAfterChecking",
-            //     element: <ResourcesHomePageAfterCheck></ResourcesHomePageAfterCheck>
-            // },
             {
                 path: "rankingChecker",
                 element: <RankingChecker></RankingChecker>
