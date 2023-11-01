@@ -19,8 +19,12 @@ const ContactUs = lazy(() => import("../pages/ContactUs/ContactUs/ContactUs"));
 // import AboutUs from "../pages/AboutUs/AboutUs/AboutUs";
 const AboutUs = lazy(() => import("../pages/AboutUs/AboutUs/AboutUs"));
 
-import Login from "../pages/RegisterLogin/Login/Login";
-import Register from "../pages/RegisterLogin/Register/Register";
+// import Login from "../pages/RegisterLogin/Login/Login";
+const Login = lazy(() => import("../pages/RegisterLogin/Login/Login"));
+
+// import Register from "../pages/RegisterLogin/Register/Register";
+const Register = lazy(() => import("../pages/RegisterLogin/Register/Register"));
+
 import DashboardLayout from "../layout/DashboardLayout/DashboardLayout";
 import MyProjects from "../pages/Resources/MyProjects/MyProjects";
 import ResourcesHomePage from "../pages/Resources/ResourcesHomePage/ResourcesHomePage/ResourcesHomePage";
@@ -97,11 +101,23 @@ export const router = createBrowserRouter([
     },
     {
         path: "/login",
-        element: <Login></Login>
+        element: <Suspense fallback={
+            <div className="flex flex-col justify-center items-center my-20 gap-12">
+                <span className="loading loading-spinner w-52 text-[#007BFE]"></span>
+                <h3 className="text-3xl font-bold">Please wait ...</h3>
+            </div>}>
+            <Login />
+        </Suspense>
     },
     {
         path: "/signUp",
-        element: <Register></Register>
+        element: <Suspense fallback={
+            <div className="flex flex-col justify-center items-center my-20 gap-12">
+                <span className="loading loading-spinner w-52 text-[#007BFE]"></span>
+                <h3 className="text-3xl font-bold">Please wait ...</h3>
+            </div>}>
+            <Register />
+        </Suspense>
     },
 
 
