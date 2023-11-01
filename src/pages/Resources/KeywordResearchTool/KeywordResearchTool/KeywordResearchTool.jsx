@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 const KeywordResearchTool = () => {
     return (
@@ -14,24 +15,25 @@ const KeywordResearchTool = () => {
                         <label className="label">
                             <span className="label-text md:text-xl text-lg font-bold mb-3">Keyword Analysis</span>
                         </label>
-                        <input type="text" placeholder="Keyword" name='keyword' className="input input-bordered mb-7 md:w-96 w-80 md:h-14 h-12 px-8" required />
+                        <input type="text" placeholder="Keyword" name='keyword' className="input input-bordered mb-7 md:w-96 w-80 md:h-14 h-12 px-8" />
                     </div>
                     <div className="form-control">
                         <label className="label">
                             <span className="label-text md:text-xl text-lg font-bold mb-3">Analysis Type</span>
                         </label>
-                        <input type="text" placeholder="Related searches" name='keyword' className="input input-bordered mb-7 md:w-96 w-80 md:h-14 h-12 px-8" required />
+                        <input type="text" placeholder="Related searches" name='keyword' className="input input-bordered mb-7 md:w-96 w-80 md:h-14 h-12 px-8" />
                     </div>
                     <div className="form-control">
                         <label className="label">
                             <span className="label-text md:text-xl text-lg font-bold mb-3">Search engine</span>
                         </label>
-                        <input type="text" placeholder="Google.com" name='keyword' className="input input-bordered mb-7 md:w-96 w-80 md:h-14 h-12 px-8" required />
+                        <input type="text" placeholder="Google.com" name='keyword' className="input input-bordered mb-7 md:w-96 w-80 md:h-14 h-12 px-8" />
                     </div>
 
                     <div className="form-control mt-10">
-
-                        <input type="submit" className="text-white bg-[#007BFE] md:py-3 md:px-6 p-2 lg:w-48 w-44 rounded-xl font-semibold mx-auto" value='Keyword Research' />
+                        <Link to="/resources/keywordResearchToolAfterChecking">
+                            <input type="submit" className="text-white bg-[#007BFE] md:py-3 md:px-6 p-2 lg:w-48 w-44 rounded-xl font-semibold mx-auto" value='Keyword Research' />
+                        </Link>
                     </div>
                 </form>
             </div>
