@@ -37,6 +37,7 @@ import SnippetGenerator from "../pages/Resources/SnippetGenerator/SnippetGenerat
 import SnippetGeneratorAfterCheck from "../pages/Resources/SnippetGenerator/SnippetGeneratorAfterCheck/SnippetGeneratorAfterCheck";
 import KeywordResearchTool from "../pages/Resources/KeywordResearchTool/KeywordResearchTool/KeywordResearchTool";
 import KeywordResearchToolAfterCheck from "../pages/Resources/KeywordResearchTool/KeywordResearchToolAfterCheck/KeywordResearchToolAfterCheck";
+import RankingChecker from "../pages/Resources/RankingChecker/RankingChecker/RankingChecker";
 
 export const router = createBrowserRouter([
     {
@@ -127,14 +128,6 @@ export const router = createBrowserRouter([
         element: <DashboardLayout></DashboardLayout>,
         children: [
             {
-                path: "homePage",
-                element: <ResourcesHomePage></ResourcesHomePage>
-            },
-            {
-                path: "homePageAfterChecking",
-                element: <ResourcesHomePageAfterCheck></ResourcesHomePageAfterCheck>
-            },
-            {
                 path: "myProjects",
                 element: <MyProjects></MyProjects>
             },
@@ -145,6 +138,22 @@ export const router = createBrowserRouter([
             {
                 path: "keywordCheckerAfterChecking",
                 element: <KeywordCheckerAfterCheck></KeywordCheckerAfterCheck>
+            },
+            // {
+            //     path: "homePage",
+            //     element: <ResourcesHomePage></ResourcesHomePage>
+            // },
+            // {
+            //     path: "homePageAfterChecking",
+            //     element: <ResourcesHomePageAfterCheck></ResourcesHomePageAfterCheck>
+            // },
+            {
+                path: "rankingChecker",
+                element: <RankingChecker></RankingChecker>
+            },
+            {
+                path: "homePageAfterChecking",
+                element: <ResourcesHomePageAfterCheck></ResourcesHomePageAfterCheck>
             },
             {
                 path: "backLinkChecker",
