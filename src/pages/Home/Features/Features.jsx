@@ -11,7 +11,7 @@ const Features = () => {
                     <h3 className="text-white text-3xl font-bold md:pt-16 lg:pt-0">“See What’s Inside”</h3>
                 </div>
             </div>
-            <div className="grid md:grid-cols-2 grid-cols-1 lg:gap-12 gap-5 p-4 md:gap-8 lg:mx-28 md:mx-16 mx-8 lg:p-12 md:p-8 border-2 rounded-3xl absolute -mt-44 mb-96 bg-white ">
+            <div className="grid md:grid-cols-2 grid-cols-1 lg:gap-12 gap-5 p-4 md:gap-8  lg:p-12 md:p-8 border-2 rounded-3xl absolute -mt-44 mb-96 bg-white justify-center items-center lg:mx-28 md:mx-16 mx-8">
                 <div>
                     <img src="https://i.ibb.co/F6JGYmS/Frame-3.png" alt="" />
                 </div>
