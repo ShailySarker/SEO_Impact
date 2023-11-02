@@ -25,7 +25,7 @@ const KeywordResearchTool = () => {
                     </div>
                     <div className="form-control">
                         <label className="label">
-                            <span className="label-text md:text-xl text-lg font-bold mb-3">Search engine</span>
+                            <span className="label-text md:text-xl text-lg font-bold mb-3">Search Engine</span>
                         </label>
                         <input type="text" placeholder="Google.com" name='keyword' className="input input-bordered mb-7 md:w-96 w-80 md:h-14 h-12 px-8" />
                     </div>
