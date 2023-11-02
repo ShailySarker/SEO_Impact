@@ -12,6 +12,7 @@ const ContactUs = React.lazy(() => import("../pages/ContactUs/ContactUs/ContactU
 const AboutUs = React.lazy(() => import("../pages/AboutUs/AboutUs/AboutUs"));
 const Login = React.lazy(() => import("../pages/RegisterLogin/Login/Login"));
 const Register = React.lazy(() => import("../pages/RegisterLogin/Register/Register"));
+const NotFound = React.lazy(() => import("../pages/NotFound/NotFound"));
 
 import DashboardLayout from "../layout/DashboardLayout/DashboardLayout";
 const MyProjects = React.lazy(() => import("../pages/Resources/MyProjects/MyProjects"));
@@ -35,35 +36,35 @@ export const router = createBrowserRouter([
             {
                 path: "/",
                 element: <Suspense fallback={
-                    <LazyLoaderDesign/>}>
+                    <LazyLoaderDesign />}>
                     <Home />
                 </Suspense>
             },
             {
                 path: "/pricing",
                 element: <Suspense fallback={
-                    <LazyLoaderDesign/>}>
+                    <LazyLoaderDesign />}>
                     <Pricing />
                 </Suspense>
             },
             {
                 path: "/careers",
                 element: <Suspense fallback={
-                    <LazyLoaderDesign/>}>
+                    <LazyLoaderDesign />}>
                     <Careers />
                 </Suspense>
             },
             {
                 path: "/contact",
                 element: <Suspense fallback={
-                    <LazyLoaderDesign/>}>
+                    <LazyLoaderDesign />}>
                     <ContactUs />
                 </Suspense>
             },
             {
                 path: "/about",
                 element: <Suspense fallback={
-                    <LazyLoaderDesign/>}>
+                    <LazyLoaderDesign />}>
                     <AboutUs />
                 </Suspense>
             }
@@ -72,15 +73,24 @@ export const router = createBrowserRouter([
     {
         path: "/login",
         element: <Suspense fallback={
-            <LazyLoaderDesign/>}>
+            <LazyLoaderDesign />}>
             <Login />
         </Suspense>
     },
     {
         path: "/signUp",
         element: <Suspense fallback={
-            <LazyLoaderDesign/>}>
+            <LazyLoaderDesign />}>
             <Register />
+        </Suspense>
+    },
+
+    // NotFound
+    {
+        path: "/*",
+        element: <Suspense fallback={
+            <LazyLoaderDesign />}>
+            <NotFound />
         </Suspense>
     },
 
@@ -93,77 +103,77 @@ export const router = createBrowserRouter([
             {
                 path: "myProjects",
                 element: <Suspense fallback={
-                    <LazyLoaderDesign/>}>
+                    <LazyLoaderDesign />}>
                     <MyProjects />
-                </Suspense>            
+                </Suspense>
             },
             {
                 path: "keywordChecker",
                 element: <Suspense fallback={
-                    <LazyLoaderDesign/>}>
+                    <LazyLoaderDesign />}>
                     <KeywordChecker />
                 </Suspense>
             },
             {
                 path: "keywordCheckerAfterChecking",
                 element: <Suspense fallback={
-                    <LazyLoaderDesign/>}>
+                    <LazyLoaderDesign />}>
                     <KeywordCheckerAfterCheck />
                 </Suspense>
             },
             {
                 path: "rankingChecker",
                 element: <Suspense fallback={
-                    <LazyLoaderDesign/>}>
+                    <LazyLoaderDesign />}>
                     <RankingChecker />
                 </Suspense>
             },
             {
                 path: "rankingCheckerAfterChecking",
                 element: <Suspense fallback={
-                    <LazyLoaderDesign/>}>
+                    <LazyLoaderDesign />}>
                     <RankingCheckerAfterCheck />
                 </Suspense>
             },
             {
                 path: "backLinkChecker",
                 element: <Suspense fallback={
-                    <LazyLoaderDesign/>}>
+                    <LazyLoaderDesign />}>
                     <BackLinkChecker />
                 </Suspense>
             },
             {
                 path: "backLinkCheckerAfterChecking",
                 element: <Suspense fallback={
-                    <LazyLoaderDesign/>}>
+                    <LazyLoaderDesign />}>
                     <BackLinkCheckerAfterCheck />
                 </Suspense>
             },
             {
                 path: "snippetGenerator",
                 element: <Suspense fallback={
-                    <LazyLoaderDesign/>}>
+                    <LazyLoaderDesign />}>
                     <SnippetGenerator />
                 </Suspense>
             },
             {
                 path: "snippetGeneratorAfterChecking",
                 element: <Suspense fallback={
-                    <LazyLoaderDesign/>}>
+                    <LazyLoaderDesign />}>
                     <SnippetGeneratorAfterCheck />
                 </Suspense>
             },
             {
                 path: "keywordResearchTool",
                 element: <Suspense fallback={
-                    <LazyLoaderDesign/>}>
+                    <LazyLoaderDesign />}>
                     <KeywordResearchTool />
                 </Suspense>
             },
             {
                 path: "keywordResearchToolAfterChecking",
                 element: <Suspense fallback={
-                    <LazyLoaderDesign/>}>
+                    <LazyLoaderDesign />}>
                     <KeywordResearchToolAfterCheck />
                 </Suspense>
             }
