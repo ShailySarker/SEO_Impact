@@ -1,5 +1,6 @@
 import SignUpDesign from "../../../components/SignUpDesign/SignUpDesign";
 import CheckBox from "../../../components/CheckBox/CheckBox";
+import { Link } from "react-router-dom";
 
 const Register = () => {
 
@@ -12,9 +13,9 @@ const Register = () => {
                 <SignUpDesign></SignUpDesign>
             </div>
             <div className="">
-                <div className="lg:mx-auto flex relative lg:-top-[10px] md:-mt-[670px] -mt-[460px] ">
+                <div className="lg:mx-auto flex relative lg:-top-[12px] md:-mt-[670px] -mt-[460px] ">
                     <div className="">
-                        <h2 className="font-bold md:text-5xl text-3xl md:mb-20 mb-12">SignUp</h2>
+                        <h2 className="font-bold md:text-5xl text-3xl md:mb-16 mb-12">SignUp</h2>
                         <form>
                             <div className="form-control my-5">
                                 <input
@@ -70,6 +71,11 @@ const Register = () => {
                             />
 
                         </form>
+                        <div className="lg:text-center mt-10">
+                            <p className="lg:text-slate-400 text-black   ">
+                                Already have an account?  <Link to='/login' className="font-bold md:text-white lg:text-[#007BFE] text-slate-600"> Login</Link>
+                            </p>
+                        </div>
                     </div>
                     <div className="relative lg:bottom-16 md:bottom-28 -bottom-60 lg:right-2 md:right-20 right-24 ">
                         <img className="lg:w-auto w-24 lg:h-auto md:h-[720px] h-[300px] md:w-[280px] " src="https://i.ibb.co/zQc6j1B/Group-176.png" alt="" />
