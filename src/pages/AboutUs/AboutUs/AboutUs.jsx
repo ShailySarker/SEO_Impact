@@ -5,6 +5,7 @@ import ClientReviews from "../ClientReviews/ClientReviews";
 import OurFeatures from "../OurFeatures/OurFeatures";
 import OurGoals from "../OurGoals/OurGoals";
 import OurTeam from "../OurTeam/OurTeam";
+import SocialMediaReview from "../SocialMediaReview/SocialMediaReview";
 
 
 const AboutUs = () => {
@@ -16,6 +17,7 @@ const AboutUs = () => {
             <OurGoals></OurGoals>
             <Blogs></Blogs>
             <ClientReviews></ClientReviews>
+            <SocialMediaReview></SocialMediaReview>
         </div>
     );
 };
