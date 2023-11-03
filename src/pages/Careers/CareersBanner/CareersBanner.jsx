@@ -1,3 +1,6 @@
+import design from "../../../assets/images/Careers/CareersBanner/design.png";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+
 
 const CareersBanner = () => {
     return (
@@ -8,9 +11,18 @@ const CareersBanner = () => {
                 <h2 className="font-bold lg:text-5xl md:text-4xl text-3xl pb-7">Join Us</h2>
                 <p className="font font-semibold lg:text-2xl md:text-xl text-lg text-slate-500">Lorem ipsum dolor sit amet consectetur. Luctus in convallis odio eu egestas lectus.</p>
                 <button className="text-white bg-[#007BFE] md:py-3 md:px-6 p-2 w-36 md:w-40 rounded-xl font-semibold lg:mt-16 mt-12">More about us</button>
-
             </div>
-            <img className="relative lg:bottom-60 md:bottom-23 bottom-12" src="https://i.ibb.co/ss3MmK8/Vector-8.png" alt="" />
+
+            {/* normal */}
+            {/* <img className="relative lg:bottom-60 md:bottom-23 bottom-12" src={design} alt="design" /> */}
+
+            {/* with lazy load Image */}
+            <LazyLoadImage
+                className="relative lg:bottom-60 md:bottom-23 bottom-12"
+                src={design}
+                alt="design"
+            />
+
         </div>
     );
 };
