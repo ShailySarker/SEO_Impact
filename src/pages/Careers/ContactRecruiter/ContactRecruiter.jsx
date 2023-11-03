@@ -1,3 +1,5 @@
+import photo from "../../../assets/images/Careers/ContactRecruiter/photo.png";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const ContactRecruiter = () => {
     return (
@@ -8,7 +10,11 @@ const ContactRecruiter = () => {
             </div>
             <div className="grid md:grid-cols-2 grid-cols-1 lg:mx-44 lg:gap-20 md:gap-5 gap-16 md:mt-24 mt-20">
                 <div className="border-2 hover:border-[#007BFE] shadow-lg rounded-xl py-8 lg:px-6 px-5 flex flex-col">
-                    <img className="border-4 border-[#007BFE] rounded-full lg:p-5 p-4 lg:m-8 m-5" src="https://i.ibb.co/wR4F3cc/Ellipse-10.png" alt="" />
+                    <LazyLoadImage
+                        className="border-4 border-[#007BFE] rounded-full lg:p-5 p-4 lg:m-8 m-5"
+                        src={photo}
+                        alt="Recruiter Photo"
+                    />
                     <h3 className="font-bold pt-5 lg:text-4xl md:text-3xl text-2xl text-center">Merry Leo</h3>
                     <p className="pt-4 md:text-xl text-lg font-semibold text-center border-b-2 pb-6">Senior Recruiter, SEO Impact</p>
                     <p className="pt-6 md:text-xl text-lg font-medium text-slate-500">Email: merry@gmail.com</p>
@@ -16,7 +22,11 @@ const ContactRecruiter = () => {
                     <p className="pt-3 md:text-xl text-lg font-medium text-slate-500 pb-5">LinkedIn: merryLeolinkedIn.com</p>
                 </div>
                 <div className="border-2 hover:border-[#007BFE] shadow-lg rounded-xl py-8 lg:px-6 px-5 flex flex-col">
-                    <img className="border-4 border-[#007BFE] rounded-full lg:p-5 p-4 lg:m-8 m-5"  src="https://i.ibb.co/wR4F3cc/Ellipse-10.png" alt="" />
+                    <LazyLoadImage
+                        className="border-4 border-[#007BFE] rounded-full lg:p-5 p-4 lg:m-8 m-5"
+                        src={photo}
+                        alt="Recruiter Photo"
+                    />
                     <h3 className="font-bold pt-5 lg:text-4xl md:text-3xl text-2xl text-center">Rio Anna</h3>
                     <p className="pt-4 md:text-xl text-lg font-semibold text-center border-b-2 pb-6">Recruiter, SEO Impact</p>
                     <p className="pt-6 md:text-xl text-lg font-medium text-slate-500">Email: anna@gmail.com</p>
