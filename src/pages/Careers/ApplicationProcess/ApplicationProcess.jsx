@@ -11,7 +11,7 @@ const ApplicationProcess = () => {
                     <div>
                         <h2 className="md:text-3xl text-xl font-semibold text-[#007BFE]">Step_01:</h2>
                     </div>
-                    <div className="bg-[#EBF5FF] hover:bg-[#007BFE] hover:text-white rounded-xl flex justify-center items-center shadow-lg text-center border-2 border-[#007BFE] w-full">
+                    <div className="bg-[#EBF5FF] hover:bg-[#007BFE] hover:text-white rounded-xl flex justify-center items-center shadow-lg text-center border-2 border-[#007BFE] w-full transform transition-transform duration-700 ease-in-out">
                         <h3 className="md:text-3xl text-xl font-semibold p-5 ">Explore Our Job and Internship Lists</h3>
                     </div>
                 </div>
@@ -19,7 +19,7 @@ const ApplicationProcess = () => {
                     <div>
                         <h2 className="md:text-3xl text-xl font-semibold text-[#007BFE]">Step_02:</h2>
                     </div>
-                    <div className="bg-[#EBF5FF] hover:bg-[#007BFE] hover:text-white rounded-xl flex justify-center items-center shadow-lg text-center border-2 border-[#007BFE] w-full">
+                    <div className="bg-[#EBF5FF] hover:bg-[#007BFE] hover:text-white rounded-xl flex justify-center items-center shadow-lg text-center border-2 border-[#007BFE] w-full transform transition-transform duration-700 ease-in-out">
                         <h3 className="md:text-3xl text-xl font-semibold p-5 ">Read All Requirements Carefully</h3>
                     </div>
                 </div>
@@ -27,7 +27,7 @@ const ApplicationProcess = () => {
                     <div>
                         <h2 className="md:text-3xl text-xl font-semibold text-[#007BFE]">Step_03:</h2>
                     </div>
-                    <div className="bg-[#EBF5FF] hover:bg-[#007BFE] hover:text-white rounded-xl flex justify-center items-center shadow-lg text-center border-2 border-[#007BFE] w-full">
+                    <div className="bg-[#EBF5FF] hover:bg-[#007BFE] hover:text-white rounded-xl flex justify-center items-center shadow-lg text-center border-2 border-[#007BFE] w-full transform transition-transform duration-700 ease-in-out">
                         <h3 className="md:text-3xl text-xl font-semibold p-5 ">Choose Your Suitable Job/Internship</h3>
                     </div>
                 </div>
@@ -35,7 +35,7 @@ const ApplicationProcess = () => {
                     <div>
                         <h2 className="md:text-3xl text-xl font-semibold text-[#007BFE]">Step_04:</h2>
                     </div>
-                    <div className="bg-[#EBF5FF] hover:bg-[#007BFE] hover:text-white rounded-xl flex justify-center items-center shadow-lg text-center border-2 border-[#007BFE] w-full">
+                    <div className="bg-[#EBF5FF] hover:bg-[#007BFE] hover:text-white rounded-xl flex justify-center items-center shadow-lg text-center border-2 border-[#007BFE] w-full transform transition-transform duration-700 ease-in-out">
                         <h3 className="md:text-3xl text-xl font-semibold p-5 ">Complete the Applying Process</h3>
                     </div>
                 </div>
