@@ -1,4 +1,8 @@
 import FeatureSectionSearchBar from "../../../components/FeatureSectionSearchBar/FeatureSectionSearchBar";
+import feature1 from '../../../assets/images/Home/Features/feature1.png';
+import feature2 from '../../../assets/images/Home/Features/feature2.png';
+import feature3 from '../../../assets/images/Home/Features/feature3.png';
+import feature4 from '../../../assets/images/Home/Features/feature4.png';
 
 const Features = () => {
     return (
@@ -13,16 +17,16 @@ const Features = () => {
             </div>
             <div className="grid md:grid-cols-2 grid-cols-1 lg:gap-12 gap-5 p-4 md:gap-8  lg:p-12 md:p-8 border-2 rounded-3xl absolute -mt-44 mb-96 bg-white justify-center items-center lg:mx-28 md:mx-16 mx-8">
                 <div>
-                    <img src="https://i.ibb.co/F6JGYmS/Frame-3.png" alt="" />
+                    <img src={feature1} alt="feature1" />
                 </div>
                 <div>
-                    <img src="https://i.ibb.co/qdLDLvy/Frame-4.png" alt="" />
+                    <img src={feature2} alt="feature2" />
                 </div>
                 <div>
-                    <img src="https://i.ibb.co/XXZs8L4/Frame-3-1.png" alt="" />
+                    <img src={feature3} alt="feature3" />
                 </div>
                 <div>
-                    <img src="https://i.ibb.co/JBKL698/Frame-7.png" alt="" />
+                    <img src={feature4} alt="feature4" />
                 </div>
             </div>
         </div>
