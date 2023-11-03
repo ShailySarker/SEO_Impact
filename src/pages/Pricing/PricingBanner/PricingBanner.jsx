@@ -1,3 +1,6 @@
+import banner from "../../../assets/images/Pricing/PricingBanner/banner.png";
+import bg from "../../../assets/images/Pricing/PricingBanner/Ellipse.png";
+
 
 const PricingBanner = () => {
     return (
@@ -10,8 +13,8 @@ const PricingBanner = () => {
                     <p className="lg:pt-10 md:pt-8 pt-6 lg:text-4xl text-xl font-semibold text-slate-500 lg:pr-56 md:pr-24">Don’t wait just buy the plan and enjoy your success</p>
                 </div>
                 <div className="flex justify-end items-center">
-                    <img className="md:w-[600px] w-[400px] md:h-[500px] h-[300px] relative md:left-96 left-80" src="https://i.ibb.co/1MpKpby/Group-147.png" alt="" />
-                    <img className="md:w-[600px] w-[400px] md:h-[600px] h-[400px]" src="https://i.ibb.co/51nsq4L/Ellipse-42.png" alt="" />
+                    <img className="md:w-[600px] w-[400px] md:h-[500px] h-[300px] relative md:left-96 left-80" src={banner} alt="banner" />
+                    <img className="md:w-[600px] w-[400px] md:h-[600px] h-[400px]" src={bg} alt="background" />
                 </div>
             </div>
         </div>

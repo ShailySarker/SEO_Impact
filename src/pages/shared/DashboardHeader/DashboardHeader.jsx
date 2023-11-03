@@ -10,7 +10,7 @@ const DashboardHeader = () => {
                 <div className="navbar-start">
                     <div className="flex lg:flex-col flex-row 
                     justify-center items-center lg:ml-0">
-                        <img className="border-r-2 pr-28" src={logo} alt="logo" />
+                        <img className="border-r-2 pr-24" src={logo} alt="logo" />
                     </div>
                 </div>
                 <div className="navbar-center hidden lg:flex">
