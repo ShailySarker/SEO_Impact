@@ -1,4 +1,6 @@
 import NavMenu from "../NavMenu/NavMenu";
+import logo from '../../../assets/images/Shared/DashboardHeader/logo.png';
+import user from '../../../assets/images/Shared/DashboardHeader/user.png';
 
 const DashboardHeader = () => {
     return (
@@ -8,7 +10,7 @@ const DashboardHeader = () => {
                 <div className="navbar-start">
                     <div className="flex lg:flex-col flex-row 
                     justify-center items-center lg:ml-0">
-                        <img className="border-r-2 pr-28" src='https://i.ibb.co/LgjTcLv/Group-157.png' alt="" />
+                        <img className="border-r-2 pr-28" src={logo} alt="logo" />
                     </div>
                 </div>
                 <div className="navbar-center hidden lg:flex">
@@ -18,7 +20,7 @@ const DashboardHeader = () => {
                 </div>
                 <div className="navbar-end ">
                     <div className=" gap-4 items-center lg:flex lg:visible hidden">
-                        <img src="https://i.ibb.co/Qj1nvF2/Group-177.png" alt="" />
+                        <img src={user} alt="userPhoto" />
                         <h4 className="font-semibold text-lg">Sai Chittala</h4>
                     </div>
                     <div className="dropdown pl-8">
@@ -37,7 +39,7 @@ const DashboardHeader = () => {
                                     <NavMenu></NavMenu>
                                     <li>
                                         <div className="flex gap-4 items-center">
-                                            <img className="w-5" src="https://i.ibb.co/Qj1nvF2/Group-177.png" alt="" />
+                                            <img className="w-6" src={user} alt="userPhoto" />
                                             <h4 className="font-semibold">Sai Chittala</h4>
                                         </div>
                                     </li>
