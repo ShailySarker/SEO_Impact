@@ -1,4 +1,8 @@
 import PopularLogo from "../../../components/PopularLogo/PopularLogo";
+import logo from "../../../assets/images/Pricing/PopularPackages/logo.png";
+import Premium from "../../../assets/images/Pricing/PopularPackages/Premium.png";
+import Enterprise from "../../../assets/images/Pricing/PopularPackages/Enterprise.png";
+
 
 const PopularPackages = () => {
     return (
@@ -12,7 +16,7 @@ const PopularPackages = () => {
                     <PopularLogo></PopularLogo>
                     <div className="border-2 border-[#007BFE] p-5 shadow-lg rounded-3xl">
                         <div className="flex flex-col text-center">
-                            <img className="mx-auto pt-4" src="https://i.ibb.co/CW0J2Zg/Group-25-1.png" alt="" />
+                            <img className="mx-auto pt-4" src={Premium} alt="Premium" />
                             <h2 className="font-bold lg:text-5xl md:text-4xl text-3xl mt-5 mb-2 text-[#007BFE]">$850.00</h2>
                             <h4 className="text-[#DEDEDE] md:text-xl text-lg font-bold pb-10"><span className="line-through">1050.00</span> | 35% OFF</h4>
                         </div>
@@ -20,19 +24,19 @@ const PopularPackages = () => {
                             <h3 className="text-lg font-bold  text-[#007BFE] pt-3 pb-8">Top Features :</h3>
                             <div className="flex flex-col gap-3 mb-7">
                                 <div className="flex gap-5 items-center">
-                                    <img src="https://i.ibb.co/N9PZBhX/Group-27.png" alt="" />
+                                    <img src={logo} alt="logo" />
                                     <h3 className="text-lg">3 Project to optimize your website</h3>
                                 </div>
                                 <div className="flex gap-5 items-center">
-                                    <img src="https://i.ibb.co/N9PZBhX/Group-27.png" alt="" />
+                                    <img src={logo} alt="logo" />
                                     <h3 className="text-lg">Track 200 keywords</h3>
                                 </div>
                                 <div className="flex gap-5 items-center">
-                                    <img src="https://i.ibb.co/N9PZBhX/Group-27.png" alt="" />
+                                    <img src={logo} alt="logo" />
                                     <h3 className="text-lg">Analyze upto 2500 pages</h3>
                                 </div>
                                 <div className="flex gap-5 items-center">
-                                    <img src="https://i.ibb.co/N9PZBhX/Group-27.png" alt="" />
+                                    <img src={logo} alt="logo" />
                                     <h3 className="text-lg">Unlimited PDF Reports</h3>
                                 </div>
                             </div>
@@ -46,7 +50,7 @@ const PopularPackages = () => {
                     <PopularLogo></PopularLogo>
                     <div className="border-2 border-[#007BFE] p-5 shadow-lg rounded-3xl">
                         <div className="flex flex-col text-center">
-                            <img className="mx-auto pt-4" src="https://i.ibb.co/XtWq9sW/Group-25-2.png" alt="" />
+                            <img className="mx-auto pt-4" src={Enterprise} alt="Enterprise" />
                             <h2 className="font-bold lg:text-5xl md:text-4xl text-3xl mt-5 mb-2 text-[#007BFE]">$2050.00</h2>
                             <h4 className="text-[#DEDEDE] md:text-xl text-lg font-bold pb-10"><span className="line-through">$2550.00</span> | 35% OFF</h4>
                         </div>
@@ -54,19 +58,19 @@ const PopularPackages = () => {
                             <h3 className="text-lg font-bold  text-[#007BFE] pt-3 pb-8">Top Features :</h3>
                             <div className="flex flex-col gap-3 mb-7">
                                 <div className="flex gap-5 items-center">
-                                    <img src="https://i.ibb.co/N9PZBhX/Group-27.png" alt="" />
+                                    <img src={logo} alt="logo" />
                                     <h3 className="text-lg">5 Project to optimize your website</h3>
                                 </div>
                                 <div className="flex gap-5 items-center">
-                                    <img src="https://i.ibb.co/N9PZBhX/Group-27.png" alt="" />
+                                    <img src={logo} alt="logo" />
                                     <h3 className="text-lg">Track 5000 keywords</h3>
                                 </div>
                                 <div className="flex gap-5 items-center">
-                                    <img src="https://i.ibb.co/N9PZBhX/Group-27.png" alt="" />
+                                    <img src={logo} alt="logo" />
                                     <h3 className="text-lg">Analyze upto 2500 pages</h3>
                                 </div>
                                 <div className="flex gap-5 items-center">
-                                    <img src="https://i.ibb.co/N9PZBhX/Group-27.png" alt="" />
+                                    <img src={logo} alt="logo" />
                                     <h3 className="text-lg">Unlimited PDF Reports</h3>
                                 </div>
                             </div>
