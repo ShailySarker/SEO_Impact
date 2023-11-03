@@ -1,9 +1,10 @@
+import design from "../../../assets/images/Careers/InternshipOpportunities/design.png";
 
 const InternshipOpportunities = () => {
     return (
         <div>
             <div className=" lg:py-28 md:py-20 py-10">
-                <img src="https://i.ibb.co/d4WCd6z/Vector-10.png" alt="" />
+                <img src={design} alt="design" />
             </div>
             <div className=" md:my-32 my-24">
                 <h3 className="font-bold text-center lg:text-5xl md:text-4xl text-3xl text-[#007BFE] md:mb-24 mb-14">Internship Opportunities</h3>
