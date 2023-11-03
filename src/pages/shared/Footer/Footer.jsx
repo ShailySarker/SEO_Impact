@@ -1,35 +1,29 @@
 import { Link } from "react-router-dom";
+import logo from "../../../assets/images/Shared/Footer/logo.png";
+import logo1 from "../../../assets/images/Shared/Footer/teenyicons_facebook-solid.png";
+import logo2 from "../../../assets/images/Shared/Footer/mdi_twitter.png";
+import logo3 from "../../../assets/images/Shared/Footer/teenyicons_instagram-solid.png";
+import logo4 from "../../../assets/images/Shared/Footer/ri_threads-fill.png";
 
 const Footer = () => {
     return (
         <footer className="footer lg:p-10 p-6 border-t-2  text-base-content ">
             <nav className="flex md:border-r-2 justify-end items-center lg:pr-16 md:pr-12 pr-0 lg:py-24 md:py-8 py-6 ">
                 <aside className="flex flex-col items-center justify-center gap-6 pl-10 md:pl-0">
-
-                    <img className="lg:w-60 w-32" src="https://i.ibb.co/LgjTcLv/Group-157.png" alt="" />
+                    <img className="lg:w-60 w-32" src={logo} alt="logo" />
                     <div className="flex md:grid md:grid-cols-2 lg:grid-cols-4 gap-4 ">
-                        <Link><img src="https://i.ibb.co/Gc1rFqk/teenyicons-facebook-solid.png" className="lg:w-11 w-8 lg:h-11 bg-[#EBF5FF] md:p-2 p-1 rounded-full" alt="" /></Link>
-                        <Link><img src="https://i.ibb.co/Wg2bGcC/mdi-twitter.png" className="lg:w-11 w-8 lg:h-11 bg-[#EBF5FF] md:p-2 p-1 rounded-full" alt="" /></Link>
-                        <Link><img src="https://i.ibb.co/Y3jtCND/teenyicons-instagram-solid.png" className="lg:w-11 w-8 lg:h-11 bg-[#EBF5FF] md:p-2 p-1 rounded-full" alt="" /></Link>
-                        <Link><img src="https://i.ibb.co/yNrzH9F/ri-threads-fill.png" className="lg:w-11 w-8 lg:h-11 bg-[#EBF5FF] md:p-2 p-1 rounded-full" alt="" /></Link>
+                        <Link><img src={logo1} className="lg:w-11 w-8 lg:h-11 bg-[#EBF5FF] md:p-2 p-1 rounded-full" alt="logo1" /></Link>
+                        <Link><img src={logo2} className="lg:w-11 w-8 lg:h-11 bg-[#EBF5FF] md:p-2 p-1 rounded-full" alt="logo2" /></Link>
+                        <Link><img src={logo3} className="lg:w-11 w-8 lg:h-11 bg-[#EBF5FF] md:p-2 p-1 rounded-full" alt="logo3" /></Link>
+                        <Link><img src={logo4} className="lg:w-11 w-8 lg:h-11 bg-[#EBF5FF] md:p-2 p-1 rounded-full" alt="logo4" /></Link>
                     </div>
                 </aside>
-                
             </nav>
-
             <nav>
                 <header className="font-bold mb-2">SEO Impact</header>
                 <Link className="mb-2 font-semibold" to='/'>Home</Link>
                 <Link className="mb-2 font-semibold" to='/pricing'>Pricing</Link>
             </nav>
-            {/* <nav>
-                <header className="font-bold mb-2">Social Impact</header>
-                <Link className="mb-2 font-semibold" to='/socialImpact/whatIsNew'>What is New?</Link>
-                <Link className="mb-2 font-semibold" to='/socialImpact/blogs'>Blogs</Link>
-                <Link className="mb-2 font-semibold" to='/socialImpact/clientReview'>Client Review</Link>
-                <Link className="mb-2 font-semibold" to='/socialImpact/socialMediaReview'>Social Media Review</Link>
-                <Link className="mb-2 font-semibold" to='/socialImpact/FAQs'>FAQs</Link>
-            </nav> */}
             <nav>
                 <header className="font-bold mb-2">Resources</header>
                 <a className="link link-hover mb-2 font-semibold ">Keyword Checker</a>
