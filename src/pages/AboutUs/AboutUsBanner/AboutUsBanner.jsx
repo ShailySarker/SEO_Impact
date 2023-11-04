@@ -1,3 +1,9 @@
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
+
+import banner from '../../../assets/images/AboutUs/AboutUsBanner/banner.png';
+import design from '../../../assets/images/AboutUs/AboutUsBanner/Rectangle.png';
+
 
 const AboutUsBanner = () => {
     return (
@@ -8,14 +14,15 @@ const AboutUsBanner = () => {
                     <h2 className="font-bold lg:text-5xl md:text-4xl text-3xl pb-10">SEO Impact</h2>
                     <h4 className="lg:text-2xl md:text-xl text-lg font-semibold text-slate-400 md:pb-20 pb-16 lg:pr-28">Gorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</h4>
                     <button className="text-white bg-[#007BFE] md:py-3 md:px-6 p-2 w-28 md:w-36 rounded-xl font-semibold">Learn More</button>
-
                 </div>
                 <div className="md:px-12 lg:px-0">
-                    <img src="https://i.ibb.co/YNmfjxB/pana.png" alt="" />
+                    <LazyLoadImage
+                        src={banner}
+                        alt="banner" effect="blur" />
                 </div>
             </div>
-            <div className=" lg:py-32 md:py-20 py-10">
-                <img src="https://i.ibb.co/d4WCd6z/Vector-10.png" alt="" />
+            <div className=" lg:pt-32 md:pt-20 pt-10 lg:pb-12 md:pb-10 pb-9">
+                <img src={design} alt="design" />
             </div>
         </div>
     );

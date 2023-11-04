@@ -16,7 +16,6 @@ const ContactUs = () => {
                         className="w-auto lg:h-[440px]"
                         src={banner}
                         alt="banner" effect="blur" />
-
                 </div>
                 <div className="lg:ml-44 lg:mr-24 md:mx-10">
                     <form>
