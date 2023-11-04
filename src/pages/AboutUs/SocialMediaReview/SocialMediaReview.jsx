@@ -1,11 +1,12 @@
-import facebook from '../../../assets/images/AboutUs/SocialMediaReview/2048px-2021_Facebook_icon.png';
-import instagram from "../../../assets/images/AboutUs/SocialMediaReview/instagram-icon-logo-symbol-free-png.png";
-import linkedIn from "../../../assets/images/AboutUs/SocialMediaReview/2048px-LinkedIn_icon.png";
+import facebook from '../../../assets/images/AboutUs/SocialMediaReview/Facebook_icon.png';
+import instagram from "../../../assets/images/AboutUs/SocialMediaReview/instagram-icon.png";
+import linkedIn from "../../../assets/images/AboutUs/SocialMediaReview/LinkedIn_icon.png";
 import youTube from "../../../assets/images/AboutUs/SocialMediaReview/youtube.png";
-import twitter from "../../../assets/images/AboutUs/SocialMediaReview/free-twitter-logo-icon-2429-thumb.png";
-import whatsapp from "../../../assets/images/AboutUs/SocialMediaReview/whatsapp-icon-logo-6E793ACECD-seeklogo.png";
-import messenger from "../../../assets/images/AboutUs/SocialMediaReview/2048px-Facebook_Messenger_logo_2020.png";
-import threads from "../../../assets/images/AboutUs/SocialMediaReview/Threads_(app).png";
+import twitter from "../../../assets/images/AboutUs/SocialMediaReview/twitter-logo.png";
+import whatsapp from "../../../assets/images/AboutUs/SocialMediaReview/whatsapp-icon.png";
+import messenger from "../../../assets/images/AboutUs/SocialMediaReview/Messenger_logo.png";
+import threads from "../../../assets/images/AboutUs/SocialMediaReview/Threads.png";
+
 
 const SocialMediaReview = () => {
     return (
