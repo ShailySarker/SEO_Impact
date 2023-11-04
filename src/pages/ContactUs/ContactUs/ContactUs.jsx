@@ -1,5 +1,10 @@
 import FeedbackUs from "../FeedbackUs/FeedbackUs";
 import SocialMedia from "../SocialMedia/SocialMedia";
+import banner from "../../../assets/images/ContactUs/ContactUs/banner.png";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import 'react-lazy-load-image-component/src/effects/blur.css';
+
+
 
 const ContactUs = () => {
     return (
@@ -7,7 +12,11 @@ const ContactUs = () => {
             <h2 className="font-bold lg:text-5xl md:text-4xl text-3xl text-center lg:mb-36 md:mb-28 mb-20">Contact Us</h2>
             <div className="grid lg:grid-cols-2 grid-cols-1 items-center lg:mx-0 md:mx-36 mx-6 lg:mb-40 mb-20 lg:gap-0 md:gap-28 gap-16">
                 <div>
-                    <img className="w-auto lg:h-[440px]"  src="https://i.ibb.co/1QVyPwJ/Rectangle-135.png" alt="" />
+                    <LazyLoadImage
+                        className="w-auto lg:h-[440px]"
+                        src={banner}
+                        alt="banner" effect="blur" />
+
                 </div>
                 <div className="lg:ml-44 lg:mr-24 md:mx-10">
                     <form>
