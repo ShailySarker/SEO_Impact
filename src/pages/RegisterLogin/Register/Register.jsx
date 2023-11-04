@@ -2,13 +2,17 @@ import SignUpDesign from "../../../components/SignUpDesign/SignUpDesign";
 import CheckBox from "../../../components/CheckBox/CheckBox";
 import { Link } from "react-router-dom";
 
+import logo from "../../../assets/images/LoginSignUp/SignUp/logo.png";
+import design from "../../../assets/images/LoginSignUp/SignUp/Design.png";
+
+
 const Register = () => {
 
         return (
         <div className="lg:mt-12 md:mt-20 mt-12 lg:ml-36 md:ml-16 ml-6">
             <div className="flex justify-between">
                 <div>
-                    <img src="https://i.ibb.co/LgjTcLv/Group-157.png" alt="" />
+                    <img src={logo} alt="logo" />
                 </div>
                 <SignUpDesign></SignUpDesign>
             </div>
@@ -78,7 +82,7 @@ const Register = () => {
                         </div>
                     </div>
                     <div className="relative lg:bottom-16 md:bottom-28 -bottom-60 lg:right-2 md:right-20 right-24 ">
-                        <img className="lg:w-auto w-24 lg:h-auto md:h-[720px] h-[300px] md:w-[280px] " src="https://i.ibb.co/zQc6j1B/Group-176.png" alt="" />
+                        <img className="lg:w-auto w-24 lg:h-auto md:h-[720px] h-[300px] md:w-[280px] md:block hidden " src={design} alt="design" />
                     </div>
                 </div>
             </div>
