@@ -1,19 +1,24 @@
+import feature1 from "../../../assets/images/AboutUs/OurFeatures/feature1.png";
+import feature2 from "../../../assets/images/AboutUs/OurFeatures/feature2.png";
+import feature3 from "../../../assets/images/AboutUs/OurFeatures/feature3.png";
+import feature4 from "../../../assets/images/AboutUs/OurFeatures/feature4.png";
+
 
 const OurFeatures = () => {
     return (
         <div>
             <div className="grid md:grid-cols-2 gap-12 lg:mx-44 mx-16 md:mt-0 mt-16 lg:p-12 md:p-8 mb-12 md:mb-20">
                 <div>
-                    <img src="https://i.ibb.co/F6JGYmS/Frame-3.png" alt="" />
+                    <img src={feature1} alt="feature1" />
                 </div>
                 <div>
-                    <img src="https://i.ibb.co/qdLDLvy/Frame-4.png" alt="" />
+                    <img src={feature2} alt="feature2" />
                 </div>
                 <div>
-                    <img src="https://i.ibb.co/XXZs8L4/Frame-3-1.png" alt="" />
+                    <img src={feature3} alt="feature3" />
                 </div>
                 <div>
-                    <img src="https://i.ibb.co/JBKL698/Frame-7.png" alt="" />
+                    <img src={feature4} alt="feature4" />
                 </div>
             </div>
         </div>
