@@ -1,4 +1,6 @@
 import SearchBar from "../../../components/SearchBar/SearchBar";
+import photo from "../../../assets/images/Resources/MyProjects/Rectangle.png";
+
 
 const MyProjects = () => {
     return (
@@ -16,7 +18,7 @@ const MyProjects = () => {
                             </div>
                         </div>
                         <div className="my-10 flex lg:gap-5 md:gap-24 gap-12 items-center md:flex-row flex-col ">
-                            <img src="https://i.ibb.co/rHPmJ1Y/Rectangle-147.png" alt="" />
+                            <img src={photo} alt="Window Image" />
                             <div className="flex flex-col gap-2 pr-2">
                                 <p className="font-medium text-sm">Name : Network Development</p>
                                 <p className="font-medium text-sm">Domain : cbb.coastalbroadband.in</p>
