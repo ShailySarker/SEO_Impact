@@ -1,10 +1,12 @@
+import design from "../../../../assets/images/Resources/KeywordChecker/KeywordCheckerAfterCheck/SEOImprovements/mdi_auto-fix.png";
+
 
 const SEOImprovements = () => {
     return (
         <div className="mt-24 lg:mr-44 mb-36">
             <div className="flex gap-16 items-center">
                 <h2 className="font-semibold lg:text-5xl md:text-4xl text-3xl ">SEO Improvements</h2>
-                <img src="https://i.ibb.co/1LLMK23/mdi-auto-fix.png" alt="" />
+                <img src={design} alt="design" />
 
             </div>
             <div>

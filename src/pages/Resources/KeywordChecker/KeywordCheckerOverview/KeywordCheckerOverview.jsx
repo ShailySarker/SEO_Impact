@@ -1,11 +1,13 @@
 import CheckRound from "../../../../components/CheckRound/CheckRound";
+import desktop from "../../../../assets/images/Resources/KeywordChecker/KeywordCheckerAfterCheck/KeywordCheckerOverview/Desktop_Window.png";
+
 
 const KeywordCheckerOverview = () => {
     return (
         <div className="mt-32">
             <h2 className="font-semibold lg:text-5xl md:text-4xl text-3xl">Overview of Keyword Check</h2>
             <div className="mt-24">
-                <img className="mx-auto w-4/5" src="https://i.ibb.co/S5hv5z5/Rectangle-173.png" alt="" />
+                <img className="mx-auto w-4/5" src={desktop} alt="desktop" />
                 <div className="mt-20 lg:mx-44 md:mx-10">
                     <div className="grid grid-cols-2 items-center">
                         <h3 className="md:text-2xl text-lg font-semibold">Meta Attributes</h3>

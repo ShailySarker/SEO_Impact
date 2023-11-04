@@ -16,7 +16,6 @@ const LoginDesign = () => {
                     className="md:w-64 w-32 md:h-[600px] h-[500px]" src={photo} alt="Banner Image"
                     effect="blur"
                 />
-                {/* <img className="md:w-64 w-32 md:h-[600px] h-[500px] " src={photo} alt="photo" /> */}
             </div>
         </div>
     );
