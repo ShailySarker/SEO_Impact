@@ -6,6 +6,8 @@ import SampleNextArrow from "../../../components/SampleNextArrow/SampleNextArrow
 import SamplePrevArrow from "../../../components/SamplePrevArrow/SamplePrevArrow";
 import './ClientReviews.css';
 
+import client from "../../../assets/images/AboutUs/ClientReviews/Client.png";
+
 
 const ClientReviews = () => {
     const settings = {
@@ -45,7 +47,7 @@ const ClientReviews = () => {
                 <Slider {...settings}>
                     <div className="lg:h-[510px] md:h-[480px] h-[500px] border-2 rounded-xl">
                         <div className="bg-[#007BFE] rounded-t-xl p-5">
-                            <img className="w-44 h-44 mx-auto" src="https://i.ibb.co/wR4F3cc/Ellipse-10.png" alt="" />
+                            <img className="w-44 h-44 mx-auto" src={client} alt="client photo" />
                         </div>
                         <div className="p-5 flex flex-col justify-center items-center gap-6">
                             <h3 className="lg:text-3xl md:text-2xl text-xl font-semibold text-center">Lily Rio</h3>
@@ -55,7 +57,7 @@ const ClientReviews = () => {
                     </div>
                     <div className="lg:h-[510px] md:h-[480px] h-[500px] border-2 rounded-xl">
                         <div className="bg-[#007BFE] rounded-t-xl p-5">
-                            <img className="w-44 h-44 mx-auto " src="https://i.ibb.co/wR4F3cc/Ellipse-10.png" alt="" />
+                            <img className="w-44 h-44 mx-auto " src={client} alt="client photo" />
                         </div>
                         <div className="p-5 flex flex-col justify-center items-center gap-6">
                             <h3 className="lg:text-3xl md:text-2xl text-xl font-semibold text-center">Lira Rio</h3>
@@ -65,7 +67,7 @@ const ClientReviews = () => {
                     </div>
                     <div className="lg:h-[510px] md:h-[480px] h-[500px] border-2 rounded-xl">
                         <div className="bg-[#007BFE] rounded-t-xl p-5">
-                            <img className="w-44 h-44 mx-auto" src="https://i.ibb.co/wR4F3cc/Ellipse-10.png" alt="" />
+                            <img className="w-44 h-44 mx-auto" src={client} alt="client photo" />
                         </div>
                         <div className="p-5 flex flex-col justify-center items-center gap-6">
                             <h3 className="lg:text-3xl md:text-2xl text-xl font-semibold text-center">Lini Rio</h3>
@@ -75,7 +77,7 @@ const ClientReviews = () => {
                     </div>
                     <div className="lg:h-[510px] md:h-[480px] h-[500px] border-2 rounded-xl">
                         <div className="bg-[#007BFE] rounded-t-xl p-5">
-                            <img className="w-44 h-44 mx-auto" src="https://i.ibb.co/wR4F3cc/Ellipse-10.png" alt="" />
+                            <img className="w-44 h-44 mx-auto" src={client} alt="client photo" />
                         </div>
                         <div className="p-5 flex flex-col justify-center items-center gap-6">
                             <h3 className="lg:text-3xl md:text-2xl text-xl font-semibold text-center">Lina Rio</h3>
@@ -85,7 +87,7 @@ const ClientReviews = () => {
                     </div>
                     <div className="lg:h-[510px] md:h-[480px] h-[500px] border-2 rounded-xl">
                         <div className="bg-[#007BFE] rounded-t-xl p-5">
-                            <img className="w-44 h-44 mx-auto" src="https://i.ibb.co/wR4F3cc/Ellipse-10.png" alt="" />
+                            <img className="w-44 h-44 mx-auto" src={client} alt="client photo" />
                         </div>
                         <div className="p-5 flex flex-col justify-center items-center gap-6">
                             <h3 className="lg:text-3xl md:text-2xl text-xl font-semibold text-center">Luba Rio</h3>
@@ -95,7 +97,7 @@ const ClientReviews = () => {
                     </div>
                     <div className="lg:h-[510px] md:h-[480px] h-[500px] border-2 rounded-xl">
                         <div className="bg-[#007BFE] rounded-t-xl p-5">
-                            <img className="w-44 h-44 mx-auto" src="https://i.ibb.co/wR4F3cc/Ellipse-10.png" alt="" />
+                            <img className="w-44 h-44 mx-auto" src={client} alt="client photo" />
                         </div>
                         <div className="p-5 flex flex-col justify-center items-center gap-6">
                             <h3 className="lg:text-3xl md:text-2xl text-xl font-semibold text-center">Lucky Rio</h3>
@@ -105,7 +107,7 @@ const ClientReviews = () => {
                     </div>
                     <div className="lg:h-[510px] md:h-[480px] h-[500px] border-2 rounded-xl">
                         <div className="bg-[#007BFE] rounded-t-xl p-5">
-                            <img className="w-44 h-44 mx-auto" src="https://i.ibb.co/wR4F3cc/Ellipse-10.png" alt="" />
+                            <img className="w-44 h-44 mx-auto" src={client} alt="client photo" />
                         </div>
                         <div className="p-5 flex flex-col justify-center items-center gap-6">
                             <h3 className="lg:text-3xl md:text-2xl text-xl font-semibold text-center">Luny Rio</h3>
@@ -115,7 +117,7 @@ const ClientReviews = () => {
                     </div>
                     <div className="lg:h-[510px] md:h-[480px] h-[500px] border-2 rounded-xl">
                         <div className="bg-[#007BFE] rounded-t-xl p-5">
-                            <img className="w-44 h-44 mx-auto" src="https://i.ibb.co/wR4F3cc/Ellipse-10.png" alt="" />
+                            <img className="w-44 h-44 mx-auto" src={client} alt="client photo" />
                         </div>
                         <div className="p-5 flex flex-col justify-center items-center gap-6">
                             <h3 className="lg:text-3xl md:text-2xl text-xl font-semibold text-center">Luna Leo</h3>
