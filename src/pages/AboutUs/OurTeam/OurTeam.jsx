@@ -3,12 +3,13 @@ import 'swiper/css';
 import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
-
 import { EffectCoverflow, Pagination, Navigation } from 'swiper/modules';
+
+import { FaArrowAltCircleLeft, FaArrowAltCircleRight } from "react-icons/fa";
 
 import './OurTeam.css';
 
-import { FaArrowAltCircleLeft,  FaArrowAltCircleRight} from "react-icons/fa";
+import TeamMember from "../../../assets/images/AboutUs/OurTeam/team_member.png";
 
 
 const OurTeam = () => {
@@ -43,60 +44,58 @@ const OurTeam = () => {
                     >
                         <SwiperSlide>
                             <div className='border-4 p-5 bg-[#EBF5FF] border-[#007BFE] rounded-2xl'>
-                                <img className='' src="https://i.ibb.co/wR4F3cc/Ellipse-10.png" alt="slide_image" />
+                                <img className='rounded-full' src={TeamMember} alt="Team Member Photo" />
                                 <h3 className="font-bold pt-12 md:text-3xl text-2xl text-center">Lucy William</h3>
                                 <p className="pt-8 md:text-xl text-lg font-semibold text-center pb-8">Software Analyst, SEO Impact</p>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className='border-4 p-5 bg-[#EBF5FF] border-[#007BFE] rounded-2xl'>
-                                <img className='' src="https://i.ibb.co/wR4F3cc/Ellipse-10.png" alt="slide_image" />
+                                <img className='rounded-full' src={TeamMember} alt="Team Member Photo" />
                                 <h3 className="font-bold pt-12 md:text-3xl text-2xl text-center">Lucy William</h3>
                                 <p className="pt-8 md:text-xl text-lg font-semibold text-center pb-8">Software Analyst, SEO Impact</p>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className='border-4 p-5 bg-[#EBF5FF] border-[#007BFE] rounded-2xl'>
-                                <img className='' src="https://i.ibb.co/wR4F3cc/Ellipse-10.png" alt="slide_image" />
+                                <img className='rounded-full' src={TeamMember} alt="Team Member Photo" />
                                 <h3 className="font-bold pt-12 md:text-3xl text-2xl text-center">Lucy William</h3>
                                 <p className="pt-8 md:text-xl text-lg font-semibold text-center pb-8">Software Analyst, SEO Impact</p>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className='border-4 p-5 bg-[#EBF5FF] border-[#007BFE] rounded-2xl'>
-                                <img className='' src="https://i.ibb.co/wR4F3cc/Ellipse-10.png" alt="slide_image" />
+                                <img className='rounded-full' src={TeamMember} alt="Team Member Photo" />
                                 <h3 className="font-bold pt-12 md:text-3xl text-2xl text-center">Lucy William</h3>
                                 <p className="pt-8 md:text-xl text-lg font-semibold text-center pb-8">Software Analyst, SEO Impact</p>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className='border-4 p-5 bg-[#EBF5FF] border-[#007BFE] rounded-2xl'>
-                                <img className='' src="https://i.ibb.co/wR4F3cc/Ellipse-10.png" alt="slide_image" />
+                                <img className='rounded-full' src={TeamMember} alt="Team Member Photo" />
                                 <h3 className="font-bold pt-12 md:text-3xl text-2xl text-center">Lucy William</h3>
                                 <p className="pt-8 md:text-xl text-lg font-semibold text-center pb-8">Software Analyst, SEO Impact</p>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className='border-4 p-5 bg-[#EBF5FF] border-[#007BFE] rounded-2xl'>
-                                <img className='' src="https://i.ibb.co/wR4F3cc/Ellipse-10.png" alt="slide_image" />
+                                <img className='rounded-full' src={TeamMember} alt="Team Member Photo" />
                                 <h3 className="font-bold pt-12 md:text-3xl text-2xl text-center">Lucy William</h3>
                                 <p className="pt-8 md:text-xl text-lg font-semibold text-center pb-8">Software Analyst, SEO Impact</p>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className='border-4 p-5 bg-[#EBF5FF] border-[#007BFE] rounded-2xl'>
-                                <img className='' src="https://i.ibb.co/wR4F3cc/Ellipse-10.png" alt="slide_image" />
+                                <img className='rounded-full' src={TeamMember} alt="Team Member Photo" />
                                 <h3 className="font-bold pt-12 md:text-3xl text-2xl text-center">Lucy William</h3>
                                 <p className="pt-8 md:text-xl text-lg font-semibold text-center pb-8">Software Analyst, SEO Impact</p>
                             </div>
                         </SwiperSlide>
                         <div className="slider-controller">
                             <div className="swiper-button-prev slider-arrow">
-                                {/* <ion-icon name="arrow-back-outline"></ion-icon> */}
                                 <FaArrowAltCircleLeft></FaArrowAltCircleLeft>
                             </div>
                             <div className="swiper-button-next slider-arrow">
-                                {/* <ion-icon name="arrow-forward-outline"></ion-icon> */}
                                 <FaArrowAltCircleRight></FaArrowAltCircleRight>
                             </div>
                             <div className="swiper-pagination"></div>
