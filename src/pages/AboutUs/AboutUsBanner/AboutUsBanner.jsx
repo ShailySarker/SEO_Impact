@@ -18,7 +18,8 @@ const AboutUsBanner = () => {
                 <div className="md:px-12 lg:px-0">
                     <LazyLoadImage
                         src={banner}
-                        alt="banner" effect="blur" />
+                        alt="banner" effect="blur"
+                    />
                 </div>
             </div>
             <div className=" lg:pt-32 md:pt-20 pt-10 lg:pb-12 md:pb-10 pb-9">
