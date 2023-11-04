@@ -1,3 +1,6 @@
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
+
 import photo1 from '../../../assets/images/Home/Banner/Introducing.png';
 import photo2 from '../../../assets/images/Home/Banner/carbon_arrow-up.png';
 import photo3 from '../../../assets/images/Home/Banner/BannerPhoto.png';
@@ -22,7 +25,11 @@ const Banner = () => {
                 </div>
             </div>
             <div>
-                <img className="lg:w-auto md:w-3/4 md:ml-32 lg:ml-0 md:p-0 p-6" src={photo3} alt="Banner Image" />
+                <LazyLoadImage
+                    className="lg:w-auto md:w-3/4 md:ml-32 lg:ml-0 md:p-0 p-6" src={photo3} alt="Banner Image"
+                    effect="blur"
+                />
+                {/* <img className="lg:w-auto md:w-3/4 md:ml-32 lg:ml-0 md:p-0 p-6" src={photo3} alt="Banner Image" /> */}
             </div>
         </div>
     );
