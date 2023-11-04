@@ -1,12 +1,14 @@
 import { Link } from "react-router-dom";
 import LoginDesign from "../../../components/LoginDesign/LoginDesign";
+import logo from '../../../assets/images/LoginSignUp/Login/logo.png';
+
 
 const Login = () => {
     return (
         <div className="lg:mt-12 md:mt-20 mt-12 lg:ml-36 md:ml-16 ml-6 ">
             <div className="flex justify-between">
                 <div>
-                    <img src="https://i.ibb.co/LgjTcLv/Group-157.png" alt="" />
+                    <img src={logo} alt="logo" />
                 </div>
                 <LoginDesign></LoginDesign>
             </div>
@@ -34,7 +36,7 @@ const Login = () => {
                             </div>
 
                             <div className="text-right font-bold">
-                                <Link className="lg:text-[#007BFE] text-slate-600">Forget your password?</Link>
+                                <Link className="lg:text-[#007BFE] text-black">Forget your password?</Link>
                             </div>
 
                             <input
@@ -47,7 +49,7 @@ const Login = () => {
 
                         <div className="lg:text-center mt-10">
                             <p className="lg:text-slate-400 text-black   ">
-                                Don’t have an account?  <Link to='/signUp' className="font-bold md:text-white lg:text-[#007BFE] text-slate-600"> SignUp</Link>
+                                Don’t have an account?  <Link to='/signUp' className="font-bold lg:text-[#007BFE] "> SignUp</Link>
                             </p>
                         </div>
                     </div>
