@@ -1,5 +1,8 @@
 import { NavLink, Outlet } from "react-router-dom";
 import DashboardHeader from "../../pages/shared/DashboardHeader/DashboardHeader";
+import homeIcon from '../../assets/images/Layout/DashboardLayout/fluent_home-12-filled.png';
+import toolsIcon from '../../assets/images/Layout/DashboardLayout/codicon_tools.png';
+
 
 const DashboardLayout = () => {
     return (
@@ -25,38 +28,38 @@ const DashboardLayout = () => {
                             <li className="font-semibold text-lg mt-5 mb-4 ">
                                 <NavLink className={({ isActive }) => isActive ? "flex flex-row items-center lg:p-4 md:p-3 p-2 lg:gap-4 md:gap-3 gap-2 border-2 rounded-xl text-[#007BFE] bg-[#EBF5FF]" : "flex flex-row items-center lg:p-4 md:p-3 p-2 lg:gap-4 md:gap-3 gap-2 border-2 rounded-xl text-slate-400"}
                                     to='myProjects'>
-                                    <img src="https://i.ibb.co/WWZRP9v/fluent-home-12-filled.png" alt="" />
+                                    <img src={homeIcon} alt="Home Icon" />
                                     <p>My Projects</p>
                                 </NavLink>
                             </li>
                             <li className="font-semibold text-lg mb-4">
                                 <NavLink className={({ isActive }) => isActive ? "flex flex-row items-center lg:p-4 md:p-3 p-2 lg:gap-4 md:gap-3 gap-2 border-2 rounded-xl text-[#007BFE] bg-[#EBF5FF]" : "flex flex-row items-center lg:p-4 md:p-3 p-2 lg:gap-4 md:gap-3 gap-2 border-2 rounded-xl text-slate-400"}
                                     to='keywordChecker'>
-                                    <img src="https://i.ibb.co/6DSpcCK/codicon-tools.png" alt="" />
+                                    <img src={toolsIcon} alt="toolsIcon" />
                                     <p>Keyword Checker</p>
                                 </NavLink>
                             </li>
                             <li className="font-semibold text-lg mb-4">
                                 <NavLink className={({ isActive }) => isActive ? "flex flex-row items-center lg:p-4 md:p-3 p-2 lg:gap-4 md:gap-3 gap-2 border-2 rounded-xl text-[#007BFE] bg-[#EBF5FF]" : "flex flex-row items-center lg:p-4 md:p-3 p-2 lg:gap-4 md:gap-3 gap-2 border-2 rounded-xl text-slate-400"}
-                                    to='rankingChecker'><img src="https://i.ibb.co/6DSpcCK/codicon-tools.png" alt="" />
+                                    to='rankingChecker'><img src={toolsIcon} alt="" />
                                     <p>Ranking Checker</p>
                                 </NavLink>
                             </li>
                             <li className="font-semibold text-lg mb-4">
                                 <NavLink className={({ isActive }) => isActive ? "flex flex-row items-center lg:p-4 md:p-3 p-2 lg:gap-4 md:gap-3 gap-2 border-2 rounded-xl text-[#007BFE] bg-[#EBF5FF]" : "flex flex-row items-center lg:p-4 md:p-3 p-2 lg:gap-4 md:gap-3 gap-2 border-2 rounded-xl text-slate-400"}
-                                    to='backLinkChecker'><img src="https://i.ibb.co/6DSpcCK/codicon-tools.png" alt="" />
+                                    to='backLinkChecker'><img src={toolsIcon} alt="" />
                                     <p>Backlink Checker</p>
                                 </NavLink>
                             </li>
                             <li className="font-semibold text-lg mb-4">
                                 <NavLink className={({ isActive }) => isActive ? "flex flex-row items-center lg:p-4 md:p-3 p-2 lg:gap-4 md:gap-3 gap-2 border-2 rounded-xl text-[#007BFE] bg-[#EBF5FF]" : "flex flex-row items-center lg:p-4 md:p-3 p-2 lg:gap-4 md:gap-3 gap-2 border-2 rounded-xl text-slate-400"}
-                                    to='snippetGenerator'><img src="https://i.ibb.co/6DSpcCK/codicon-tools.png" alt="" />
+                                    to='snippetGenerator'><img src={toolsIcon} alt="" />
                                     <p>Snippet Generator</p>
                                 </NavLink>
                             </li>
                             <li className="font-semibold text-lg mb-4">
                                 <NavLink className={({ isActive }) => isActive ? "flex flex-row items-center lg:p-4 md:p-3 p-2 lg:gap-4 md:gap-3 gap-2 border-2 rounded-xl text-[#007BFE] bg-[#EBF5FF]" : "flex flex-row items-center lg:p-4 md:p-3 p-2 lg:gap-4 md:gap-3 gap-2 border-2 rounded-xl text-slate-400"}
-                                    to='keywordResearchTool'><img src="https://i.ibb.co/6DSpcCK/codicon-tools.png" alt="" />
+                                    to='keywordResearchTool'><img src={toolsIcon} alt="" />
                                     <p>Keyword Research Tool</p>
                                 </NavLink>
                             </li>
