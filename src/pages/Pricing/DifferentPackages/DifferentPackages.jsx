@@ -8,16 +8,16 @@ const DifferentPackages = () => {
     return (
         <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 lg:gap-10 gap-20 lg:mx-16 md:mx-12 mx-6 mb-24 lg:pt-10">
             <div className="pb-6">
-                <div className="border-2 p-5 rounded-3xl">
+                <div className="border-2 py-5 px-7 rounded-3xl">
                     <div className="flex flex-col text-center border-b-2">
-                        <img className="mx-auto pt-4" src={Basic} alt="Basic" />
+                        <img className="mx-auto pt-2 w-[175px]" src={Basic} alt="Basic" />
                         <h2 className="font-bold lg:text-5xl md:text-4xl text-3xl mt-5 mb-2 text-[#007BFE]">$350.00</h2>
-                        <h4 className="text-[#DEDEDE] md:text-xl text-lg font-bold pb-10"><span className="line-through">$450.00</span> | 35% OFF</h4>
+                        <h4 className="text-[#DEDEDE] md:text-xl text-lg font-bold pb-8"><span className="line-through">$450.00</span> | 35% OFF</h4>
                     </div>
                     <div>
                         <h3 className="text-lg font-bold mt-6">More data and insignts for growing business</h3>
                         <h3 className="text-lg font-bold  text-[#007BFE] pt-3 pb-8">Top Features :</h3>
-                        <div className="flex flex-col gap-3 mb-7">
+                        <div className="flex flex-col gap-3 mb-3">
                             <div className="flex gap-5 items-center">
                                 <img src={logo} alt="logo" />
                                 <h3 className="text-lg">1 Project to optimize your website</h3>
@@ -43,16 +43,16 @@ const DifferentPackages = () => {
                 </div>
             </div>
             <div className="pb-6">
-                <div className="border-2 p-5 rounded-3xl">
+                <div className="border-2 py-5 px-7 rounded-3xl">
                     <div className="flex flex-col text-center border-b-2">
-                        <img className="mx-auto pt-4" src={Premium} alt="Premium" />
+                        <img className="mx-auto pt-2 w-[175px]" src={Premium} alt="Premium" />
                         <h2 className="font-bold lg:text-5xl md:text-4xl text-3xl mt-5 mb-2 text-[#007BFE]">$850.00</h2>
-                        <h4 className="text-[#DEDEDE] md:text-xl text-lg font-bold pb-10"><span className="line-through">$1050.00</span> | 35% OFF</h4>
+                        <h4 className="text-[#DEDEDE] md:text-xl text-lg font-bold pb-8"><span className="line-through">$1050.00</span> | 35% OFF</h4>
                     </div>
                     <div>
                         <h3 className="text-lg font-bold mt-6">More data and insignts for growing business</h3>
                         <h3 className="text-lg font-bold  text-[#007BFE] pt-3 pb-8">Top Features :</h3>
-                        <div className="flex flex-col gap-3 mb-7">
+                        <div className="flex flex-col gap-3 mb-3">
                             <div className="flex gap-5 items-center">
                                 <img src={logo} alt="logo" />
                                 <h3 className="text-lg">3 Project to optimize your website</h3>
@@ -78,16 +78,16 @@ const DifferentPackages = () => {
                 </div>
             </div>
             <div className="pb-6">
-                <div className="border-2 p-5 rounded-3xl">
+                <div className="border-2 py-5 px-7 rounded-3xl">
                     <div className="flex flex-col text-center border-b-2">
-                        <img className="mx-auto pt-4" src={Enterprise} alt="Enterprise" />
+                        <img className="mx-auto pt-2 w-[175px]" src={Enterprise} alt="Enterprise" />
                         <h2 className="font-bold lg:text-5xl md:text-4xl text-3xl mt-5 mb-2 text-[#007BFE]">$2050.00</h2>
-                        <h4 className="text-[#DEDEDE] md:text-xl text-lg font-bold pb-10"><span className="line-through">$2550.00</span> | 35% OFF</h4>
+                        <h4 className="text-[#DEDEDE] md:text-xl text-lg font-bold pb-8"><span className="line-through">$2550.00</span> | 35% OFF</h4>
                     </div>
                     <div>
                         <h3 className="text-lg font-bold mt-6">More data and insights for growing business</h3>
                         <h3 className="text-lg font-bold  text-[#007BFE] pt-3 pb-8">Top Features :</h3>
-                        <div className="flex flex-col gap-3 mb-7">
+                        <div className="flex flex-col gap-3 mb-3">
                             <div className="flex gap-5 items-center">
                                 <img src={logo} alt="logo" />
                                 <h3 className="text-lg">5 Project to optimize your website</h3>

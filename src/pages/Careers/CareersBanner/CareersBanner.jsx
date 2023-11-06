@@ -18,7 +18,7 @@ const CareersBanner = () => {
 
             {/* with lazy load Image */}
             <LazyLoadImage
-                className="relative lg:bottom-60 md:bottom-23 bottom-12"
+                className="relative lg:bottom-60 md:bottom-32 bottom-12"
                 src={design}
                 alt="design"
             />

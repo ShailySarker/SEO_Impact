@@ -1,7 +1,7 @@
 
 const BackLinkResultDescription = () => {
     return (
-        <div className="my-28 border-2 lg:mr-44 md:mr-16 py-16 px-10 rounded-xl">
+        <div className="my-36 border-2 lg:mx-auto md:mx-12 mx-6 md:py-16 py-10 px-5 md:px-10 rounded-xl lg:w-[832px]">
             <div className="grid md:grid-cols-2 grid-cols-1 md:gap-0 gap-3">
                 <h4 className="lg:text-3xl text-center md:text-start md:text-2xl text-xl font-semibold text-slate-500" >Domain : </h4>
                 <h4 className="lg:text-3xl text-center md:text-start md:text-2xl text-xl font-semibold text-[#379FFF]">https://sms.tcndigital.in</h4>

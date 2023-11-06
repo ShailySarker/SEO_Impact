@@ -8,10 +8,10 @@ const ContactRecruiter = () => {
                 <h3 className="text-center font-bold lg:text-5xl md:text-4xl text-3xl md:mb-16 mb-10">Contact Our <span className="text-[#007BFE]">Recruiters</span></h3>
                 <p className="lg:text-2xl md:text-xl text-lg text-[#757575] font-semibold lg:mx-36 text-center ">Lorem ipsum dolor sit amet consectetur. Quis eget vivamus neque velit enim id urna pharetra vel. Sapien ut natoque facilisi tortor viverra eget.</p>
             </div>
-            <div className="grid md:grid-cols-2 grid-cols-1 lg:mx-44 lg:gap-20 md:gap-5 gap-16 md:mt-24 mt-20">
-                <div className="border-2 hover:border-[#007BFE] shadow-lg rounded-xl py-8 lg:px-6 px-5 flex flex-col">
+            <div className="grid md:grid-cols-2 grid-cols-1 lg:mx-52 lg:gap-24 md:gap-5 gap-16 md:mt-24 mt-20">
+                <div className="border-2 hover:border-[#007BFE] shadow-lg rounded-xl py-4 lg:px-10 px-5 flex flex-col">
                     <LazyLoadImage
-                        className="border-4 border-[#007BFE] rounded-full lg:p-5 p-4 lg:m-8 m-5"
+                        className="border-4 border-[#007BFE] rounded-full lg:p-3 p-4 mx-auto mt-5 w-56 h-56"
                         src={photo}
                         alt="Recruiter Photo"
                     />
@@ -21,9 +21,9 @@ const ContactRecruiter = () => {
                     <p className="pt-3 md:text-xl text-lg font-medium text-slate-500">Mobile: +9999999999</p>
                     <p className="pt-3 md:text-xl text-lg font-medium text-slate-500 pb-5">LinkedIn: merryLeolinkedIn.com</p>
                 </div>
-                <div className="border-2 hover:border-[#007BFE] shadow-lg rounded-xl py-8 lg:px-6 px-5 flex flex-col">
+                <div className="border-2 hover:border-[#007BFE] shadow-lg rounded-xl py-4 lg:px-10 px-5 flex flex-col">
                     <LazyLoadImage
-                        className="border-4 border-[#007BFE] rounded-full lg:p-5 p-4 lg:m-8 m-5"
+                        className="border-4 border-[#007BFE] rounded-full lg:p-3 p-4 mx-auto mt-5 w-56 h-56"
                         src={photo}
                         alt="Recruiter Photo"
                     />

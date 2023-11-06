@@ -5,7 +5,7 @@ import photo3 from "../../../assets/images/Careers/DifferentCareers/photo3.png";
 import user from "../../../assets/images/Careers/DifferentCareers/Group.png";
 const DifferentCareers = () => {
     return (
-        <div className="lg:mx-24 md:mx-12 mx-7 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-12 relative lg:bottom-[800px] md:bottom-[480px] bottom-[230px] lg:-mb-[650px] md:-mb-[380px] -mb-[160px]">
+        <div className="lg:mx-24 md:mx-12 mx-7 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-12 relative lg:bottom-[930px] md:bottom-[510px] bottom-[230px] lg:-mb-[750px] md:-mb-[390px] -mb-[160px]">
             <div className="border-2 md:p-8 p-6 rounded-lg shadow-xl bg-white">
                 <div className="border-b-2 pb-9">
                     <img className="mx-auto w-48 h-36" src={photo1} alt="photo1" />

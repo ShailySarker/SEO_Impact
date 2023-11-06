@@ -8,7 +8,7 @@ const Mobile = () => {
         <div className="mt-28">
             <h2 className="font-bold lg:text-5xl md:text-3xl text-3xl mb-12">Mobile</h2>
             <div className="lg:mr-11">
-                <img className="flex w-full" src={banner} alt="banner" />
+                <img className="flex w-full md:h-[550px]" src={banner} alt="banner" />
                 <div className="flex justify-between items-center mt-12 flex-col lg:flex-row gap-5">
                     <div className="flex items-center gap-12">
                         <div>
