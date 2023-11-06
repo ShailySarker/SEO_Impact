@@ -4,6 +4,8 @@ import SearchBarRound from '../../../../components/SearchBarRound/SearchBarRound
 import ProgressBarCyan from '../../../../components/ProgressBarCyan/ProgressBarCyan';
 import ProgressBarPurple from '../../../../components/ProgressBarPurple/ProgressBarPurple';
 import ProgressBarAmber from '../../../../components/ProgressBarAmber/ProgressBarAmber';
+import mackbook from '../../../../assets/images/Resources/RankingChecker/RankingCheckerAfterCheck/RankingCheckerResultingOverview/Macbook.png';
+
 
 const RankingCheckerResultingOverview = () => {
     return (
@@ -20,7 +22,7 @@ const RankingCheckerResultingOverview = () => {
             </div>
             <div className="border-2 py-12 lg:px-16 md:px-0  rounded-xl">
                 <div>
-                    <img className="mx-auto md:w-auto w-60" src="https://i.ibb.co/cCxhYYh/Macbook.png" alt="" />
+                    <img className="mx-auto md:w-auto w-60" src={mackbook} alt="mackbook" />
                     <h4 className="text-center mt-16 mb-5 font-semibold md:text-2xl text-lg">https://cbb.coastalbroadband.in</h4>
                     <h5 className="md:text-xl font-semibold text-center text-slate-500 border-b-2 pb-11">August 25 16:00:34</h5>
                 </div>
