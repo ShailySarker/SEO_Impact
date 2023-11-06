@@ -1,29 +1,32 @@
+import world from '../../../../assets/images/Resources/BackLinkChecker/BackLinkCheckerAfterCheck/BackLinkResultOverview/mdi_world.png';
+import linkUp from '../../../../assets/images/Resources/BackLinkChecker/BackLinkCheckerAfterCheck/BackLinkResultOverview/solar_link-bold.png';
+
 
 const BackLinkResultOverview = () => {
     return (
         <div className="mt-28 md:mx-0 mx-12">
             <div className="flex md:flex-row flex-col gap-10">
-                <div className="bg-[#379FFF1A] px-3 py-6 rounded-xl lg:w-[250px] md:w-52 lg:h-40 md:h-44">
+                <div className="bg-[#379FFF1A] px-3 py-6 rounded-xl lg:w-[250px] md:w-52 lg:h-40 md:h-44 flex justify-center flex-col items-center">
                     <div className="flex gap-6 items-center ">
-                        <img src="https://i.ibb.co/ZLDGZ6q/mdi-world.png" alt="" />
+                        <img src={world} alt="world icon" />
                         <h3 className=" lg:text-2xl md:text-xl text-lg font-semibold">Domain Rating</h3>
                     </div>
                     <div>
                         <h2 className="lg:text-4xl md:text-3xl text-2xl font-bold text-center pt-8">5</h2>
                     </div>
                 </div>
-                <div className="bg-[#379FFF1A] px-3 py-6 rounded-xl lg:w-[250px] md:w-52 lg:h-40 md:h-44">
+                <div className="bg-[#379FFF1A] px-3 py-6 rounded-xl lg:w-[250px] md:w-52 lg:h-40 md:h-44 flex justify-center flex-col items-center">
                     <div className="flex gap-6 items-center ">
-                        <img src="https://i.ibb.co/ZLDGZ6q/mdi-world.png" alt="" />
+                        <img src={world} alt="world icon" />
                         <h3 className=" lg:text-2xl md:text-xl text-lg font-semibold">Domains</h3>
                     </div>
                     <div>
                         <h2 className="lg:text-4xl md:text-3xl text-2xl font-bold text-center pt-8">1</h2>
                     </div>
                 </div>
-                <div className="bg-[#379FFF1A] px-3 py-6 rounded-xl lg:w-[250px] md:w-52 lg:h-40 md:h-44">
+                <div className="bg-[#379FFF1A] px-3 py-6 rounded-xl lg:w-[250px] md:w-52 lg:h-40 md:h-44 flex justify-center flex-col items-center">
                     <div className="flex gap-6 items-center ">
-                        <img src="https://i.ibb.co/x8k7prj/solar-link-bold.png" alt="" />
+                        <img src={linkUp} alt="link icon" />
                         <h3 className=" lg:text-2xl md:text-xl text-lg font-semibold">Backlinks</h3>
                     </div>
                     <div>
