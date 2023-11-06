@@ -1,9 +1,12 @@
+import bg from '../../assets/images/Resources/RankingChecker/RankingCheckerAfterCheck/Performance/StarBlue.png';
+import right from '../../assets/images/Resources/RankingChecker/RankingCheckerAfterCheck/Performance/Right.png';
+
 
 const StarRight = () => {
     return (
         <div>
-            <img src="https://i.ibb.co/Jm1Xv3S/Star-2.png" alt="" />
-            <img className="relative bottom-[50px] -right-5 -mb-[46px]" src="https://i.ibb.co/7VXD7Nk/Vector-4-2.png" alt="" />
+            <img src={bg} alt="bg" />
+            <img className="relative bottom-[50px] -right-5 -mb-[46px]" src={right} alt="right bar" />
         </div>
     );
 };

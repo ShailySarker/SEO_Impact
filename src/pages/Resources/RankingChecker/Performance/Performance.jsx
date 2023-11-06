@@ -3,18 +3,23 @@ import PassedBox from "../../../../components/PassedBox/PassedBox";
 import StarClose from "../../../../components/StarClose/StarClose";
 import StarRight from "../../../../components/StarRight/StarRight";
 import "./Performance.css";
+import banner from '../../../../assets/images/Resources/RankingChecker/RankingCheckerAfterCheck/Performance/banner.png';
+import cloud from '../../../../assets/images/Resources/RankingChecker/RankingCheckerAfterCheck/Performance/cloud.png';
+import folder from '../../../../assets/images/Resources/RankingChecker/RankingCheckerAfterCheck/Performance/folder.png';
+import wrong from '../../../../assets/images/Resources/RankingChecker/RankingCheckerAfterCheck/Performance/wrong.png';
+
 
 const Performance = () => {
     return (
         <div className="mt-28">
             <h2 className="font-bold lg:text-5xl md:text-4xl text-3xl mb-12">Performance</h2>
             <div className="lg:mr-11">
-                <img className="flex w-full" src="https://i.ibb.co/qyR4pWM/Frame-75.png" alt="" />
+                <img className="flex w-full" src={banner} alt="banner" />
                 <div className="flex justify-between items-center mt-12 flex-col lg:flex-row gap-5">
                     <div className="flex items-center gap-10">
                         <div>
                             <p className="w-14 h-14 bg-[#F84B4C] rounded-full"></p>
-                            <img className="relative -mb-3 bottom-[38px] -right-[17px]" src="https://i.ibb.co/xXrVh1t/Vector-6.png" alt="" />
+                            <img className="relative -mb-3 bottom-[38px] -right-[17px]" src={wrong} alt="wrong" />
                         </div>
                         <h3 className="font-semibold md:text-3xl text-2xl">Performance</h3>
 
@@ -47,7 +52,7 @@ const Performance = () => {
 
                         </div>
                         <span className="">
-                            <img className="w-16 relative bottom-28 -mb-28" src="https://i.ibb.co/g6HWKHT/Group-48.png" alt="" />
+                            <img className="w-16 relative bottom-28 -mb-28" src={folder} alt="folder" />
                         </span>
                     </div>
                     <div className="relative bottom-6 -mb-8">
@@ -73,7 +78,7 @@ const Performance = () => {
 
                         </div>
                         <span className="">
-                            <img className="w-16 relative bottom-28 -mb-28" src="https://i.ibb.co/tmThNDC/material-symbols-cloud.png" alt="" />
+                            <img className="w-16 relative bottom-28 -mb-28" src={cloud} alt="cloud" />
                         </span>
                     </div>
                     <div className="relative bottom-6 -mb-8">
