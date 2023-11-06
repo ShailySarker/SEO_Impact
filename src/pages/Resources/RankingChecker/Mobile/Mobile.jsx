@@ -17,7 +17,7 @@ const Mobile = () => {
                     <div className="">
                         <div>
                             <progress
-                                className="flex items-center progress custom3-progress h-8 md:w-96 w-72"
+                                className="flex items-center progress custom3-progress h-8 lg:w-[550px] md:w-96 w-72"
                                 value="100"
                                 max="100"
                             ></progress>

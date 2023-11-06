@@ -2,18 +2,21 @@ import FailBox from "../../../../components/FailBox/FailBox";
 import PassedBox from "../../../../components/PassedBox/PassedBox";
 import StarClose from "../../../../components/StarClose/StarClose";
 import StarRight from "../../../../components/StarRight/StarRight";
+import banner from '../../../../assets/images/Resources/RankingChecker/RankingCheckerAfterCheck/SEOPart/banner.png';
+import search from '../../../../assets/images/Resources/RankingChecker/RankingCheckerAfterCheck/SEOPart/search.png';
+
 
 const SEOPart = () => {
     return (
         <div className="mt-28">
             <h2 className="font-bold lg:text-5xl md:text-4xl text-3xl mb-12">SEO</h2>
             <div className="lg:mr-11">
-                <img className="flex w-full" src="https://i.ibb.co/xfXp2gK/Frame-76.png" alt="" />
+                <img className="flex w-full" src={banner} alt="banner" />
                 <div className="flex justify-between items-center mt-12 flex-col lg:flex-row gap-5">
                     <div className="flex items-center gap-10">
                         <div>
                             <p className="w-14 h-14 bg-[#03BDA5] rounded-full"></p>
-                            <img className="relative -mb-3 bottom-[37px] -right-[19px]" src="https://i.ibb.co/g67MCgj/Vector-5.png" alt="" />
+                            <img className="relative -mb-3 bottom-[37px] -right-[19px]" src={search} alt="search bar" />
                         </div>
                         <h3 className="font-semibold md:text-3xl text-2xl">SEO</h3>
 
@@ -21,7 +24,7 @@ const SEOPart = () => {
                     <div className="">
                         <div>
                             <progress
-                                className="flex items-center progress custom2-progress h-8 md:w-96 w-72"
+                                className="flex items-center progress custom2-progress h-8 lg:w-[550px] md:w-96 w-72"
                                 value="80"
                                 max="100"
                             ></progress>

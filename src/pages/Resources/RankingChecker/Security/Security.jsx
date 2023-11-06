@@ -20,7 +20,7 @@ const Security = () => {
                     <div className="">
                         <div>
                             <progress
-                                className="flex items-center progress custom4-progress h-8 md:w-96 w-72"
+                                className="flex items-center progress custom4-progress h-8 lg:w-[550px] md:w-96 w-72"
                                 value="35"
                                 max="100"
                             ></progress>
