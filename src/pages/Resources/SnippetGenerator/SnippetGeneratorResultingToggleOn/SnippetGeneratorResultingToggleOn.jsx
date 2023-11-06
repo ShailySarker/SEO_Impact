@@ -1,13 +1,16 @@
 import "./SnippetGeneratorResultingToggleOn.css";
+import googleLogo from '../../../../assets/images/Resources/SnippetGenerator/SnippetGeneratorAfterCheck/SnippetGeneratorResultingToggleOn/devicon_google.png';
+import infoLogo from '../../../../assets/images/Resources/SnippetGenerator/SnippetGeneratorAfterCheck/SnippetGeneratorResultingToggleOn/material-symbols_info.png';
+
 
 const SnippetGeneratorResultingToggleOn = () => {
     return (
         <div>
             <div className="border-2 shadow-xl md:py-12 py-10 md:px-14 px-5 font-medium w-full rounded-2xl flex flex-col md:gap-12 gap-10">
                 <div className="flex md:gap-12 gap-4 items-center">
-                    <img src="https://i.ibb.co/RgqB4GQ/devicon-google.png" alt="" />
+                    <img src={googleLogo} alt="google Logo" />
                     <h4 className="g:text-2xl md:text-xl text-lg font-semibold text-[#999999]">www.google.co.in</h4>
-                    <img src="https://i.ibb.co/gFSc5PL/material-symbols-info.png" alt="" />
+                    <img src={infoLogo} alt="info Logo" />
                 </div>
                 <div className="flex flex-col md:gap-12 gap-10">
                     <h3 className="text-[#180EA4] font-bold lg:text-4xl md:text-3xl text-2xl">Google</h3>
