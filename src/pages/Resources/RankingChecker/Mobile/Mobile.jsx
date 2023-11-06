@@ -1,12 +1,14 @@
 import PassedBox from '../../../../components/PassedBox/PassedBox';
 import StarRight from '../../../../components/StarRight/StarRight';
+import banner from '../../../../assets/images/Resources/RankingChecker/RankingCheckerAfterCheck/Mobile/banner.png';
+
 
 const Mobile = () => {
     return (
         <div className="mt-28">
             <h2 className="font-bold lg:text-5xl md:text-3xl text-3xl mb-12">Mobile</h2>
             <div className="lg:mr-11">
-                <img className="flex w-full" src="https://i.ibb.co/KGmcDQB/Frame-77.png" alt="" />
+                <img className="flex w-full" src={banner} alt="banner" />
                 <div className="flex justify-between items-center mt-12 flex-col lg:flex-row gap-5">
                     <div className="flex items-center gap-12">
                         <div>
