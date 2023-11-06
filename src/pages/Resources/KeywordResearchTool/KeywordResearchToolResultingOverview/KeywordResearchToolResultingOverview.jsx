@@ -1,8 +1,9 @@
-import photo1 from '../../../../assets/images/KeywordResearchTool/pepicons-pop_down-up.png';
-import photo2 from '../../../../assets/images/KeywordResearchTool/solar_download-bold-duotone.png';
 import BigScreenTable from '../BigScreenTable/BigScreenTable';
 import SmallScreenTable from '../SmallScreenTable/SmallScreenTable';
 import "./KeywordResearchToolResultingOverview.css";
+import photo1 from '../../../../assets/images/Resources/KeywordResearchTool/KeywordResearchToolAfterCheck/KeywordResearchToolResultingOverview/pepicons-pop_down-up.png';
+import photo2 from '../../../../assets/images/Resources/KeywordResearchTool/KeywordResearchToolAfterCheck/KeywordResearchToolResultingOverview/solar_download-bold-duotone.png';
+
 
 const KeywordResearchToolResultingOverview = () => {
     return (
