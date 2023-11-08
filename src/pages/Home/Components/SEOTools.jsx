@@ -1,6 +1,6 @@
-import clockImage from '../../../assets/images/Home/SEOTools/material-symbols_alarm.png';
-import uploadImage from '../../../assets/images/Home/SEOTools/streamline_interface-upload-desktop-action-actions-computer-desktop-device-display-monitor-screen-upload.png';
-import laptopImage from '../../../assets/images/Home/SEOTools/ion_laptop-sharp.png';
+import clockImage from '../../../assets/images/Home/SEOTools_material-symbols_alarm.png';
+import uploadImage from '../../../assets/images/Home/SEOTools_streamline_interface-upload.png';
+import laptopImage from '../../../assets/images/Home/SEOTools_ion_laptop-sharp.png';
 
 
 const SEOTools = () => {

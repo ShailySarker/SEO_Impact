@@ -1,5 +1,5 @@
-import bgImage from '../../../assets/images/Home/ClientReview/bgImage.png';
-import reviewer from '../../../assets/images/Home/ClientReview/reviewer.png';
+import bgImage from '../../../assets/images/Home/ClientReview_bgImage.png';
+import reviewer from '../../../assets/images/Home/ClientReview_reviewer.png';
 
 
 const ClientReview = () => {

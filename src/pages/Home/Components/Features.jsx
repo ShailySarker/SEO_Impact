@@ -1,8 +1,8 @@
 import FeatureSectionSearchBar from "../../../components/FeatureSectionSearchBar/FeatureSectionSearchBar";
-import feature1 from '../../../assets/images/Home/Features/feature1.png';
-import feature2 from '../../../assets/images/Home/Features/feature2.png';
-import feature3 from '../../../assets/images/Home/Features/feature3.png';
-import feature4 from '../../../assets/images/Home/Features/feature4.png';
+import feature1 from '../../../assets/images/Home/Features_feature1.png';
+import feature2 from '../../../assets/images/Home/Features_feature2.png';
+import feature3 from '../../../assets/images/Home/Features_feature3.png';
+import feature4 from '../../../assets/images/Home/Features_feature4.png';
 
 const Features = () => {
     return (

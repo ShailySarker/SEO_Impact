@@ -1,4 +1,4 @@
-import heart from '../../assets/images/Home/CompanyOverview/heart.png';
+import heart from '../../assets/images/Home/CompanyOverview_heart.png';
 
 const CircleHeart = () => {
     return (
