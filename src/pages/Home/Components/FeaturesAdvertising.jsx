@@ -10,6 +10,10 @@ const data = [
         title: "Get Best Deal !!"
     },
     {
+        id: 3,
+        title: "Get Best Deal !!"
+    },
+    {
         id: 4,
         title: "Get Best Deal !!"
     },
