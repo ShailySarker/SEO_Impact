@@ -5,7 +5,7 @@ import LazyLoaderDesign from "../components/LazyLoaderDesign/LazyLoaderDesign";
 
 import MainLayout from "../layout/MainLayout/MainLayout";
 
-const Home = React.lazy(() => import("../pages/Home/Home/Home"))
+const Home = React.lazy(() => import("../pages/Home/Home"))
 const Pricing = React.lazy(() => import("../pages/Pricing/Pricing/Pricing"));
 const Careers = React.lazy(() => import("../pages/Careers/Careers/Careers"));
 const ContactUs = React.lazy(() => import("../pages/ContactUs/ContactUs/ContactUs"));
