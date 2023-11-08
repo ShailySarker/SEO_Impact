@@ -1,33 +1,60 @@
-import Banner from "./Components/Banner";
-import ClientReview from "./Components/ClientReview";
-import Features from "./Components/Features";
-import CompanyOverview from "./Components/CompanyOverview";
-import MarketInsights from "./Components/MarketInsights";
-import SEOImpact from "./Components/SEOImpact";
-import SEOTools from "./Components/SEOTools";
-import TrustedCompanies from "./Components/TrustedCompanies";
-import FeaturesAdvertising from "./Components/FeaturesAdvertising";
-import WhatIsNew from "./Components/WhatIsNew";
-import FAQs from "./Components/FAQs";
-import WhyChooseUs from "./Components/WhyChooseUs";
-import Purpose from "./Components/Purpose";
+import React, { Suspense } from "react";
+const Banner = React.lazy(() => import("./Components/Banner"));
+const FeaturesAdvertising = React.lazy(() => import("./Components/FeaturesAdvertising"));
+const Features = React.lazy(() => import("./Components/Features"));
+const ClientReview = React.lazy(() => import("./Components/ClientReview"));
+const TrustedCompanies = React.lazy(() => import("./Components/TrustedCompanies"));
+const CompanyOverview = React.lazy(() => import("./Components/CompanyOverview"));
+const SEOTools = React.lazy(() => import("./Components/SEOTools"));
+const MarketInsights = React.lazy(() => import("./Components/MarketInsights"));
+const WhatIsNew = React.lazy(() => import("./Components/WhatIsNew"));
+const Purpose = React.lazy(() => import("./Components/Purpose"));
+const WhyChooseUs = React.lazy(() => import("./Components/WhyChooseUs"));
+const FAQs = React.lazy(() => import("./Components/FAQs"));
+const SEOImpact = React.lazy(() => import("./Components/SEOImpact"));
 
 const Home = () => {
     return (
         <div className="">
-            <Banner></Banner>
-            <FeaturesAdvertising></FeaturesAdvertising>
-            <Features></Features>
-            <ClientReview></ClientReview>
-            <TrustedCompanies></TrustedCompanies>
-            <CompanyOverview></CompanyOverview>
-            <SEOTools></SEOTools>
-            <MarketInsights></MarketInsights>
-            <WhatIsNew></WhatIsNew>
-            <Purpose></Purpose>
-            <WhyChooseUs></WhyChooseUs>
-            <FAQs></FAQs>
-            <SEOImpact></SEOImpact>
+            <Suspense fallback={<div className=" text-center text-2xl font-bold">Loading...</div>}>
+                <Banner />
+            </Suspense>
+            <Suspense fallback={<div className=" text-center text-2xl font-bold">Loading...</div>}>
+                <FeaturesAdvertising />
+            </Suspense>
+            <Suspense fallback={<div className=" text-center text-2xl font-bold">Loading...</div>}>
+                <Features />
+            </Suspense>
+            <Suspense fallback={<div className=" text-center text-2xl font-bold">Loading...</div>}>
+                <ClientReview />
+            </Suspense>
+            <Suspense fallback={<div className=" text-center text-2xl font-bold">Loading...</div>}>
+                <TrustedCompanies />
+            </Suspense>
+            <Suspense fallback={<div className=" text-center text-2xl font-bold">Loading...</div>}>
+                <CompanyOverview />
+            </Suspense>
+            <Suspense fallback={<div className=" text-center text-2xl font-bold">Loading...</div>}>
+                <SEOTools />
+            </Suspense>
+            <Suspense fallback={<div className=" text-center text-2xl font-bold">Loading...</div>}>
+                <MarketInsights />
+            </Suspense>
+            <Suspense fallback={<div className=" text-center text-2xl font-bold">Loading...</div>}>
+                <WhatIsNew />
+            </Suspense>
+            <Suspense fallback={<div className=" text-center text-2xl font-bold">Loading...</div>}>
+                <Purpose />
+            </Suspense>
+            <Suspense fallback={<div className=" text-center text-2xl font-bold">Loading...</div>}>
+                <WhyChooseUs />
+            </Suspense>
+            <Suspense fallback={<div className=" text-center text-2xl font-bold">Loading...</div>}>
+                <FAQs />
+            </Suspense>
+            <Suspense fallback={<div className=" text-center text-2xl font-bold">Loading...</div>}>
+                <SEOImpact />
+            </Suspense>
         </div>
     );
 };
