@@ -1,3 +1,31 @@
+const data = [
+    {
+        id: 1,
+        title: "Easily Usable"
+    },
+    {
+        id: 2,
+        title: "Quick Service"
+    },
+    {
+        id: 3,
+        title: "Trustable"
+    },
+    {
+        id: 4,
+        title: "Better Result"
+    },
+]
+
+const ReasonBox = ({ title }) => {
+    return (
+        <div>
+            <div className="bg-[#EBF5FF] rounded-xl lg:w-60 md:h-48 flex justify-center items-center shadow-lg text-center border-2 border-[#007BFE] transition duration-300 ease-in-out hover:bg-[#007BFE] hover:text-white transform hover:scale-105">
+                <h3 className="md:text-3xl text-xl font-semibold p-5 ">{title}</h3>
+            </div>
+        </div>
+    );
+};
 
 const WhyChooseUs = () => {
     return (
@@ -5,18 +33,14 @@ const WhyChooseUs = () => {
             <h3 className="text-center font-bold lg:text-5xl md:text-4xl text-3xl md:mb-16 mb-10">Why Choose Us?</h3>
             <p className="lg:text-2xl md:text-xl text-lg text-[#757575] font-semibold text-center">Lorem ipsum dolor sit amet consectetur. Quis eget vivamus neque velit enim id urna pharetra vel. Sapien ut natoque facilisi tortor viverra eget. Amet rhoncus leo sed nulla est senectus morbi tellus ornare. Justo curabitur iaculis id senectus sodales mattis sed mattis nisl. Phasellus ipsum ultricies.</p>
             <div className="md:mt-24 mt-16 grid lg:grid-cols-4 lg:justify-evenly  grid-cols-2 md:gap-20 gap-10 lg:gap-0">
-                <div className="bg-[#EBF5FF] rounded-xl lg:w-60 md:h-48 flex justify-center items-center shadow-lg text-center border-2 border-[#007BFE] transition duration-300 ease-in-out hover:bg-[#007BFE] hover:text-white transform hover:scale-105">
-                    <h3 className="md:text-3xl text-xl font-semibold p-5 ">Easily Usable </h3>
-                </div>
-                <div className="bg-[#EBF5FF] rounded-xl lg:w-60 md:h-48 flex justify-center items-center shadow-lg text-center border-2 border-[#007BFE] transition duration-300 ease-in-out hover:bg-[#007BFE] hover:text-white transform hover:scale-105">
-                    <h3 className="md:text-3xl text-xl font-semibold p-5 ">Quick Service</h3>
-                </div>
-                <div className="bg-[#EBF5FF] rounded-xl lg:w-60 md:h-48 flex justify-center items-center shadow-lg text-center border-2 border-[#007BFE] transition duration-300 ease-in-out hover:bg-[#007BFE] hover:text-white transform hover:scale-105">
-                    <h3 className="md:text-3xl text-xl font-semibold p-5 ">Trustable </h3>
-                </div>
-                <div className="bg-[#EBF5FF] rounded-xl lg:w-60 md:h-48 flex justify-center items-center shadow-lg text-center border-2 border-[#007BFE] transition duration-300 ease-in-out hover:bg-[#007BFE] hover:text-white transform hover:scale-105">
-                    <h3 className="md:text-3xl text-xl font-semibold p-5 ">Better Result </h3>
-                </div>
+                {
+                    data.map((item) => (
+                        <ReasonBox
+                            title={item.title}
+                            key={item.id}
+                        />
+                    ))
+                }
             </div>
         </div>
     );
