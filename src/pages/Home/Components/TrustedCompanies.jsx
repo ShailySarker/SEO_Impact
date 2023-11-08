@@ -1,7 +1,7 @@
-import company1 from '../../../assets/images/Home/TrustedCompanies_Apple-logo.png';
-import company2 from '../../../assets/images/Home/TrustedCompanies_Microsoft-logo.png';
-import company3 from '../../../assets/images/Home/TrustedCompanies_Samsung-logo.png';
-import company4 from '../../../assets/images/Home/TrustedCompanies_Nvidia-logo.png';
+import company1 from '../../../assets/images/Home/TrustedCompanies_appleLogo.png';
+import company2 from '../../../assets/images/Home/TrustedCompanies_microsoftLogo.png';
+import company3 from '../../../assets/images/Home/TrustedCompanies_samsungLogo.png';
+import company4 from '../../../assets/images/Home/TrustedCompanies_nvidiaLogo.png';
 
 
 const TrustedCompanies = () => {

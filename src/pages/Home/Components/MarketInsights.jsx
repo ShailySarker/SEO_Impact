@@ -1,4 +1,4 @@
-import photo from '../../../assets/images/Home/MarketInsights_Rectangle.png';
+import photo from '../../../assets/images/Home/MarketInsights_rectangle.png';
 
 
 const MarketInsights = () => {

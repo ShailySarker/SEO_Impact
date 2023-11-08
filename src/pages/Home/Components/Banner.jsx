@@ -1,9 +1,9 @@
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
 
-import photo1 from '../../../assets/images/Home/Banner_Introducing.png';
-import photo2 from '../../../assets/images/Home/Banner_carbon_arrow-up.png';
-import photo3 from '../../../assets/images/Home/Banner_BannerPhoto.png';
+import photo1 from '../../../assets/images/Home/Banner_introducing.png';
+import photo2 from '../../../assets/images/Home/Banner_carbonArrowUp.png';
+import photo3 from '../../../assets/images/Home/Banner_bannerPhoto.png';
 
 
 const Banner = () => {
