@@ -1,4 +1,5 @@
 import React, { Suspense } from "react";
+import ComponentLazyLoaderDesign from "../../components/ComponentLazyLoaderDesign/ComponentLazyLoaderDesign";
 const Banner = React.lazy(() => import("./Components/Banner"));
 const FeaturesAdvertising = React.lazy(() => import("./Components/FeaturesAdvertising"));
 const Features = React.lazy(() => import("./Components/Features"));
@@ -16,43 +17,43 @@ const SEOImpact = React.lazy(() => import("./Components/SEOImpact"));
 const Home = () => {
     return (
         <div className="">
-            <Suspense fallback={<div className=" text-center text-2xl font-bold">Loading...</div>}>
+            <Suspense fallback={<ComponentLazyLoaderDesign/>}>
                 <Banner />
             </Suspense>
-            <Suspense fallback={<div className=" text-center text-2xl font-bold">Loading...</div>}>
+            <Suspense fallback={<ComponentLazyLoaderDesign/>}>
                 <FeaturesAdvertising />
             </Suspense>
-            <Suspense fallback={<div className=" text-center text-2xl font-bold">Loading...</div>}>
+            <Suspense fallback={<ComponentLazyLoaderDesign/>}>
                 <Features />
             </Suspense>
-            <Suspense fallback={<div className=" text-center text-2xl font-bold">Loading...</div>}>
+            <Suspense fallback={<ComponentLazyLoaderDesign/>}>
                 <ClientReview />
             </Suspense>
-            <Suspense fallback={<div className=" text-center text-2xl font-bold">Loading...</div>}>
+            <Suspense fallback={<ComponentLazyLoaderDesign/>}>
                 <TrustedCompanies />
             </Suspense>
-            <Suspense fallback={<div className=" text-center text-2xl font-bold">Loading...</div>}>
+            <Suspense fallback={<ComponentLazyLoaderDesign/>}>
                 <CompanyOverview />
             </Suspense>
-            <Suspense fallback={<div className=" text-center text-2xl font-bold">Loading...</div>}>
+            <Suspense fallback={<ComponentLazyLoaderDesign/>}>
                 <SEOTools />
             </Suspense>
-            <Suspense fallback={<div className=" text-center text-2xl font-bold">Loading...</div>}>
+            <Suspense fallback={<ComponentLazyLoaderDesign/>}>
                 <MarketInsights />
             </Suspense>
-            <Suspense fallback={<div className=" text-center text-2xl font-bold">Loading...</div>}>
+            <Suspense fallback={<ComponentLazyLoaderDesign/>}>
                 <WhatIsNew />
             </Suspense>
-            <Suspense fallback={<div className=" text-center text-2xl font-bold">Loading...</div>}>
+            <Suspense fallback={<ComponentLazyLoaderDesign/>}>
                 <Purpose />
             </Suspense>
-            <Suspense fallback={<div className=" text-center text-2xl font-bold">Loading...</div>}>
+            <Suspense fallback={<ComponentLazyLoaderDesign/>}>
                 <WhyChooseUs />
             </Suspense>
-            <Suspense fallback={<div className=" text-center text-2xl font-bold">Loading...</div>}>
+            <Suspense fallback={<ComponentLazyLoaderDesign/>}>
                 <FAQs />
             </Suspense>
-            <Suspense fallback={<div className=" text-center text-2xl font-bold">Loading...</div>}>
+            <Suspense fallback={<ComponentLazyLoaderDesign/>}>
                 <SEOImpact />
             </Suspense>
         </div>
