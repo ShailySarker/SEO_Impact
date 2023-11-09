@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import LoginDesign from "../../components/LoginDesign/LoginDesign";
 import logo from '../../assets/images/Login/Login_logo.png';
-import bottomDesign from '../../assets/images/Login/Login_BottomDesign.png';
+import bottomDesign from '../../assets/images/Login/Login_bottomDesign.png';
 
 const Login = () => {
     return (
@@ -49,7 +49,7 @@ const Login = () => {
                                 />
                             </form>
                             <div className="lg:text-center mt-10">
-                                <p className="lg:text-slate-400  md:text-slate-800  ">
+                                <p className="lg:text-[#B2B2B2]  md:text-slate-800  ">
                                     Don’t have an account?  <Link to='/signUp' className="font-bold lg:text-[#007BFE] md:text-black "> SignUp</Link>
                                 </p>
                             </div>
@@ -94,7 +94,7 @@ const Login = () => {
                         />
                     </form>
                     <div className="text-center mt-8">
-                        <p className="text-slate-400  ">
+                        <p className="text-[#B2B2B2]  ">
                             Don’t have an account?  <Link to='/signUp' className="font-bold text-[#007BFE] "> SignUp</Link>
                         </p>
                     </div>

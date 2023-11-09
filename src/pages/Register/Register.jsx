@@ -1,10 +1,9 @@
 import SignUpDesign from "../../components/SignUpDesign/SignUpDesign";
 import CheckBox from "../../components/CheckBox/CheckBox";
 import { Link } from "react-router-dom";
-
-import logo from "../../assets/images/SignUp/logo.png";
-import design from "../../assets/images/SignUp/Design.png";
-
+import logo from "../../assets/images/SignUp/SignUp_logo.png";
+import design from "../../assets/images/SignUp/SignUp_design.png";
+import bottomDesign from '../../assets/images/SignUp/SignUp_bottomDesign.png';
 
 const Register = () => {
 
@@ -79,7 +78,7 @@ const Register = () => {
 
                             </form>
                             <div className="lg:text-center mt-10">
-                                <p className="lg:text-slate-400 text-black   ">
+                                <p className="lg:text-[#B2B2B2] md:text-slate-800  ">
                                     Already have an account?  <Link to='/login' className="font-bold lg:text-[#007BFE] text-black"> Login</Link>
                                 </p>
                             </div>
@@ -92,6 +91,78 @@ const Register = () => {
             </div>
 
             {/* for small size screen */}
+            <div className="md:hidden ">
+                <div className="flex justify-center items-center flex-col mx-auto">
+                    <img src={logo} alt="logo" />
+                </div>
+                <div className="mt-16">
+                    <h2 className="font-bold text-4xl mb-14 mx-6">SignUp</h2>
+                    <form className="mx-6">
+                        <div className="form-control my-5">
+                            <input
+                                required
+                                type="text"
+                                name="name"
+                                placeholder="Name"
+                                className="input input-bordered" />
+                        </div>
+                        <div className="form-control my-5">
+                            <input
+                                required
+                                type="email"
+                                name="email"
+                                placeholder="E-Mail"
+                                className="input input-bordered"
+                            />
+                        </div>
+                        <div className="form-control my-5">
+                            <input
+                                required
+                                type="number"
+                                name="mobile"
+                                placeholder="Mobile"
+                                className="input input-bordered"
+                            />
+                        </div>
+                        <div className="form-control my-5">
+                            <input
+                                required
+                                type="password"
+                                name="password"
+                                placeholder="Password"
+                                className="input input-bordered" />
+                        </div>
+                        <div className="form-control mt-5 mb-7">
+                            <input
+                                required
+                                type="password"
+                                name="confirmPassword"
+                                placeholder="Confirm Password"
+                                className="input input-bordered" />
+                        </div>
+
+                        <div className="form-control ">
+                            <CheckBox></CheckBox>
+                        </div>
+
+                        <input
+                            type="submit"
+                            value="Sign Up"
+                            className="text-white justify-center bg-[#007BFE] py-3 px-6 rounded-xl font-semibold flex mt-14 mx-auto w-32"
+                        />
+
+                    </form>
+                    <div className="text-center mt-10">
+                        <p className="text-[#B2B2B2]">
+                            Already have an account?  <Link to='/login' className="font-bold text-[#007BFE] "> Login</Link>
+                        </p>
+                    </div>
+                    <div className="mt-20">
+                        <img className="w-full" src={bottomDesign} alt="bottomDesign" />
+                    </div>
+                </div>
+
+            </div>
         </div>
     );
 };
