@@ -1,7 +1,7 @@
-import logo from "../../../assets/images/Pricing/DifferentPackages/logo.png";
-import Basic from "../../../assets/images/Pricing/DifferentPackages/Basic.png";
-import Premium from "../../../assets/images/Pricing/DifferentPackages/Premium.png";
-import Enterprise from "../../../assets/images/Pricing/DifferentPackages/Enterprise.png";
+import logo from "../../../assets/images/Pricing/DifferentPackages_logo.png";
+import Basic from "../../../assets/images/Pricing/DifferentPackages_basic.png";
+import Premium from "../../../assets/images/Pricing/DifferentPackages_premium.png";
+import Enterprise from "../../../assets/images/Pricing/PopularPackages_enterprise.png";
 
 
 const DifferentPackages = () => {

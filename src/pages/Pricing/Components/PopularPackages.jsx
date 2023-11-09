@@ -1,7 +1,7 @@
 import PopularLogo from "../../../components/PopularLogo/PopularLogo";
-import logo from "../../../assets/images/Pricing/PopularPackages/logo.png";
-import Premium from "../../../assets/images/Pricing/PopularPackages/Premium.png";
-import Enterprise from "../../../assets/images/Pricing/PopularPackages/Enterprise.png";
+import logo from "../../../assets/images/Pricing/PopularPackages_logo.png";
+import Premium from "../../../assets/images/Pricing/PopularPackages_premium.png";
+import Enterprise from "../../../assets/images/Pricing/PopularPackages_enterprise.png";
 
 
 const PopularPackages = () => {

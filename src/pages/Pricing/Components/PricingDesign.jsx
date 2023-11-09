@@ -1,4 +1,4 @@
-import design from '../../../assets/images/Pricing/PricingDesign/design.png';
+import design from '../../../assets/images/Pricing/PricingDesign_design.png';
 
 
 const PricingDesign = () => {

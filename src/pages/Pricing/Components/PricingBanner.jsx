@@ -1,5 +1,5 @@
-import banner from "../../../assets/images/Pricing/PricingBanner/banner.png";
-import bg from "../../../assets/images/Pricing/PricingBanner/Ellipse.png";
+import banner from "../../../assets/images/Pricing/PricingBanner_banner.png";
+import bg from "../../../assets/images/Pricing/PricingBanner_ellipse.png";
 
 
 const PricingBanner = () => {
