@@ -1,8 +1,8 @@
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
 
-import bg from '../../assets/images/LoginSignUp/SignUp/Ellipse.png';
-import photo from '../../assets/images/LoginSignUp/SignUp/Image.png';
+import bg from '../../assets/images/SignUp/Ellipse.png';
+import photo from '../../assets/images/SignUp/Image.png';
 
 
 const SignUpDesign = () => {

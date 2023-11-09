@@ -5,17 +5,16 @@ import LazyLoaderDesign from "../components/LazyLoaderDesign/LazyLoaderDesign";
 
 import MainLayout from "../layout/MainLayout/MainLayout";
 
-// const Home = React.lazy(() => import("../pages/Home/Home"))
+const Home = React.lazy(() => import("../pages/Home/Home"))
 const Pricing = React.lazy(() => import("../pages/Pricing/Pricing/Pricing"));
 const Careers = React.lazy(() => import("../pages/Careers/Careers/Careers"));
 const ContactUs = React.lazy(() => import("../pages/ContactUs/ContactUs/ContactUs"));
 const AboutUs = React.lazy(() => import("../pages/AboutUs/AboutUs/AboutUs"));
-const Login = React.lazy(() => import("../pages/RegisterLogin/Login/Login"));
-const Register = React.lazy(() => import("../pages/RegisterLogin/Register/Register"));
+const Login = React.lazy(() => import("../pages/Login/Login"));
+const Register = React.lazy(() => import("../pages/Register/Register"));
 const NotFound = React.lazy(() => import("../pages/NotFound/NotFound"));
 
 import DashboardLayout from "../layout/DashboardLayout/DashboardLayout";
-import Home from "../pages/Home/Home";
 const MyProjects = React.lazy(() => import("../pages/Resources/MyProjects/MyProjects"));
 const KeywordChecker = React.lazy(() => import("../pages/Resources/KeywordChecker/KeywordChecker/KeywordChecker"));
 const KeywordCheckerAfterCheck = React.lazy(() => import("../pages/Resources/KeywordChecker/KeywordCheckerAfterCheck/KeywordCheckerAfterCheck"));
@@ -36,12 +35,10 @@ export const router = createBrowserRouter([
         children: [
             {
                 path: "/",
-                element: <Home></Home>
-                // path: "/",
-                // element: <Suspense fallback={
-                //     <LazyLoaderDesign />}>
-                //     <Home />
-                // </Suspense>
+                element: <Suspense fallback={
+                    <LazyLoaderDesign />}>
+                    <Home />
+                </Suspense>
             },
             {
                 path: "/pricing",
