@@ -1,25 +1,51 @@
-// import { lazy } from "react";
-import AboutUsBanner from "./AboutUsBanner/AboutUsBanner";
-import Achievements from "./Achievements/Achievements";
-import Blogs from "./Blogs/Blogs";
-import ClientReviews from "./ClientReviews/ClientReviews";
-import OurFeatures from "./OurFeatures/OurFeatures";
-import OurGoals from "./OurGoals/OurGoals";
-import OurTeam from "./OurTeam/OurTeam";
-import SocialMediaReview from "./SocialMediaReview/SocialMediaReview";
+import React, { Suspense } from "react";
+import ComponentLazyLoaderDesign from "../../components/ComponentLazyLoaderDesign/ComponentLazyLoaderDesign";
+
+const AboutUsBanner = React.lazy(() => import("./Components/AboutUsBanner"));
+const Achievements = React.lazy(() => import("./Components/Achievements"));
+const Blogs = React.lazy(() => import("./Components/Blogs"));
+const ClientReviews = React.lazy(() => import("./Components/ClientReviews"));
+const OurFeatures = React.lazy(() => import("./Components/OurFeatures"));
+const OurGoals = React.lazy(() => import("./Components/OurGoals"));
+const OurTeam = React.lazy(() => import("./Components/OurTeam"));
+const SocialMediaReview = React.lazy(() => import("./Components/SocialMediaReview"));
+// import AboutUsBanner from "./Components/AboutUsBanner";
+// import Achievements from "./Components/Achievements";
+// import Blogs from "./Components/Blogs";
+// import ClientReviews from "./Components/ClientReviews";
+// import OurFeatures from "./Components/OurFeatures";
+// import OurGoals from "./Components/OurGoals";
+// import OurTeam from "./Components/OurTeam";
+// import SocialMediaReview from "./Components/SocialMediaReview";
 
 
 const AboutUs = () => {
     return (
         <div>
-            <AboutUsBanner></AboutUsBanner>
-            <OurFeatures></OurFeatures>
-            <OurTeam></OurTeam>
-            <OurGoals></OurGoals>
-            <Blogs></Blogs>
-            <ClientReviews></ClientReviews>
-            <SocialMediaReview></SocialMediaReview>
-            <Achievements></Achievements>
+            <Suspense fallback={<ComponentLazyLoaderDesign />}>
+                <AboutUsBanner />
+            </Suspense>
+            <Suspense fallback={<ComponentLazyLoaderDesign />}>
+                <OurFeatures />
+            </Suspense>
+            <Suspense fallback={<ComponentLazyLoaderDesign />}>
+                <OurTeam />
+            </Suspense>
+            <Suspense fallback={<ComponentLazyLoaderDesign />}>
+                <OurGoals />
+            </Suspense>
+            <Suspense fallback={<ComponentLazyLoaderDesign />}>
+                <Blogs />
+            </Suspense>
+            <Suspense fallback={<ComponentLazyLoaderDesign />}>
+                <ClientReviews />
+            </Suspense>
+            <Suspense fallback={<ComponentLazyLoaderDesign />}>
+                <SocialMediaReview />
+            </Suspense>
+            <Suspense fallback={<ComponentLazyLoaderDesign />}>
+                <Achievements />
+            </Suspense>
         </div>
     );
 };
