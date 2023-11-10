@@ -15,6 +15,7 @@ const data = [
         topFeature2: "Track 50 keywords",
         topFeature3: "Analyze upto 2500 pages",
         topFeature4: "Unlimited PDF Reports",
+        buttonName: "Try Basic"
     },
     {
         id: 2,
@@ -27,6 +28,7 @@ const data = [
         topFeature2: "Track 200 keywords",
         topFeature3: "Analyze upto 2500 pages",
         topFeature4: "Unlimited PDF Reports",
+        buttonName: "Try Premium"
     },
     {
         id: 3,
@@ -39,12 +41,13 @@ const data = [
         topFeature2: "Track 5000 keywords",
         topFeature3: "Analyze upto 2500 pages",
         topFeature4: "Unlimited PDF Reports",
+        buttonName: "Try Enterprise"
     }
 ];
 
 const DifferentPackagesInfo = ({ item }) => {
-    const { logoImage, priceAfterDiscount, priceBeforeDiscount, discountPercentage, title, topFeature1, topFeature2, topFeature3, topFeature4 } = item;
-    console.log(item)
+    const { logoImage, priceAfterDiscount, priceBeforeDiscount, discountPercentage, title, topFeature1, topFeature2, topFeature3, topFeature4, buttonName } = item;
+
     return (
         <div className="pb-6">
             <div className="border-2 py-5 px-7 rounded-3xl">
@@ -78,7 +81,7 @@ const DifferentPackagesInfo = ({ item }) => {
             </div>
 
             <div className="mt-8 flex justify-center">
-                <button className="text-white bg-[#007BFE] w-40 py-3 px-6 rounded-xl font-semibold">Try Basic</button>
+                <button className="text-white bg-[#007BFE] w-40 py-3 px-6 rounded-xl font-semibold">{buttonName}</button>
             </div>
         </div>
     );
