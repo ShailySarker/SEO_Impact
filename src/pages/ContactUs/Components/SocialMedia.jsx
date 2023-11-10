@@ -1,11 +1,11 @@
-import photo1 from '../../../assets/images/ContactUs/SocialMedia/Facebook_icon.png';
-import photo2 from '../../../assets/images/ContactUs/SocialMedia/instagram-icon.png';
-import photo3 from '../../../assets/images/ContactUs/SocialMedia/LinkedIn_icon.png';
-import photo4 from '../../../assets/images/ContactUs/SocialMedia/youtube.png';
-import photo5 from '../../../assets/images/ContactUs/SocialMedia/twitter-logo.png';
-import photo6 from '../../../assets/images/ContactUs/SocialMedia/whatsapp-icon.png';
-import photo7 from '../../../assets/images/ContactUs/SocialMedia/Messenger_logo.png';
-import photo8 from '../../../assets/images/ContactUs/SocialMedia/Threads.png';
+import photo1 from '../../../assets/images/ContactUs/SocialMedia_facebookLogo.png';
+import photo2 from '../../../assets/images/ContactUs/SocialMedia_instagramLogo.png';
+import photo3 from '../../../assets/images/ContactUs/SocialMedia_linkedInLogo.png';
+import photo4 from '../../../assets/images/ContactUs/SocialMedia_youtubeLogo.png';
+import photo5 from '../../../assets/images/ContactUs/SocialMedia_twitterLogo.png';
+import photo6 from '../../../assets/images/ContactUs/SocialMedia_whatsappLogo.png';
+import photo7 from '../../../assets/images/ContactUs/SocialMedia_messengerLogo.png';
+import photo8 from '../../../assets/images/ContactUs/SocialMedia_threadsLogo.png';
 
 
 const SocialMedia = () => {

@@ -1,10 +1,6 @@
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import 'react-lazy-load-image-component/src/effects/blur.css';
-
-import banner from "../../../assets/images/ContactUs/ContactUs/banner.png";
-
-
-
+import banner from "../../../assets/images/ContactUs/ContactUs_banner.png";
 
 const ContactUsBanner = () => {
     return (
