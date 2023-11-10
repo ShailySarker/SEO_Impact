@@ -12,7 +12,7 @@ const InternshipOpportunities = React.lazy(() => import("./Components/Internship
 const JobOpening = React.lazy(() => import("./Components/JobOpening"));
 const SEOImpactRating = React.lazy(() => import("./Components/SEOImpactRating"));
 const TrainingAndDevelopment = React.lazy(() => import("./Components/TrainingAndDevelopment"));
- 
+
 const Careers = () => {
     return (
         <div>
