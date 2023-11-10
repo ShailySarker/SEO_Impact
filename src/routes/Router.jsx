@@ -7,7 +7,7 @@ import MainLayout from "../layout/MainLayout/MainLayout";
 
 const Home = React.lazy(() => import("../pages/Home/Home"))
 const Pricing = React.lazy(() => import("../pages/Pricing/Pricing"));
-const Careers = React.lazy(() => import("../pages/Careers/Careers/Careers"));
+const Careers = React.lazy(() => import("../pages/Careers/Careers"));
 const ContactUs = React.lazy(() => import("../pages/ContactUs/ContactUs/ContactUs"));
 const AboutUs = React.lazy(() => import("../pages/AboutUs/AboutUs/AboutUs"));
 const Login = React.lazy(() => import("../pages/Login/Login"));
