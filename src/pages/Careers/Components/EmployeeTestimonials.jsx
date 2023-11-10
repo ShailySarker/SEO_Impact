@@ -1,5 +1,5 @@
 import { LazyLoadImage } from "react-lazy-load-image-component";
-import Employee from "../../../assets/images/Careers/EmployeeTestimonials/photo.png";
+import Employee from "../../../assets/images/Careers/EmployeeTestimonials_photo.png";
 
 const EmployeeTestimonials = () => {
     return (

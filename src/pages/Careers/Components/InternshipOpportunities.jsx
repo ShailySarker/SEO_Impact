@@ -1,4 +1,4 @@
-import design from "../../../assets/images/Careers/InternshipOpportunities/design.png";
+import design from "../../../assets/images/Careers/InternshipOpportunities_design.png";
 
 const InternshipOpportunities = () => {
     return (

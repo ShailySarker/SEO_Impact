@@ -1,5 +1,5 @@
-import photo from "../../../assets/images/Careers/SEOImpactRating/photo.png";
-import star from "../../../assets/images/Careers/SEOImpactRating/Star.png";
+import photo from "../../../assets/images/Careers/SEOImpactRating_photo.png";
+import star from "../../../assets/images/Careers/SEOImpactRating_star.png";
 
 
 const SEOImpactRating = () => {

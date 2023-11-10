@@ -1,4 +1,4 @@
-import photo from "../../../assets/images/Careers/ContactRecruiter/photo.png";
+import photo from "../../../assets/images/Careers/ContactRecruiter_photo.png";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const ContactRecruiter = () => {

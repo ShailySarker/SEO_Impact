@@ -2,12 +2,12 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-import program1 from "../../../assets/images/Careers/TrainingAndDevelopment/program1.jpg";
-import program2 from "../../../assets/images/Careers/TrainingAndDevelopment/program2.jpg";
-import program3 from "../../../assets/images/Careers/TrainingAndDevelopment/program3.jpg";
-import program4 from "../../../assets/images/Careers/TrainingAndDevelopment/program4.jpg";
-import program5 from "../../../assets/images/Careers/TrainingAndDevelopment/program5.jpg";
-import program6 from "../../../assets/images/Careers/TrainingAndDevelopment/program6.jpg";
+import program1 from "../../../assets/images/Careers/TrainingAndDevelopment_program1.jpg";
+import program2 from "../../../assets/images/Careers/TrainingAndDevelopment_program2.jpg";
+import program3 from "../../../assets/images/Careers/TrainingAndDevelopment_program3.jpg";
+import program4 from "../../../assets/images/Careers/TrainingAndDevelopment_program4.jpg";
+import program5 from "../../../assets/images/Careers/TrainingAndDevelopment_program5.jpg";
+import program6 from "../../../assets/images/Careers/TrainingAndDevelopment_program6.jpg";
 
 
 const TrainingAndDevelopment = () => {

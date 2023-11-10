@@ -1,8 +1,9 @@
 import { Link } from "react-router-dom";
-import photo1 from "../../../assets/images/Careers/DifferentCareers/photo1.png";
-import photo2 from "../../../assets/images/Careers/DifferentCareers/photo2.png";
-import photo3 from "../../../assets/images/Careers/DifferentCareers/photo3.png";
-import user from "../../../assets/images/Careers/DifferentCareers/Group.png";
+import photo1 from "../../../assets/images/Careers/DifferentCareers_photo1.png";
+import photo2 from "../../../assets/images/Careers/DifferentCareers_photo2.png";
+import photo3 from "../../../assets/images/Careers/DifferentCareers_photo3.png";
+import user from "../../../assets/images/Careers//DifferentCareers_group.png";
+
 const DifferentCareers = () => {
     return (
         <div className="lg:mx-24 md:mx-12 mx-7 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-12 relative lg:bottom-[930px] md:bottom-[510px] bottom-[230px] lg:-mb-[750px] md:-mb-[390px] -mb-[160px]">

@@ -1,4 +1,4 @@
-import design from "../../../assets/images/Careers/CareersBanner/design.png";
+import design from "../../../assets/images/Careers/CareersBanner_design.png";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 
 

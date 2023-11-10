@@ -1,6 +1,6 @@
-import Rectangle from "../../../assets/images/Careers/Benefits/Rectangle.png";
-import star from "../../../assets/images/Careers/Benefits/star.png";
-import vector from "../../../assets/images/Careers/Benefits/vector.png";
+import Rectangle from "../../../assets/images/Careers/Benefits_rectangle.png";
+import star from "../../../assets/images/Careers/Benefits_star.png";
+import vector from "../../../assets/images/Careers/Benefits_vector.png";
 
 
 const Benefits = () => {
