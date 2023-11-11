@@ -9,15 +9,6 @@ const OurFeatures = React.lazy(() => import("./Components/OurFeatures"));
 const OurGoals = React.lazy(() => import("./Components/OurGoals"));
 const OurTeam = React.lazy(() => import("./Components/OurTeam"));
 const SocialMediaReview = React.lazy(() => import("./Components/SocialMediaReview"));
-// import AboutUsBanner from "./Components/AboutUsBanner";
-// import Achievements from "./Components/Achievements";
-// import Blogs from "./Components/Blogs";
-// import ClientReviews from "./Components/ClientReviews";
-// import OurFeatures from "./Components/OurFeatures";
-// import OurGoals from "./Components/OurGoals";
-// import OurTeam from "./Components/OurTeam";
-// import SocialMediaReview from "./Components/SocialMediaReview";
-
 
 const AboutUs = () => {
     return (

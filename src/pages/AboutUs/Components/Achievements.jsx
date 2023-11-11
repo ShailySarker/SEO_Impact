@@ -1,4 +1,4 @@
-import trophy from '../../../assets/images/AboutUs/Achievements/trophy.png';
+import trophy from '../../../assets/images/AboutUs/Achievements_trophy.png';
 
 
 const Achievements = () => {

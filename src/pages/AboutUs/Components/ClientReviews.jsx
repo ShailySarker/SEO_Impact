@@ -6,7 +6,7 @@ import SampleNextArrow from "../../../components/SampleNextArrow/SampleNextArrow
 import SamplePrevArrow from "../../../components/SamplePrevArrow/SamplePrevArrow";
 import './ClientReviews.css';
 
-import client from "../../../assets/images/AboutUs/ClientReviews/Client.png";
+import client from "../../../assets/images/AboutUs/ClientReviews_client.png";
 
 
 const ClientReviews = () => {

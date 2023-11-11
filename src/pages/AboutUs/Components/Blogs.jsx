@@ -2,7 +2,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-import blog from '../../../assets/images/AboutUs/Blogs/program1.jpg';
+import blog from '../../../assets/images/AboutUs/Blogs_program1.jpg';
 
 
 const Blogs = () => {

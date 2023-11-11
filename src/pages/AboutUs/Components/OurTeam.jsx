@@ -4,13 +4,9 @@ import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import { EffectCoverflow, Pagination, Navigation } from 'swiper/modules';
-
 import { FaArrowAltCircleLeft, FaArrowAltCircleRight } from "react-icons/fa";
-
 import './OurTeam.css';
-
-import TeamMember from "../../../assets/images/AboutUs/OurTeam/team_member.png";
-
+import TeamMember from "../../../assets/images/AboutUs/OurTeam_teamMember.png";
 
 const OurTeam = () => {
     return (

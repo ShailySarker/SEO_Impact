@@ -1,11 +1,11 @@
-import facebook from '../../../assets/images/AboutUs/SocialMediaReview/Facebook_icon.png';
-import instagram from "../../../assets/images/AboutUs/SocialMediaReview/instagram-icon.png";
-import linkedIn from "../../../assets/images/AboutUs/SocialMediaReview/LinkedIn_icon.png";
-import youTube from "../../../assets/images/AboutUs/SocialMediaReview/youtube.png";
-import twitter from "../../../assets/images/AboutUs/SocialMediaReview/twitter-logo.png";
-import whatsapp from "../../../assets/images/AboutUs/SocialMediaReview/whatsapp-icon.png";
-import messenger from "../../../assets/images/AboutUs/SocialMediaReview/Messenger_logo.png";
-import threads from "../../../assets/images/AboutUs/SocialMediaReview/Threads.png";
+import facebook from '../../../assets/images/AboutUs/SocialMediaReview_facebookLogo.png';
+import instagram from "../../../assets/images/AboutUs/SocialMediaReview_instagramLogo.png";
+import linkedIn from "../../../assets/images/AboutUs/SocialMediaReview_linkedInLogo.png";
+import youTube from "../../../assets/images/AboutUs/SocialMediaReview_youtubeLogo.png";
+import twitter from "../../../assets/images/AboutUs/SocialMediaReview_twitterLogo.png";
+import whatsapp from "../../../assets/images/AboutUs/SocialMediaReview_whatsappLogo.png";
+import messenger from "../../../assets/images/AboutUs/SocialMediaReview_messengerLogo.png";
+import threads from "../../../assets/images/AboutUs/SocialMediaReview_twitterLogo.png";
 
 
 const SocialMediaReview = () => {
