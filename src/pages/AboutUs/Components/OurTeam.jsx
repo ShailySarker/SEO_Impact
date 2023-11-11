@@ -8,6 +8,64 @@ import { FaArrowAltCircleLeft, FaArrowAltCircleRight } from "react-icons/fa";
 import './OurTeam.css';
 import TeamMember from "../../../assets/images/AboutUs/OurTeam_teamMember.png";
 
+// const teamMembersData = [
+//     {
+//         id: 1,
+//         image: TeamMember,
+//         name: "Lucy William",
+//         designation: "Software Analyst"
+//     },
+//     {
+//         id: 2,
+//         image: TeamMember,
+//         name: "Lucy William",
+//         designation: "Software Analyst"
+//     },
+//     {
+//         id: 3,
+//         image: TeamMember,
+//         name: "Lucy William",
+//         designation: "Software Analyst"
+//     },
+//     {
+//         id: 4,
+//         image: TeamMember,
+//         name: "Lucy William",
+//         designation: "Software Analyst"
+//     },
+//     {
+//         id: 5,
+//         image: TeamMember,
+//         name: "Lucy William",
+//         designation: "Software Analyst"
+//     },
+//     {
+//         id: 6,
+//         image: TeamMember,
+//         name: "Lucy William",
+//         designation: "Software Analyst"
+//     },
+//     {
+//         id: 7,
+//         image: TeamMember,
+//         name: "Lucy William",
+//         designation: "Software Analyst"
+//     }
+// ];
+
+// const OurTeamInfo = ({ teamMember }) => {
+//     const { id, image, name, designation } = teamMember;
+//     return (
+//         <SwiperSlide>
+//             <div className='border-4 p-5 bg-[#EBF5FF] border-[#007BFE] rounded-2xl'>
+//                 <img className='rounded-full' src={image} alt={`Team Member_${id} Photo`} />
+//                 <h3 className="font-bold pt-12 md:text-3xl text-2xl text-center">{name}</h3>
+//                 <p className="pt-8 md:text-xl text-lg font-semibold text-center pb-8">{designation}, SEO Impact</p>
+//             </div>
+//         </SwiperSlide>
+//     );
+// };
+
 const OurTeam = () => {
     return (
         <div className="lg:mt-20 md:mt-16 pt-16 mb-12 lg:mx-16 md:mx-16 mx-6 items-center">
@@ -38,6 +96,14 @@ const OurTeam = () => {
                         modules={[EffectCoverflow, Pagination, Navigation]}
                         className="swiper_container lg:h-[675px] md:h-[660px] h-[540px] relative"
                     >
+                        {/* {
+                            teamMembersData.map((teamMember) => (
+                                <OurTeamInfo
+                                    teamMember={teamMember}
+                                    key={teamMember.id}
+                                />
+                            ))
+                        } */}
                         <SwiperSlide>
                             <div className='border-4 p-5 bg-[#EBF5FF] border-[#007BFE] rounded-2xl'>
                                 <img className='rounded-full' src={TeamMember} alt="Team Member Photo" />

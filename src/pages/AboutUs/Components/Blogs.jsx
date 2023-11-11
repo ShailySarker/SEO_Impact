@@ -1,9 +1,71 @@
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-
 import blog from '../../../assets/images/AboutUs/Blogs_program1.jpg';
 
+const blogsData = [
+    {
+        id: 1,
+        image: blog,
+        date: "29/10/23",
+        title: "Organize Orientation Programs",
+        description: "These programs are for new hires and are designed to introduce them to the company’s culture, policies, and procedures."
+    },
+    {
+        id: 2,
+        image: blog,
+        date: "29/10/23",
+        title: "Organize Orientation Programs",
+        description: "These programs are for new hires and are designed to introduce them to the company’s culture, policies, and procedures."
+    },
+    {
+        id: 3,
+        image: blog,
+        date: "29/10/23",
+        title: "Organize Orientation Programs",
+        description: "These programs are for new hires and are designed to introduce them to the company’s culture, policies, and procedures."
+    },
+    {
+        id: 4,
+        image: blog,
+        date: "29/10/23",
+        title: "Organize Orientation Programs",
+        description: "These programs are for new hires and are designed to introduce them to the company’s culture, policies, and procedures."
+    },
+    {
+        id: 5,
+        image: blog,
+        date: "29/10/23",
+        title: "Organize Orientation Programs",
+        description: "These programs are for new hires and are designed to introduce them to the company’s culture, policies, and procedures."
+    },
+    {
+        id: 6,
+        image: blog,
+        date: "29/10/23",
+        title: "Organize Orientation Programs",
+        description: "These programs are for new hires and are designed to introduce them to the company’s culture, policies, and procedures."
+    },
+    {
+        id: 7,
+        image: blog,
+        date: "29/10/23",
+        title: "Organize Orientation Programs",
+        description: "These programs are for new hires and are designed to introduce them to the company’s culture, policies, and procedures."
+    }
+];
+
+const BlogsInfo = ({ blog }) => {
+    const { id, image, date, title, description } = blog;
+    return (
+        <div className='border-2 rounded-xl border-[#007BFE] md:p-6 p-4 mb-16'>
+            <img className='rounded-xl lg:h-[290px] w-full md:h-[240px] h-52 ' src={image} alt={`Blog_${id} Photo`} />
+            <p className='md:text-lg font-bold text-[#007BFE] lg:pt-12 md:pt-9 pt-7 lg:pb-6 md:pb-5 pb-4'>Date: {date}</p>
+            <h3 className='font-semibold lg:text-3xl md:text-2xl text-xl lg:pb-7 md:pb-6 pb-4'>{title}</h3>
+            <p className='md:text-lg font-medium lg:pb-6 md:pb-5 pb-4'>{description}</p>
+        </div>
+    );
+};
 
 const Blogs = () => {
     const settings2 = {
@@ -16,7 +78,7 @@ const Blogs = () => {
         autoplaySpeed: 5000,
         cssEase: "linear",
         responsive: [
-            
+
             {
                 breakpoint: 850,
                 settings: {
@@ -43,48 +105,14 @@ const Blogs = () => {
             </div>
             <div className="mt-20">
                 <Slider {...settings2}>
-                    <div className='border-2 rounded-xl border-[#007BFE] md:p-6 p-4 mb-16'>
-                        <img className='rounded-xl lg:h-[290px] w-full md:h-[240px] h-52 ' src={blog} alt="blog" />
-                        <p className='md:text-lg font-bold text-[#007BFE] lg:pt-12 md:pt-9 pt-7 lg:pb-6 md:pb-5 pb-4'>Date: 29/10/23</p>
-                        <h3 className='font-semibold lg:text-3xl md:text-2xl text-xl lg:pb-7 md:pb-6 pb-4'>Organize Orientation Programs</h3>
-                        <p className='md:text-lg font-medium lg:pb-6 md:pb-5 pb-4'> These programs are for new hires and are designed to introduce them to the company’s culture, policies, and procedures.</p>
-                    </div>
-                    <div className='border-2 rounded-xl border-[#007BFE] md:p-6 p-4 mb-16'>
-                        <img className='rounded-xl lg:h-[290px] w-full md:h-[240px] h-52 ' src={blog} alt="blog" />
-                        <p className='md:text-lg font-bold text-[#007BFE] lg:pt-12 md:pt-9 pt-7 lg:pb-6 md:pb-5 pb-4'>Date: 29/10/23</p>
-                        <h3 className='font-semibold lg:text-3xl md:text-2xl text-xl lg:pb-7 md:pb-6 pb-4'>Organize Orientation Programs</h3>
-                        <p className='md:text-lg font-medium lg:pb-6 md:pb-5 pb-4'> These programs are for new hires and are designed to introduce them to the company’s culture, policies, and procedures.</p>
-                    </div>
-                    <div className='border-2 rounded-xl border-[#007BFE] md:p-6 p-4 mb-16'>
-                        <img className='rounded-xl lg:h-[290px] w-full md:h-[240px] h-52 ' src={blog} alt="blog" />
-                        <p className='md:text-lg font-bold text-[#007BFE] lg:pt-12 md:pt-9 pt-7 lg:pb-6 md:pb-5 pb-4'>Date: 29/10/23</p>
-                        <h3 className='font-semibold lg:text-3xl md:text-2xl text-xl lg:pb-7 md:pb-6 pb-4'>Organize Orientation Programs</h3>
-                        <p className='md:text-lg font-medium lg:pb-6 md:pb-5 pb-4'> These programs are for new hires and are designed to introduce them to the company’s culture, policies, and procedures.</p>
-                    </div>
-                    <div className='border-2 rounded-xl border-[#007BFE] md:p-6 p-4 mb-16'>
-                        <img className='rounded-xl lg:h-[290px] w-full md:h-[240px] h-52 ' src={blog} alt="blog" />
-                        <p className='md:text-lg font-bold text-[#007BFE] lg:pt-12 md:pt-9 pt-7 lg:pb-6 md:pb-5 pb-4'>Date: 29/10/23</p>
-                        <h3 className='font-semibold lg:text-3xl md:text-2xl text-xl lg:pb-7 md:pb-6 pb-4'>Organize Orientation Programs</h3>
-                        <p className='md:text-lg font-medium lg:pb-6 md:pb-5 pb-4'> These programs are for new hires and are designed to introduce them to the company’s culture, policies, and procedures.</p>
-                    </div>
-                    <div className='border-2 rounded-xl border-[#007BFE] md:p-6 p-4 mb-16'>
-                        <img className='rounded-xl lg:h-[290px] w-full md:h-[240px] h-52 ' src={blog} alt="blog" />
-                        <p className='md:text-lg font-bold text-[#007BFE] lg:pt-12 md:pt-9 pt-7 lg:pb-6 md:pb-5 pb-4'>Date: 29/10/23</p>
-                        <h3 className='font-semibold lg:text-3xl md:text-2xl text-xl lg:pb-7 md:pb-6 pb-4'>Organize Orientation Programs</h3>
-                        <p className='md:text-lg font-medium lg:pb-6 md:pb-5 pb-4'> These programs are for new hires and are designed to introduce them to the company’s culture, policies, and procedures.</p>
-                    </div>
-                    <div className='border-2 rounded-xl border-[#007BFE] md:p-6 p-4 mb-16'>
-                        <img className='rounded-xl lg:h-[290px] w-full md:h-[240px] h-52 ' src={blog} alt="blog" />
-                        <p className='md:text-lg font-bold text-[#007BFE] lg:pt-12 md:pt-9 pt-7 lg:pb-6 md:pb-5 pb-4'>Date: 29/10/23</p>
-                        <h3 className='font-semibold lg:text-3xl md:text-2xl text-xl lg:pb-7 md:pb-6 pb-4'>Organize Orientation Programs</h3>
-                        <p className='md:text-lg font-medium lg:pb-6 md:pb-5 pb-4'> These programs are for new hires and are designed to introduce them to the company’s culture, policies, and procedures.</p>
-                    </div>
-                    <div className='border-2 rounded-xl border-[#007BFE] md:p-6 p-4 mb-16'>
-                        <img className='rounded-xl lg:h-[290px] w-full md:h-[240px] h-52 ' src={blog} alt="blog" />
-                        <p className='md:text-lg font-bold text-[#007BFE] lg:pt-12 md:pt-9 pt-7 lg:pb-6 md:pb-5 pb-4'>Date: 29/10/23</p>
-                        <h3 className='font-semibold lg:text-3xl md:text-2xl text-xl lg:pb-7 md:pb-6 pb-4'>Organize Orientation Programs</h3>
-                        <p className='md:text-lg font-medium lg:pb-6 md:pb-5 pb-4'> These programs are for new hires and are designed to introduce them to the company’s culture, policies, and procedures.</p>
-                    </div>
+                    {
+                        blogsData.map((blog) => (
+                            <BlogsInfo
+                                blog={blog}
+                                key={blog.id}
+                            />
+                        ))
+                    }
                 </Slider>
             </div>
         </div>
