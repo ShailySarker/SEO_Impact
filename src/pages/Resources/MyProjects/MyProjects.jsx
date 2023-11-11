@@ -1,11 +1,11 @@
 import SearchBar from "../../../components/SearchBar/SearchBar";
-import photo from "../../../assets/images/Resources/MyProjects/Rectangle.png";
+import photo from "../../../assets/images/Resources/MyProjects/MyProjects_rectangle.png";
 
 
 const MyProjects = () => {
     return (
         <div className="md:mt-12 lg:mx-16 md:mx-16 mx-6 md:mb-28 lg:mb-0 mb-20">
-            <SearchBar></SearchBar>
+            <SearchBar />
             <div className="border-2 rounded-2xl mt-20">
                 <h3 className="font-semibold md:text-3xl text-xl px-10 py-5 border-b-2">My Projects</h3>
                 <div className="grid lg:grid-cols-2 grid-cols-1 mt-10 lg:mb-44 mb-12 lg:mx-12 md:mx-20 mx-3 lg:gap-12 gap-24">
