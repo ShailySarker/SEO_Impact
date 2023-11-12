@@ -31,7 +31,7 @@ const KeywordResearchToolAfterCheck = React.lazy(() => import("../pages/Resource
 export const router = createBrowserRouter([
     {
         path: "/",
-        element: <MainLayout></MainLayout>,
+        element: <MainLayout />,
         children: [
             {
                 path: "/",
@@ -98,7 +98,7 @@ export const router = createBrowserRouter([
     // dashboard
     {
         path: "/resources",
-        element: <DashboardLayout></DashboardLayout>,
+        element: <DashboardLayout />,
         children: [
             {
                 path: "myProjects",
