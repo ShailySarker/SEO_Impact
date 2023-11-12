@@ -1,4 +1,4 @@
-import design from "../../../../assets/images/Resources/KeywordChecker/KeywordCheckerAfterCheck/SEOImprovements/mdi_auto-fix.png";
+import design from "../../../../../assets/images/Resources/KeywordChecker/KeywordCheckerAfterCheck/SEOImprovements/mdi_auto-fix.png";
 
 
 const SEOImprovements = () => {

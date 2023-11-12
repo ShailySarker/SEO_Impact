@@ -16,7 +16,7 @@ const NotFound = React.lazy(() => import("../pages/NotFound/NotFound"));
 
 import DashboardLayout from "../layout/DashboardLayout/DashboardLayout";
 const MyProjects = React.lazy(() => import("../pages/Resources/MyProjects/MyProjects"));
-const KeywordChecker = React.lazy(() => import("../pages/Resources/KeywordChecker/KeywordChecker/KeywordChecker"));
+const KeywordChecker = React.lazy(() => import("../pages/Resources/KeywordChecker/KeywordChecker"));
 const KeywordCheckerAfterCheck = React.lazy(() => import("../pages/Resources/KeywordChecker/KeywordCheckerAfterCheck/KeywordCheckerAfterCheck"));
 const RankingChecker = React.lazy(() => import("../pages/Resources/RankingChecker/RankingChecker/RankingChecker"));
 const RankingCheckerAfterCheck = React.lazy(() => import("../pages/Resources/RankingChecker/RankingCheckerAfterCheck/RankingCheckerAfterCheck"));

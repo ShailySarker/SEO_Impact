@@ -1,5 +1,5 @@
-import CheckRound from "../../../../components/CheckRound/CheckRound";
-import desktop from "../../../../assets/images/Resources/KeywordChecker/KeywordCheckerAfterCheck/KeywordCheckerOverview/Desktop_Window.png";
+import CheckRound from "../../../../../components/CheckRound/CheckRound";
+import desktop from "../../../../../assets/images/Resources/KeywordChecker/KeywordCheckerAfterCheck/KeywordCheckerOverview/Desktop_Window.png";
 
 
 const KeywordCheckerOverview = () => {
