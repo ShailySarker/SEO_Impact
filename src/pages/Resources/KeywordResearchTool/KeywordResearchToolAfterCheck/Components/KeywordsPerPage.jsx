@@ -1,8 +1,8 @@
 import BigScreenTable from "./BigScreenTable";
 import SmallScreenTable from "./SmallScreenTable";
 import './KeywordsPerPage.css';
-import photo1 from '../../../../../assets/images/Resources/KeywordResearchTool/KeywordResearchToolAfterCheck/KeywordResearchToolResultingOverview/pepicons-pop_down-up.png';
-import photo2 from '../../../../../assets/images/Resources/KeywordResearchTool/KeywordResearchToolAfterCheck/KeywordResearchToolResultingOverview/solar_download-bold-duotone.png';
+import photo1 from '../../../../../assets/images/Resources/KeywordResearchTool/KeywordResearchToolAfterCheck/KeywordsPerPage_pepiconsPopDownUp.png';
+import photo2 from '../../../../../assets/images/Resources/KeywordResearchTool/KeywordResearchToolAfterCheck/KeywordsPerPage_solarDownloadBoldDuotone.png';
 
 const KeywordsPerPage = () => {
     return (
