@@ -1,4 +1,4 @@
-import KeywordResearchToolResultingOverview from "../KeywordResearchToolResultingOverview/KeywordResearchToolResultingOverview";
+import KeywordResearchToolResultingOverview from "./Components/KeywordResearchToolResultingOverview";
 
 const KeywordResearchToolAfterCheck = () => {
     return (

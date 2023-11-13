@@ -2,12 +2,8 @@ import React, { Suspense, useState } from "react";
 const SnippetGeneratorResultingToggleOn = React.lazy(() => import("./Components/SnippetGeneratorResultingToggleOn"));
 const SnippetGeneratorResultingToggleOff = React.lazy(() => import("./Components/SnippetGeneratorResultingToggleOff"));
 const SnippetGeneratorHeader = React.lazy(() => import("./Components/SnippetGeneratorHeader"));
-// import SnippetGeneratorResultingToggleOn from "./Components/SnippetGeneratorResultingToggleOn";
-// import SnippetGeneratorResultingToggleOff from "./Components/SnippetGeneratorResultingToggleOff";
-// import SnippetGeneratorHeader from "./Components/SnippetGeneratorHeader";
 import "./SnippetGeneratorAfterCheck.css";
 import ComponentLazyLoaderDesign from "../../../../components/ComponentLazyLoaderDesign/ComponentLazyLoaderDesign";
-
 
 const SnippetGeneratorAfterCheck = () => {
 
@@ -16,7 +12,6 @@ const SnippetGeneratorAfterCheck = () => {
     const handleToggle = () => {
         setIsChecked(!isChecked);
     };
-
 
     return (
         <div className="mt-12 md:mx-16 mx-6 mb-28">
@@ -46,7 +41,6 @@ const SnippetGeneratorAfterCheck = () => {
                                 <SnippetGeneratorResultingToggleOff />
                             </Suspense>
                         }
-
                     </div>
                 </div>
             </Suspense>

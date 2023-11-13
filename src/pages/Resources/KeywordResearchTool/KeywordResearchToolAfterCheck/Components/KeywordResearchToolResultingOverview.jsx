@@ -1,8 +1,8 @@
-import BigScreenTable from '../BigScreenTable/BigScreenTable';
-import SmallScreenTable from '../SmallScreenTable/SmallScreenTable';
+import BigScreenTable from './BigScreenTable';
+import SmallScreenTable from './SmallScreenTable';
 import "./KeywordResearchToolResultingOverview.css";
-import photo1 from '../../../../assets/images/Resources/KeywordResearchTool/KeywordResearchToolAfterCheck/KeywordResearchToolResultingOverview/pepicons-pop_down-up.png';
-import photo2 from '../../../../assets/images/Resources/KeywordResearchTool/KeywordResearchToolAfterCheck/KeywordResearchToolResultingOverview/solar_download-bold-duotone.png';
+import photo1 from '../../../../../assets/images/Resources/KeywordResearchTool/KeywordResearchToolAfterCheck/KeywordResearchToolResultingOverview/pepicons-pop_down-up.png';
+import photo2 from '../../../../../assets/images/Resources/KeywordResearchTool/KeywordResearchToolAfterCheck/KeywordResearchToolResultingOverview/solar_download-bold-duotone.png';
 
 
 const KeywordResearchToolResultingOverview = () => {
@@ -36,10 +36,8 @@ const KeywordResearchToolResultingOverview = () => {
 
                 {/* table.... */}
                 <div>
-
                     {/* medium and large screen */}
                     <BigScreenTable></BigScreenTable>
-
 
                     {/* small screen */}
                     <SmallScreenTable></SmallScreenTable>
