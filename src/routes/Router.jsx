@@ -1,5 +1,4 @@
 import { createBrowserRouter } from "react-router-dom";
-
 import React, { Suspense } from "react";
 import LazyLoaderDesign from "../components/LazyLoaderDesign/LazyLoaderDesign";
 
