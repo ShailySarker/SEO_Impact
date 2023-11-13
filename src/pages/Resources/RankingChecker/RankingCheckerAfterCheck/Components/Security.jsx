@@ -2,7 +2,7 @@ import FailBox from "../../../../../components/FailBox/FailBox";
 import PassedBox from "../../../../../components/PassedBox/PassedBox";
 import StarClose from "../../../../../components/StarClose/StarClose";
 import StarRight from "../../../../../components/StarRight/StarRight";
-import banner from '../../../../assets/images/Resources/RankingChecker/RankingCheckerAfterCheck/Security/banner.png';
+import banner from '../../../../../assets/images/Resources/RankingChecker/RankingCheckerAfterCheck/Security/banner.png';
 
 
 const Security = () => {

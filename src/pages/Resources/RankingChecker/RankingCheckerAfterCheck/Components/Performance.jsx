@@ -3,10 +3,10 @@ import PassedBox from "../../../../../components/PassedBox/PassedBox";
 import StarClose from "../../../../../components/StarClose/StarClose";
 import StarRight from "../../../../../components/StarRight/StarRight";
 import "./Performance.css";
-import banner from '../../../../assets/images/Resources/RankingChecker/RankingCheckerAfterCheck/Performance/banner.png';
-import cloud from '../../../../assets/images/Resources/RankingChecker/RankingCheckerAfterCheck/Performance/cloud.png';
-import folder from '../../../../assets/images/Resources/RankingChecker/RankingCheckerAfterCheck/Performance/folder.png';
-import wrong from '../../../../assets/images/Resources/RankingChecker/RankingCheckerAfterCheck/Performance/wrong.png';
+import banner from '../../../../../assets/images/Resources/RankingChecker/RankingCheckerAfterCheck/Performance/banner.png';
+import cloud from '../../../../../assets/images/Resources/RankingChecker/RankingCheckerAfterCheck/Performance/cloud.png';
+import folder from '../../../../../assets/images/Resources/RankingChecker/RankingCheckerAfterCheck/Performance/folder.png';
+import wrong from '../../../../../assets/images/Resources/RankingChecker/RankingCheckerAfterCheck/Performance/wrong.png';
 
 
 const Performance = () => {

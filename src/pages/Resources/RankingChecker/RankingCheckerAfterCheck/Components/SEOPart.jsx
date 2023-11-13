@@ -2,8 +2,8 @@ import FailBox from "../../../../../components/FailBox/FailBox";
 import PassedBox from "../../../../../components/PassedBox/PassedBox";
 import StarClose from "../../../../../components/StarClose/StarClose";
 import StarRight from "../../../../../components/StarRight/StarRight";
-import banner from '../../../../assets/images/Resources/RankingChecker/RankingCheckerAfterCheck/SEOPart/banner.png';
-import search from '../../../../assets/images/Resources/RankingChecker/RankingCheckerAfterCheck/SEOPart/search.png';
+import banner from '../../../../../assets/images/Resources/RankingChecker/RankingCheckerAfterCheck/SEOPart/banner.png';
+import search from '../../../../../assets/images/Resources/RankingChecker/RankingCheckerAfterCheck/SEOPart/search.png';
 
 
 const SEOPart = () => {

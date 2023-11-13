@@ -4,7 +4,7 @@ import SearchBarRound from '../../../../../components/SearchBarRound/SearchBarRo
 import ProgressBarCyan from '../../../../../components/ProgressBarCyan/ProgressBarCyan';
 import ProgressBarPurple from '../../../../../components/ProgressBarPurple/ProgressBarPurple';
 import ProgressBarAmber from '../../../../../components/ProgressBarAmber/ProgressBarAmber';
-import mackbook from '../../../../assets/images/Resources/RankingChecker/RankingCheckerAfterCheck/RankingCheckerResultingOverview/Macbook.png';
+import mackbook from '../../../../../assets/images/Resources/RankingChecker/RankingCheckerAfterCheck/RankingCheckerResultingOverview/Macbook.png';
 
 
 const RankingCheckerResultingOverview = () => {
