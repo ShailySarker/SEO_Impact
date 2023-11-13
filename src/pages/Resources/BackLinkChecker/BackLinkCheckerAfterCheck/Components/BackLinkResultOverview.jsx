@@ -1,6 +1,5 @@
-import world from '../../../../../assets/images/Resources/BackLinkChecker/BackLinkCheckerAfterCheck/BackLinkResultOverview/mdi_world.png';
-import linkUp from '../../../../../assets/images/Resources/BackLinkChecker/BackLinkCheckerAfterCheck/BackLinkResultOverview/solar_link-bold.png';
-
+import world from '../../../../../assets/images/Resources/BackLinkChecker/BackLinkCheckerAfterCheck/BackLinkResultOverview_world.png';
+import linkUp from '../../../../../assets/images/Resources/BackLinkChecker/BackLinkCheckerAfterCheck/BackLinkResultOverview_solarLink.png';
 
 const BackLinkResultOverview = () => {
     return (
