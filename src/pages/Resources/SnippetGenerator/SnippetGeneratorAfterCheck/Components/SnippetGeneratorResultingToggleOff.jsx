@@ -1,7 +1,6 @@
 import "./SnippetGeneratorResultingToggleOff.css";
-import googleLogo from '../../../../../assets/images/Resources/SnippetGenerator/SnippetGeneratorAfterCheck/SnippetGeneratorResultingToggleOff/devicon_google.png';
-import infoLogo from '../../../../../assets/images/Resources/SnippetGenerator/SnippetGeneratorAfterCheck/SnippetGeneratorResultingToggleOff/material-symbols_info.png';
-
+import googleLogo from '../../../../../assets/images/Resources/SnippetGenerator/SnippetGeneratorAfterCheck/SnippetGeneratorResultingToggleOff_deviconGoogle.png';
+import infoLogo from '../../../../../assets/images/Resources/SnippetGenerator/SnippetGeneratorAfterCheck/SnippetGeneratorResultingToggleOff_materialSymbolsInfo.png';
 
 const SnippetGeneratorResultingToggleOff = () => {
     return (
