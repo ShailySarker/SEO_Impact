@@ -3,17 +3,17 @@ import PassedBox from "../../../../../components/PassedBox/PassedBox";
 import StarClose from "../../../../../components/StarClose/StarClose";
 import StarRight from "../../../../../components/StarRight/StarRight";
 import "./Performance.css";
-import banner from '../../../../../assets/images/Resources/RankingChecker/RankingCheckerAfterCheck/Performance/banner.png';
-import cloud from '../../../../../assets/images/Resources/RankingChecker/RankingCheckerAfterCheck/Performance/cloud.png';
-import folder from '../../../../../assets/images/Resources/RankingChecker/RankingCheckerAfterCheck/Performance/folder.png';
-import wrong from '../../../../../assets/images/Resources/RankingChecker/RankingCheckerAfterCheck/Performance/wrong.png';
+import banner from '../../../../../assets/images/Resources/RankingChecker/RankingCheckerAfterCheck/Performance_banner.png';
+import cloud from '../../../../../assets/images/Resources/RankingChecker/RankingCheckerAfterCheck/Performance_cloud.png';
+import folder from '../../../../../assets/images/Resources/RankingChecker/RankingCheckerAfterCheck/Performance_folder.png';
+import wrong from '../../../../../assets/images/Resources/RankingChecker/RankingCheckerAfterCheck/Performance_wrong.png';
 
 
 const Performance = () => {
     return (
         <div className="mt-28">
             <h2 className="font-bold lg:text-5xl md:text-4xl text-3xl mb-12">Performance</h2>
-            <div className="lg:mr-11">
+            <div className="lg:mr-12">
                 <img className="flex w-full md:h-[550px]" src={banner} alt="banner" />
                 <div className="flex justify-between items-center mt-12 flex-col lg:flex-row gap-5">
                     <div className="flex items-center gap-10">
@@ -22,12 +22,11 @@ const Performance = () => {
                             <img className="relative -mb-3 bottom-[38px] -right-[17px]" src={wrong} alt="wrong" />
                         </div>
                         <h3 className="font-semibold md:text-3xl text-2xl">Performance</h3>
-
                     </div>
                     <div className="">
                         <div>
                             <progress
-                                className="flex items-center progress custom1-progress h-8 lg:w-[550px] md:w-96 w-72"
+                                className="flex items-center progress custom1-progress h-8 lg:w-[400px] md:w-96 w-72"
                                 value="50"
                                 max="100"
                             ></progress>

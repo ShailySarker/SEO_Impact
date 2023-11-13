@@ -1,4 +1,4 @@
-import search from '../../assets/images/Resources/RankingChecker/RankingCheckerAfterCheck/RankingCheckerResultingOverview/Search.png';
+import search from '../../assets/images/Resources/RankingChecker/RankingCheckerAfterCheck/RankingCheckerResultingOverview_search.png';
 
 
 const SearchBarRound = () => {

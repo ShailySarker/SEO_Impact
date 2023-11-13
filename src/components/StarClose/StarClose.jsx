@@ -1,5 +1,5 @@
-import bg from '../../assets/images/Resources/RankingChecker/RankingCheckerAfterCheck/Performance/StarRed.png';
-import close from '../../assets/images/Resources/RankingChecker/RankingCheckerAfterCheck/Performance/material-symbols_close.png';
+import bg from '../../assets/images/Resources/RankingChecker/RankingCheckerAfterCheck/Performance_starRed.png';
+import close from '../../assets/images/Resources/RankingChecker/RankingCheckerAfterCheck/Performance_materialSymbolsClose.png';
 
 
 const StarClose = () => {

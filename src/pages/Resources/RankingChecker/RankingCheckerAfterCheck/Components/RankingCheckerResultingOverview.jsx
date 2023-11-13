@@ -4,7 +4,7 @@ import SearchBarRound from '../../../../../components/SearchBarRound/SearchBarRo
 import ProgressBarCyan from '../../../../../components/ProgressBarCyan/ProgressBarCyan';
 import ProgressBarPurple from '../../../../../components/ProgressBarPurple/ProgressBarPurple';
 import ProgressBarAmber from '../../../../../components/ProgressBarAmber/ProgressBarAmber';
-import mackbook from '../../../../../assets/images/Resources/RankingChecker/RankingCheckerAfterCheck/RankingCheckerResultingOverview/Macbook.png';
+import mackbook from '../../../../../assets/images/Resources/RankingChecker/RankingCheckerAfterCheck/RankingCheckerResultingOverview_macbook.png';
 
 
 const RankingCheckerResultingOverview = () => {
@@ -29,22 +29,22 @@ const RankingCheckerResultingOverview = () => {
                 <div className="mt-16 lg:px-16 px-8">
                     <div className="flex justify-between items-center md:flex-row flex-col gap-4">
                         <div className="flex items-center gap-6">
-                            <DeleteRound></DeleteRound>
+                            <DeleteRound />
                             <h3 className="font-semibold text-xl">Performance</h3>
 
                         </div>
                         <div className="">
-                            <ProgressBarRed></ProgressBarRed>
+                            <ProgressBarRed />
                         </div>
                     </div>
                     <div className="flex justify-between items-center md:flex-row flex-col gap-4 md:mt-7 mt-16">
                         <div className="flex items-center gap-6">
-                            <SearchBarRound></SearchBarRound>
+                            <SearchBarRound />
                             <h3 className="font-semibold text-xl">SEO</h3>
 
                         </div>
                         <div className="">
-                            <ProgressBarCyan></ProgressBarCyan>
+                            <ProgressBarCyan />
                         </div>
                     </div>
                     <div className="flex justify-between items-center md:flex-row flex-col gap-4 md:mt-7 mt-16">
@@ -54,7 +54,7 @@ const RankingCheckerResultingOverview = () => {
 
                         </div>
                         <div className="">
-                            <ProgressBarPurple></ProgressBarPurple>
+                            <ProgressBarPurple />
                         </div>
                     </div>
                     <div className="flex justify-between items-center md:flex-row flex-col gap-4 md:mt-7 mt-16">
@@ -64,7 +64,7 @@ const RankingCheckerResultingOverview = () => {
 
                         </div>
                         <div className="">
-                            <ProgressBarAmber></ProgressBarAmber>
+                            <ProgressBarAmber />
                         </div>
                     </div>
 

@@ -1,4 +1,4 @@
-import wrong from '../../assets/images/Resources/RankingChecker/RankingCheckerAfterCheck/RankingCheckerResultingOverview/Wrong.png';
+import wrong from '../../assets/images/Resources/RankingChecker/RankingCheckerAfterCheck/RankingCheckerResultingOverview_wrong.png';
 
 
 const DeleteRound = () => {

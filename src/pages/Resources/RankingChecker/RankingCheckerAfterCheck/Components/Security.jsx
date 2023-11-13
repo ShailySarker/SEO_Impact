@@ -2,14 +2,14 @@ import FailBox from "../../../../../components/FailBox/FailBox";
 import PassedBox from "../../../../../components/PassedBox/PassedBox";
 import StarClose from "../../../../../components/StarClose/StarClose";
 import StarRight from "../../../../../components/StarRight/StarRight";
-import banner from '../../../../../assets/images/Resources/RankingChecker/RankingCheckerAfterCheck/Security/banner.png';
+import banner from '../../../../../assets/images/Resources/RankingChecker/RankingCheckerAfterCheck/Security_banner.png';
 
 
 const Security = () => {
     return (
         <div className="mt-28">
             <h2 className="font-bold lg:text-5xl md:text-4xl text-3xl mb-12">Security</h2>
-            <div className="lg:mr-11">
+            <div className="lg:mr-12">
                 <img className="flex w-full md:h-[550px]" src={banner} alt="banner" />
                 <div className="flex justify-between items-center mt-12 flex-col lg:flex-row gap-5">
                     <div className="flex items-center gap-12">
@@ -22,7 +22,7 @@ const Security = () => {
                     <div className="">
                         <div>
                             <progress
-                                className="flex items-center progress custom4-progress h-8 lg:w-[550px] md:w-96 w-72"
+                                className="flex items-center progress custom4-progress h-8 lg:w-[400px] md:w-96 w-72"
                                 value="35"
                                 max="100"
                             ></progress>
