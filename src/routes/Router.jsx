@@ -20,7 +20,7 @@ const RankingChecker = React.lazy(() => import("../pages/Resources/RankingChecke
 const RankingCheckerAfterCheck = React.lazy(() => import("../pages/Resources/RankingChecker/RankingCheckerAfterCheck/RankingCheckerAfterCheck"));
 const BackLinkChecker = React.lazy(() => import("../pages/Resources/BackLinkChecker/BackLinkChecker"));
 const BackLinkCheckerAfterCheck = React.lazy(() => import("../pages/Resources/BackLinkChecker/BackLinkCheckerAfterCheck/BackLinkCheckerAfterCheck"));
-const SnippetGenerator = React.lazy(() => import("../pages/Resources/SnippetGenerator/SnippetGenerator/SnippetGenerator"));
+const SnippetGenerator = React.lazy(() => import("../pages/Resources/SnippetGenerator/SnippetGenerator"));
 const SnippetGeneratorAfterCheck = React.lazy(() => import("../pages/Resources/SnippetGenerator/SnippetGeneratorAfterCheck/SnippetGeneratorAfterCheck"));
 const KeywordResearchTool = React.lazy(() => import("../pages/Resources/KeywordResearchTool/KeywordResearchTool/KeywordResearchTool"));
 const KeywordResearchToolAfterCheck = React.lazy(() => import("../pages/Resources/KeywordResearchTool/KeywordResearchToolAfterCheck/KeywordResearchToolAfterCheck"));

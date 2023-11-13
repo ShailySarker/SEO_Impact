@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import SnippetGeneratorResultingToggleOn from "../SnippetGeneratorResultingToggleOn/SnippetGeneratorResultingToggleOn";
-import SnippetGeneratorResultingToggleOff from "../SnippetGeneratorResultingToggleOff/SnippetGeneratorResultingToggleOff";
+import SnippetGeneratorResultingToggleOn from "./Components/SnippetGeneratorResultingToggleOn";
+import SnippetGeneratorResultingToggleOff from "./Components/SnippetGeneratorResultingToggleOff";
 import "./SnippetGeneratorAfterCheck.css";
 
 
