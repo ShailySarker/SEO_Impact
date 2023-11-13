@@ -1,5 +1,5 @@
-import BackLinkResultDescription from "../BackLinkResultDescription/BackLinkResultDescription";
-import BackLinkResultOverview from "../BackLinkResultOverview/BackLinkResultOverview";
+import BackLinkResultDescription from "./Components/BackLinkResultDescription";
+import BackLinkResultOverview from "./Components/BackLinkResultOverview";
 
 const BackLinkCheckerAfterCheck = () => {
     return (
