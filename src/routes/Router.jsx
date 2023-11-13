@@ -18,7 +18,7 @@ import DashboardLayout from "../layout/DashboardLayout/DashboardLayout";
 const MyProjects = React.lazy(() => import("../pages/Resources/MyProjects/MyProjects"));
 const KeywordChecker = React.lazy(() => import("../pages/Resources/KeywordChecker/KeywordChecker"));
 const KeywordCheckerAfterCheck = React.lazy(() => import("../pages/Resources/KeywordChecker/KeywordCheckerAfterCheck/KeywordCheckerAfterCheck"));
-const RankingChecker = React.lazy(() => import("../pages/Resources/RankingChecker/RankingChecker/RankingChecker"));
+const RankingChecker = React.lazy(() => import("../pages/Resources/RankingChecker/RankingChecker"));
 const RankingCheckerAfterCheck = React.lazy(() => import("../pages/Resources/RankingChecker/RankingCheckerAfterCheck/RankingCheckerAfterCheck"));
 const BackLinkChecker = React.lazy(() => import("../pages/Resources/BackLinkChecker/BackLinkChecker/BackLinkChecker"));
 const BackLinkCheckerAfterCheck = React.lazy(() => import("../pages/Resources/BackLinkChecker/BackLinkCheckerAfterCheck/BackLinkCheckerAfterCheck"));

@@ -1,5 +1,5 @@
-import PassedBox from '../../../../components/PassedBox/PassedBox';
-import StarRight from '../../../../components/StarRight/StarRight';
+import PassedBox from '../../../../../components/PassedBox/PassedBox';
+import StarRight from '../../../../../components/StarRight/StarRight';
 import banner from '../../../../assets/images/Resources/RankingChecker/RankingCheckerAfterCheck/Mobile/banner.png';
 
 

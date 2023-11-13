@@ -1,9 +1,9 @@
-import DeleteRound from '../../../../components/DeleteRound/DeleteRound';
-import ProgressBarRed from '../../../../components/ProgressBarRed/ProgressBarRed';
-import SearchBarRound from '../../../../components/SearchBarRound/SearchBarRound';
-import ProgressBarCyan from '../../../../components/ProgressBarCyan/ProgressBarCyan';
-import ProgressBarPurple from '../../../../components/ProgressBarPurple/ProgressBarPurple';
-import ProgressBarAmber from '../../../../components/ProgressBarAmber/ProgressBarAmber';
+import DeleteRound from '../../../../../components/DeleteRound/DeleteRound';
+import ProgressBarRed from '../../../../../components/ProgressBarRed/ProgressBarRed';
+import SearchBarRound from '../../../../../components/SearchBarRound/SearchBarRound';
+import ProgressBarCyan from '../../../../../components/ProgressBarCyan/ProgressBarCyan';
+import ProgressBarPurple from '../../../../../components/ProgressBarPurple/ProgressBarPurple';
+import ProgressBarAmber from '../../../../../components/ProgressBarAmber/ProgressBarAmber';
 import mackbook from '../../../../assets/images/Resources/RankingChecker/RankingCheckerAfterCheck/RankingCheckerResultingOverview/Macbook.png';
 
 

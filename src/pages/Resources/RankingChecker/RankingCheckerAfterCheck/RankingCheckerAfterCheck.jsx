@@ -1,9 +1,9 @@
 import SearchBar from "../../../../components/SearchBar/SearchBar";
-import RankingCheckerResultingOverview from "../RankingCheckerResultingOverview/RankingCheckerResultingOverview";
-import Performance from "../Performance/Performance";
-import SEOPart from "../SEOPart/SEOPart";
-import Mobile from "../Mobile/Mobile";
-import Security from "../Security/Security";
+import RankingCheckerResultingOverview from "./Components/RankingCheckerResultingOverview";
+import Performance from "./Components/Performance";
+import SEOPart from "./Components/SEOPart";
+import Mobile from "./Components/Mobile";
+import Security from "./Components/Security";
 import WhatNext from "../WhatNext/WhatNext";
 
 const RankingCheckerAfterCheck = () => {

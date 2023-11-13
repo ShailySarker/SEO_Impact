@@ -43,7 +43,7 @@ const KeywordCheckerOverview = () => {
                     <h3 className="lg:text-3xl md:text-2xl text-xl font-semibold">Google</h3>
                 </div>
                 <div className="mt-16 flex  gap-8 items-center">
-                    <CheckRound></CheckRound>
+                    <CheckRound />
                     <h3 className="md:text-2xl text-xl font-semibold">In the title : Google</h3>
                 </div>
                 <div className="mt-12 flex  gap-16 items-center border-b-2 pb-8">
@@ -80,11 +80,11 @@ const KeywordCheckerOverview = () => {
                 </div>
                 <div>
                     <div className="mt-16 flex  gap-8 items-center">
-                        <CheckRound></CheckRound>
+                        <CheckRound />
                         <h3 className="md:text-2xl text-xl font-semibold">Found an attribute of an image : Google</h3>
                     </div>
                     <div className="flex  gap-8 items-center mt-6">
-                        <CheckRound></CheckRound>
+                        <CheckRound />
                         <h3 className="md:text-2xl text-xl font-semibold">Found in the image URLS : Google</h3>
                     </div>
                 </div>
@@ -102,11 +102,11 @@ const KeywordCheckerOverview = () => {
                 </div>
                 <div>
                     <div className="mt-16 flex  gap-8 items-center">
-                        <CheckRound></CheckRound>
+                        <CheckRound />
                         <h3 className="md:text-2xl text-xl font-semibold">Found an attribute of an image : Google</h3>
                     </div>
                     <div className="flex  gap-8 items-center mt-6">
-                        <CheckRound></CheckRound>
+                        <CheckRound />
                         <h3 className="md:text-2xl text-xl font-semibold">Found in the image URLS : Google</h3>
                     </div>
                 </div>
@@ -164,7 +164,7 @@ const KeywordCheckerOverview = () => {
                     </div>
                 </div>
                 <div className="mt-16 flex  gap-8 items-center">
-                    <CheckRound></CheckRound>
+                    <CheckRound />
                     <h3 className="md:text-2xl text-xl font-semibold">Occurs in the domain : Google</h3>
                 </div>
                 {/* Stop Words part */}
@@ -177,7 +177,7 @@ const KeywordCheckerOverview = () => {
                     </div>
                 </div>
                 <div className="mt-16 flex  gap-8 items-center">
-                    <CheckRound></CheckRound>
+                    <CheckRound />
                     <h3 className="md:text-2xl text-xl font-semibold">None of the keyword is known as stop word</h3>
                 </div>
             </div>

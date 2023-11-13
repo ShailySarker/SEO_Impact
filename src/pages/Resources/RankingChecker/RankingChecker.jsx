@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import SearchBar from "../../../../components/SearchBar/SearchBar";
+import SearchBar from "../../../components/SearchBar/SearchBar";
 import design from '../../../../assets/images/Resources/RankingChecker/RankingChecker/design.png';
 
 
