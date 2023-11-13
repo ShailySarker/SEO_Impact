@@ -1,5 +1,5 @@
-import searchBar from "../../assets/images/Home/Features_search.png";
-import design from "../../assets/images/Home/Features_design.png";
+import searchBar from "../../../assets/images/Home/Features_search.png";
+import design from "../../../assets/images/Home/Features_design.png";
 
 const FeatureSectionSearchBar = () => {
     return (

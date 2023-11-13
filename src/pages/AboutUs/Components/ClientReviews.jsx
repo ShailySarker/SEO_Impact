@@ -2,10 +2,10 @@ import { FaStar, FaStarHalfAlt } from "react-icons/fa";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import SampleNextArrow from "../../../components/SampleNextArrow/SampleNextArrow";
-import SamplePrevArrow from "../../../components/SamplePrevArrow/SamplePrevArrow";
-import './ClientReviews.css';
+import SampleNextArrow from "../../../components/Others/SampleNextArrow/SampleNextArrow";
+import SamplePrevArrow from "../../../components/Others/SamplePrevArrow/SamplePrevArrow";
 import client from "../../../assets/images/AboutUs/ClientReviews_client.png";
+import './ClientReviews.css';
 
 const clientReviewData = [
     {

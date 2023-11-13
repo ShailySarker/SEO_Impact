@@ -7,7 +7,7 @@ import photo6 from '../../../assets/images/ContactUs/SocialMedia_whatsappLogo.pn
 import photo7 from '../../../assets/images/ContactUs/SocialMedia_messengerLogo.png';
 import photo8 from '../../../assets/images/ContactUs/SocialMedia_threadsLogo.png';
 
-const data = [
+const socialMediaData = [
     {
         id: 1,
         image: photo1,
@@ -79,7 +79,7 @@ const SocialMedia = () => {
             </div>
             <div className="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-2 lg:gap-12 md:gap-8 gap-6 justify-center items-center">
                 {
-                    data.map((item) => (
+                    socialMediaData.map((item) => (
                         <SocialMediaInfo
                             item={item}
                             key={item.id}

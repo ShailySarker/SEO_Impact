@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 import photo from '../../assets/images/NotFound/page-found-concept-illustration_114360-1869.png';
 
-
 const NotFound = () => {
     return (
         <div className="lg:mt-5 flex justify-center lg:gap-5 flex-col">

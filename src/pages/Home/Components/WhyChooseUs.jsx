@@ -17,7 +17,7 @@ const data = [
     },
 ]
 
-const ReasonBox = ({ title }) => {
+const ReasonForChoosing = ({ title }) => {
     return (
         <div>
             <div className="bg-[#EBF5FF] rounded-xl lg:w-60 md:h-48 flex justify-center items-center shadow-lg text-center border-2 border-[#007BFE] transition duration-300 ease-in-out hover:bg-[#007BFE] hover:text-white transform hover:scale-105">
@@ -35,7 +35,7 @@ const WhyChooseUs = () => {
             <div className="md:mt-24 mt-16 grid lg:grid-cols-4 lg:justify-evenly  grid-cols-2 md:gap-20 gap-10 lg:gap-0">
                 {
                     data.map((item) => (
-                        <ReasonBox
+                        <ReasonForChoosing
                             title={item.title}
                             key={item.id}
                         />

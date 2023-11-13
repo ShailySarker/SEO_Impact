@@ -1,6 +1,6 @@
 import React from "react";
 import { Suspense } from "react";
-import ComponentLazyLoaderDesign from "../../components/ComponentLazyLoaderDesign/ComponentLazyLoaderDesign";
+import ComponentLazyLoaderDesign from "../../components/Others/ComponentLazyLoaderDesign/ComponentLazyLoaderDesign";
 
 const ApplicationProcess = React.lazy(() => import("./Components/ApplicationProcess"));
 const Benefits = React.lazy(() => import("./Components/Benefits"));

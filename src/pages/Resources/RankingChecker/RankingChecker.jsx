@@ -1,11 +1,11 @@
 import { Link } from "react-router-dom";
-import SearchBar from "../../../components/SearchBar/SearchBar";
+import SearchBar from "../../../components/Others/SearchBar/SearchBar";
 import design from '../../../assets/images/Resources/RankingChecker/RankingChecker/RankingChecker_design.png';
 
 const RankingChecker = () => {
     return (
         <div className="my-12 md:ml-16 mx-6">
-            <SearchBar></SearchBar>
+            <SearchBar />
             <div className="grid md:grid-cols-2 grid-cols-1 justify-between items-center gap-5 mt-16">
                 <h2 className="font-bold lg:text-5xl md:text-4xl text-3xl lg:mr-24 mr-12"><span className="text-[#007BFE]">Experience</span> seamless elegance on the go </h2>
                 <img className="" src={design} alt="design" />

@@ -1,5 +1,5 @@
 import React, { Suspense } from "react";
-import ComponentLazyLoaderDesign from "../../components/ComponentLazyLoaderDesign/ComponentLazyLoaderDesign";
+import ComponentLazyLoaderDesign from "../../components/Others/ComponentLazyLoaderDesign/ComponentLazyLoaderDesign";
 
 const ContactUsBanner = React.lazy(() => import("./Components/ContactUsBanner"));
 const FeedbackUs = React.lazy(() => import("./Components/FeedbackUs"));

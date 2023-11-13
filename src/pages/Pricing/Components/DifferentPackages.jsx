@@ -3,7 +3,7 @@ import Basic from "../../../assets/images/Pricing/DifferentPackages_basic.png";
 import Premium from "../../../assets/images/Pricing/DifferentPackages_premium.png";
 import Enterprise from "../../../assets/images/Pricing/DifferentPackages_enterprise.png";
 
-const data = [
+const differentPackagesData = [
     {
         id: 1,
         logoImage: Basic,
@@ -45,7 +45,7 @@ const data = [
     }
 ];
 
-const DifferentPackagesInfo = ({ item }) => {
+const DifferentPackageInfo = ({ item }) => {
     const { logoImage, priceAfterDiscount, priceBeforeDiscount, discountPercentage, title, topFeature1, topFeature2, topFeature3, topFeature4, buttonName } = item;
 
     return (
@@ -91,8 +91,8 @@ const DifferentPackages = () => {
     return (
         <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 lg:gap-10 gap-20 lg:mx-16 md:mx-12 mx-6 mb-24 lg:pt-10">
             {
-                data.map((item) => (
-                    <DifferentPackagesInfo
+                differentPackagesData.map((item) => (
+                    <DifferentPackageInfo
                         item={item}
                         key={item.id}
                     />

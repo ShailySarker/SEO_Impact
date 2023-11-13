@@ -55,10 +55,10 @@ const blogsData = [
     }
 ];
 
-const BlogsInfo = ({ blog }) => {
+const BlogInfo = ({ blog }) => {
     const { id, image, date, title, description } = blog;
     return (
-        <div className='border-2 rounded-xl border-[#007BFE] md:p-6 p-4 mb-16'>
+        <div className='border-2 rounded-xl border-[#007BFE] md:p-6 p-4 mb-16 mx-2'>
             <img className='rounded-xl lg:h-[290px] w-full md:h-[240px] h-52 ' src={image} alt={`Blog_${id} Photo`} />
             <p className='md:text-lg font-bold text-[#007BFE] lg:pt-12 md:pt-9 pt-7 lg:pb-6 md:pb-5 pb-4'>Date: {date}</p>
             <h3 className='font-semibold lg:text-3xl md:text-2xl text-xl lg:pb-7 md:pb-6 pb-4'>{title}</h3>
@@ -107,7 +107,7 @@ const Blogs = () => {
                 <Slider {...settings2}>
                     {
                         blogsData.map((blog) => (
-                            <BlogsInfo
+                            <BlogInfo
                                 blog={blog}
                                 key={blog.id}
                             />

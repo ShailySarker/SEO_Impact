@@ -1,4 +1,4 @@
-import star from '../../assets/images/Home/CompanyOverview_star.png';
+import star from '../../../assets/images/Home/CompanyOverview_star.png';
 
 const CircleStar = () => {
     return (

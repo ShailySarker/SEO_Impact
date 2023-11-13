@@ -1,4 +1,3 @@
-
 const FAQs = () => {
     return (
         <div className="lg:mt-32 md:mt-16 mt-12 mb-28 lg:mx-60 md:mx-16 mx-6">

@@ -1,4 +1,4 @@
-import SearchBar from "../../../components/SearchBar/SearchBar";
+import SearchBar from "../../../components/Others/SearchBar/SearchBar";
 import photo from "../../../assets/images/Resources/MyProjects/MyProjects_rectangle.png";
 
 

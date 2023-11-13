@@ -8,10 +8,7 @@ const DemoVideo = () => {
                 <p className="lg:text-2xl md:text-xl text-lg text-[#757575] font-semibold text-center lg:mx-56">Lorem ipsum dolor sit amet consectetur. Quis eget vivamus neque velit enim id urna pharetra vel. Sapien ut natoque facilisi tortor viverra eget. Amet rhoncus leo sed nulla est senectus morbi tellus ornare.</p>
             </div>
             <div className="flex justify-center mt-20">
-                {/* <ReactPlayer controls url='https://www.youtube.com/watch?v=LXb3EKWsInQ' /> */}
-                <ReactPlayer controls url="https://youtu.be/LXb3EKWsInQ?si=H6xtxs5Rw5zqFiZU">
-
-                </ReactPlayer>
+                <ReactPlayer controls url="https://youtu.be/LXb3EKWsInQ?si=H6xtxs5Rw5zqFiZU" />
             </div>
         </div>
     );

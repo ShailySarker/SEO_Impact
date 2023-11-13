@@ -10,12 +10,12 @@ const DashboardHeader = () => {
                 <div className="navbar-start">
                     <div className="flex lg:flex-col flex-row 
                     justify-center items-center lg:ml-0">
-                        <img className="border-r-2 pr-24" src={logo} alt="logo" />
+                        <img className="border-r-2 pr-8 md:pr-24" src={logo} alt="logo" />
                     </div>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="flex gap-10">
-                        <NavMenu></NavMenu>
+                        <NavMenu/>
                     </ul>
                 </div>
                 <div className="navbar-end ">
@@ -36,7 +36,7 @@ const DashboardHeader = () => {
                                 <label htmlFor="my-drawer-2" className="drawer-overlay"></label>
                                 <ul className="menu py-6 px-4 md:px-6 md:mt-20 mt-16 w-48 md:w-52 rounded-l-lg bg-base-200 text-base-content">
                                     {/* Sidebar content here */}
-                                    <NavMenu></NavMenu>
+                                    <NavMenu/>
                                     <li>
                                         <div className="flex gap-4 items-center">
                                             <img className="w-6" src={user} alt="userPhoto" />

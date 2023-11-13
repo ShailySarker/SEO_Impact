@@ -1,6 +1,6 @@
 import React, { Suspense } from "react";
-import SearchBar from "../../../../components/SearchBar/SearchBar";
-import ComponentLazyLoaderDesign from "../../../../components/ComponentLazyLoaderDesign/ComponentLazyLoaderDesign";
+import SearchBar from "../../../../components/Others/SearchBar/SearchBar";
+import ComponentLazyLoaderDesign from "../../../../components/Others/ComponentLazyLoaderDesign/ComponentLazyLoaderDesign";
 const RankingCheckerResultingOverview = React.lazy(() => import("./Components/RankingCheckerResultingOverview"));
 const Performance = React.lazy(() => import("./Components/Performance"));
 const SEOPart = React.lazy(() => import("./Components/SEOPart"));

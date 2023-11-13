@@ -1,5 +1,5 @@
-import bg from '../../assets/images/Resources/RankingChecker/RankingCheckerAfterCheck/Performance_starBlue.png';
-import right from '../../assets/images/Resources/RankingChecker/RankingCheckerAfterCheck/Performance_right.png';
+import bg from '../../../assets/images/Resources/RankingChecker/RankingCheckerAfterCheck/Performance_starBlue.png';
+import right from '../../../assets/images/Resources/RankingChecker/RankingCheckerAfterCheck/Performance_right.png';
 
 
 const StarRight = () => {

@@ -1,6 +1,5 @@
 import photo from '../../../assets/images/Home/MarketInsights_rectangle.png';
 
-
 const MarketInsights = () => {
     return (
         <div className=" grid lg:grid-cols-2 grid-cols-1 md:pl-20 pl-6 gap-28 md:gap-36 lg:gap-0 items-center">
@@ -37,7 +36,6 @@ const MarketInsights = () => {
                 <div className="">
                     <img className="lg:h-[640px] md:h-[600px] h-[480px]" src={photo} alt="bg photo" />
                 </div>
-
             </div>
         </div>
     );

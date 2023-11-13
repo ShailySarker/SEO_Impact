@@ -1,10 +1,10 @@
-import DeleteRound from '../../../../../components/DeleteRound/DeleteRound';
-import ProgressBarRed from '../../../../../components/ProgressBarRed/ProgressBarRed';
-import SearchBarRound from '../../../../../components/SearchBarRound/SearchBarRound';
-import ProgressBarCyan from '../../../../../components/ProgressBarCyan/ProgressBarCyan';
-import ProgressBarPurple from '../../../../../components/ProgressBarPurple/ProgressBarPurple';
-import ProgressBarAmber from '../../../../../components/ProgressBarAmber/ProgressBarAmber';
-import mackbook from '../../../../../assets/images/Resources/RankingChecker/RankingCheckerAfterCheck/RankingCheckerResultingOverview_macbook.png';
+import DeleteRound from '../../../../../components/Others/DeleteRound/DeleteRound';
+import ProgressBarRed from '../../../../../components/Others/ProgressBarRed/ProgressBarRed';
+import SearchBarRound from '../../../../../components/Others/SearchBarRound/SearchBarRound';
+import ProgressBarCyan from '../../../../../components/Others/ProgressBarCyan/ProgressBarCyan';
+import ProgressBarPurple from '../../../../../components/Others/ProgressBarPurple/ProgressBarPurple';
+import ProgressBarAmber from '../../../../../components/Others/ProgressBarAmber/ProgressBarAmber';
+import mackBook from '../../../../../assets/images/Resources/RankingChecker/RankingCheckerAfterCheck/RankingCheckerResultingOverview_macbook.png';
 
 
 const RankingCheckerResultingOverview = () => {
@@ -22,7 +22,7 @@ const RankingCheckerResultingOverview = () => {
             </div>
             <div className="border-2 py-12 lg:px-16 md:px-0  rounded-xl">
                 <div>
-                    <img className="mx-auto md:w-auto w-60" src={mackbook} alt="mackbook" />
+                    <img className="mx-auto md:w-auto w-60" src={mackBook} alt="mackBook" />
                     <h4 className="text-center mt-16 mb-5 font-semibold md:text-2xl text-lg">https://cbb.coastalbroadband.in</h4>
                     <h5 className="md:text-xl font-semibold text-center text-slate-500 border-b-2 pb-11">August 25 16:00:34</h5>
                 </div>
@@ -71,7 +71,6 @@ const RankingCheckerResultingOverview = () => {
                     <div className="mt-20 mb-4 flex flex-col gap-6 items-center">
                         <button className="text-white bg-[#007BFE] py-3 px-6 w-56 rounded-xl font-semibold">Download PDF</button>
                         <button className="text-black py-3 px-6 rounded-xl w-56 border-2 font-semibold">Share</button>
-
                     </div>
                 </div>
             </div>

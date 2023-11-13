@@ -1,4 +1,4 @@
-import FeatureSectionSearchBar from "../../../components/FeatureSectionSearchBar/FeatureSectionSearchBar";
+import FeatureSectionSearchBar from "../../../components/Others/FeatureSectionSearchBar/FeatureSectionSearchBar";
 import feature1 from '../../../assets/images/Home/Features_feature1.png';
 import feature2 from '../../../assets/images/Home/Features_feature2.png';
 import feature3 from '../../../assets/images/Home/Features_feature3.png';
@@ -9,7 +9,7 @@ const Features = () => {
         <div className="md:mt-32 mt-12 lg:mt-0 md:mb-0">
             <div className="bg-[#007BFE] lg:pt-12 md:pt-8 pt-8 pb-56 md:pb-44 items-center flex lg:gap-80 md:flex-row flex-col relative">
                 <div className="md:justify-start lg:w-auto md:w-72 w-24">
-                    <FeatureSectionSearchBar></FeatureSectionSearchBar>
+                    <FeatureSectionSearchBar/>
                 </div>
                 <div className="">
                     <h3 className="text-white text-3xl font-bold md:pt-16 lg:pt-0">“See What’s Inside”</h3>

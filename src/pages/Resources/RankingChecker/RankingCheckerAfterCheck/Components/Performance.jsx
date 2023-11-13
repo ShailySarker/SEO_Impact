@@ -1,13 +1,12 @@
-import FailBox from "../../../../../components/FailBox/FailBox";
-import PassedBox from "../../../../../components/PassedBox/PassedBox";
-import StarClose from "../../../../../components/StarClose/StarClose";
-import StarRight from "../../../../../components/StarRight/StarRight";
+import FailBox from "../../../../../components/Others/FailBox/FailBox";
+import PassedBox from "../../../../../components/Others/PassedBox/PassedBox";
+import StarClose from "../../../../../components/Others/StarClose/StarClose";
+import StarRight from "../../../../../components/Others/StarRight/StarRight";
 import "./Performance.css";
 import banner from '../../../../../assets/images/Resources/RankingChecker/RankingCheckerAfterCheck/Performance_banner.png';
 import cloud from '../../../../../assets/images/Resources/RankingChecker/RankingCheckerAfterCheck/Performance_cloud.png';
 import folder from '../../../../../assets/images/Resources/RankingChecker/RankingCheckerAfterCheck/Performance_folder.png';
 import wrong from '../../../../../assets/images/Resources/RankingChecker/RankingCheckerAfterCheck/Performance_wrong.png';
-
 
 const Performance = () => {
     return (
@@ -89,14 +88,13 @@ const Performance = () => {
                     </div>
                 </div>
 
-
                 {/* 2 */}
                 <div className="">
-                    <FailBox></FailBox>
+                    <FailBox />
                     <div className="border-2 px-5 py-10 shadow-xl lg:h-[550px] h-[500px]">
                         <h3 className="font-semibold text-center md:text-2xl lg:text-3xl text-xl">Minified Javascript</h3>
                         <div className="flex justify-center my-16">
-                            <StarClose></StarClose>
+                            <StarClose />
                         </div>
                         <div className="text-center">
                             <h3 className="font-bold lg:text-2xl md:text-xl text-lg md:pb-8 pb-5">Missed</h3>
@@ -105,11 +103,11 @@ const Performance = () => {
                     </div>
                 </div>
                 <div className="">
-                    <PassedBox></PassedBox>
+                    <PassedBox />
                     <div className="border-2 px-5 py-10 shadow-xl lg:h-[550px] h-[500px]">
                         <h3 className="font-semibold text-center md:text-2xl lg:text-3xl text-xl">Browser Caching</h3>
                         <div className="flex justify-center my-16">
-                            <StarRight></StarRight>
+                            <StarRight />
                         </div>
                         <div className="text-center">
                             <h3 className="font-bold lg:text-2xl md:text-xl text-lg md:pb-8 pb-5">Hurray!! Your web caching is actually world class</h3>
@@ -120,11 +118,11 @@ const Performance = () => {
 
                 {/* 3 */}
                 <div className="">
-                    <PassedBox></PassedBox>
+                    <PassedBox />
                     <div className="border-2 px-5 py-10 shadow-xl lg:h-[550px] h-[500px]">
                         <h3 className="font-semibold text-center md:text-2xl lg:text-3xl text-xl">Minimal Page Redirects</h3>
                         <div className="flex justify-center my-16">
-                            <StarRight></StarRight>
+                            <StarRight />
                         </div>
                         <div className="text-center">
                             <h3 className="font-bold lg:text-2xl md:text-xl text-lg md:pb-8 pb-5">Straight to the point!</h3>
@@ -133,11 +131,11 @@ const Performance = () => {
                     </div>
                 </div>
                 <div className="">
-                    <PassedBox></PassedBox>
+                    <PassedBox />
                     <div className="border-2 px-5 py-10 shadow-xl lg:h-[550px] h-[500px]">
                         <h3 className="font-semibold text-center md:text-2xl lg:text-3xl text-xl">Image Size</h3>
                         <div className="flex justify-center my-16">
-                            <StarRight></StarRight>
+                            <StarRight />
                         </div>
                         <div className="text-center">
                             <h3 className="font-bold lg:text-2xl md:text-xl text-lg md:pb-8 pb-5">They fit actually perfect!</h3>
@@ -148,11 +146,11 @@ const Performance = () => {
 
                 {/* 4 */}
                 <div className="">
-                    <FailBox></FailBox>
+                    <FailBox />
                     <div className="border-2 px-5 py-10 shadow-xl lg:h-[550px] h-[500px]">
                         <h3 className="font-semibold text-center md:text-2xl lg:text-3xl text-xl">Minified Javascript</h3>
                         <div className="flex justify-center my-16">
-                            <StarClose></StarClose>
+                            <StarClose />
                         </div>
                         <div className="text-center">
                             <h3 className="font-bold lg:text-2xl md:text-xl text-lg md:pb-8 pb-5">Hurray!! Your web caching is actually world class</h3>
@@ -161,11 +159,11 @@ const Performance = () => {
                     </div>
                 </div>
                 <div className="">
-                    <PassedBox></PassedBox>
+                    <PassedBox />
                     <div className="border-2 px-5 py-10 shadow-xl lg:h-[550px] h-[500px]">
                         <h3 className="font-semibold text-center md:text-2xl lg:text-3xl text-xl">Minified CSS</h3>
                         <div className="flex justify-center my-16">
-                            <StarRight></StarRight>
+                            <StarRight />
                         </div>
                         <div className="text-center">
                             <h3 className="font-bold lg:text-2xl md:text-xl text-lg md:pb-8 pb-5">Short and Sweet!</h3>

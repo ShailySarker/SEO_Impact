@@ -1,4 +1,4 @@
-import diamond from '../../assets/images/Home/CompanyOverview_diamond.png';
+import diamond from '../../../assets/images/Home/CompanyOverview_diamond.png';
 
 const CircleDiamond = () => {
     return (

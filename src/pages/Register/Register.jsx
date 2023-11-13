@@ -1,12 +1,11 @@
-import SignUpDesign from "../../components/SignUpDesign/SignUpDesign";
-import CheckBox from "../../components/CheckBox/CheckBox";
+import SignUpDesign from "../../components/Others/SignUpDesign/SignUpDesign";
+import CheckBox from "../../components/Others/CheckBox/CheckBox";
 import { Link } from "react-router-dom";
 import logo from "../../assets/images/SignUp/SignUp_logo.png";
 import design from "../../assets/images/SignUp/SignUp_design.png";
 import bottomDesign from '../../assets/images/SignUp/SignUp_bottomDesign.png';
 
 const Register = () => {
-
     return (
         <div className="lg:mt-12 md:mt-20 mt-12 lg:ml-36 md:ml-16 ml-0">
 
@@ -16,7 +15,7 @@ const Register = () => {
                     <div>
                         <img src={logo} alt="logo" />
                     </div>
-                    <SignUpDesign></SignUpDesign>
+                    <SignUpDesign/>
                 </div>
                 <div className="">
                     <div className="lg:mx-auto flex relative lg:-top-[12px] md:-mt-[670px] -mt-[460px] ">
@@ -65,11 +64,9 @@ const Register = () => {
                                         placeholder="Confirm Password"
                                         className="input input-bordered" />
                                 </div>
-
                                 <div className="form-control ">
-                                    <CheckBox></CheckBox>
+                                    <CheckBox/>
                                 </div>
-
                                 <input
                                     type="submit"
                                     value="Sign Up"
@@ -140,17 +137,14 @@ const Register = () => {
                                 placeholder="Confirm Password"
                                 className="input input-bordered" />
                         </div>
-
                         <div className="form-control ">
-                            <CheckBox></CheckBox>
+                            <CheckBox/>
                         </div>
-
                         <input
                             type="submit"
                             value="Sign Up"
                             className="text-white justify-center bg-[#007BFE] py-3 px-6 rounded-xl font-semibold flex mt-14 mx-auto w-32"
                         />
-
                     </form>
                     <div className="text-center mt-10">
                         <p className="text-[#B2B2B2]">

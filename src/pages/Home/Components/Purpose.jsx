@@ -1,4 +1,4 @@
-import PurposeBox from "../../../components/PurposeBox/PurposeBox";
+import PurposeBox from "../../../components/Others/PurposeBox/PurposeBox";
 
 const Purpose = () => {
     return (
@@ -9,7 +9,7 @@ const Purpose = () => {
                         <h3 className=" font-bold lg:text-5xl md:text-4xl text-3xl md:mb-16 mb-10">Purpose</h3>
                         <p className="lg:text-2xl md:text-xl text-lg text-[#757575] font-semibold">Lorem ipsum dolor sit amet consectetur. Quis eget vivamus neque velit enim id urna pharetra vel. Sapien ut natoque facilisi tortor viverra eget. Amet rhoncus leo sed nulla est senectus morbi tellus ornare. Justo curabitur iaculis id senectus sodales mattis sed mattis nis</p>
                     </div>
-                    <PurposeBox></PurposeBox>
+                    <PurposeBox />
                 </div>
             </div>
         </div>

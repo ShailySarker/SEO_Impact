@@ -1,5 +1,5 @@
 import React, { Suspense } from "react";
-import ComponentLazyLoaderDesign from "../../../../components/ComponentLazyLoaderDesign/ComponentLazyLoaderDesign";
+import ComponentLazyLoaderDesign from "../../../../components/Others/ComponentLazyLoaderDesign/ComponentLazyLoaderDesign";
 const BackLinkHeader = React.lazy(() => import("./Components/BackLinkHeader"));
 const BackLinkResultDescription = React.lazy(() => import("./Components/BackLinkResultDescription"));
 const BackLinkResultOverview = React.lazy(() => import("./Components/BackLinkResultOverview"));

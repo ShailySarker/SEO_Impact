@@ -1,19 +1,18 @@
 import { Link } from "react-router-dom";
-import LoginDesign from "../../components/LoginDesign/LoginDesign";
+import LoginDesign from "../../components/Others/LoginDesign/LoginDesign";
 import logo from '../../assets/images/Login/Login_logo.png';
 import bottomDesign from '../../assets/images/Login/Login_bottomDesign.png';
 
 const Login = () => {
     return (
         <div className="lg:mt-12 md:mt-20 mt-12 lg:ml-36 md:ml-16 ml-0">
-
             {/* big and medium size screen */}
             <div className="md:block hidden">
                 <div className="flex justify-between">
                     <div>
                         <img src={logo} alt="logo" />
                     </div>
-                    <LoginDesign></LoginDesign>
+                    <LoginDesign/>
                 </div>
                 <div className="">
                     <div className="mx-auto flex relative -top-[150px] md:-mt-[470px] -mt-[450px]">
@@ -37,11 +36,9 @@ const Login = () => {
                                         placeholder="Password"
                                         className="input input-bordered" />
                                 </div>
-
                                 <div className="text-right font-bold">
                                     <Link className="lg:text-[#007BFE] text-black">Forget your password?</Link>
                                 </div>
-
                                 <input
                                     type="submit"
                                     value="Login"
@@ -86,7 +83,6 @@ const Login = () => {
                         <div className="text-right font-bold">
                             <Link className="text-[#007BFE]">Forget your password?</Link>
                         </div>
-
                         <input
                             type="submit"
                             value="Login"

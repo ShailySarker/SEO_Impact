@@ -9,7 +9,7 @@ import program4 from "../../../assets/images/Careers/TrainingAndDevelopment_prog
 import program5 from "../../../assets/images/Careers/TrainingAndDevelopment_program5.jpg";
 import program6 from "../../../assets/images/Careers/TrainingAndDevelopment_program6.jpg";
 
-const data = [
+const trainingAndDevelopmentData = [
     {
         id: 1,
         image: program1,
@@ -51,7 +51,7 @@ const data = [
 const TrainingAndDevelopmentInfo = ({ item }) => {
     const { id, image, title, description } = item;
     return (
-        <div className='border-2 rounded-xl border-[#007BFE] md:p-6 p-4 lg:h-[580px] md:h-[540px] h-[450px] mb-12'>
+        <div className='border-2 rounded-xl border-[#007BFE] md:p-6 p-4 lg:h-[580px] md:h-[540px] h-[450px] mb-12 mx-2'>
             <img className='rounded-xl lg:h-[270px] w-full md:h-[230px] h-52' src={image} alt={`Program_${id} Photo`} />
             <h3 className='font-semibold lg:text-3xl md:text-2xl text-xl lg:pt-12 md:pt-9 pt-7 lg:pb-7 md:pb-6 pb-4 text-center text-black'>{title}</h3>
             <p className='md:text-lg font-medium lg:pb-6 md:pb-5 pb-4'>{description}</p>
@@ -99,7 +99,7 @@ const TrainingAndDevelopment = () => {
             <div className="mt-20 mb-28">
                 <Slider {...settings}>
                     {
-                        data.map((item) => (
+                        trainingAndDevelopmentData.map((item) => (
                             <TrainingAndDevelopmentInfo
                                 item={item}
                                 key={item.id}

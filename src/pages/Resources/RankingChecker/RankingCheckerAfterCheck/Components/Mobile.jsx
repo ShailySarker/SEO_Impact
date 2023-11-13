@@ -1,7 +1,6 @@
-import PassedBox from '../../../../../components/PassedBox/PassedBox';
-import StarRight from '../../../../../components/StarRight/StarRight';
+import PassedBox from '../../../../../components/Others/PassedBox/PassedBox';
+import StarRight from '../../../../../components/Others/StarRight/StarRight';
 import banner from '../../../../../assets/images/Resources/RankingChecker/RankingCheckerAfterCheck/Mobile_banner.png';
-
 
 const Mobile = () => {
     return (
@@ -30,11 +29,11 @@ const Mobile = () => {
             <div className="mt-28 grid md:grid-cols-2 grid-cols-1 gap-16 md:mx-0 mx-4">
                 {/* 1 */}
                 <div className="">
-                    <PassedBox></PassedBox>
+                    <PassedBox />
                     <div className="border-2 px-5 py-10 shadow-xl lg:h-[550px] h-[500px]">
                         <h3 className="font-semibold text-center lg:text-3xl md;text-2xl text-xl">Legible Font Size</h3>
                         <div className="flex justify-center my-16">
-                            <StarRight></StarRight>
+                            <StarRight />
                         </div>
                         <div className="text-center">
                             <h3 className="font-bold lg:text-2xl md:text-xl text-lg md:pb-8 pb-5">Beautiful on the eyess!</h3>
@@ -43,11 +42,11 @@ const Mobile = () => {
                     </div>
                 </div>
                 <div className="">
-                    <PassedBox></PassedBox>
+                    <PassedBox />
                     <div className="border-2 px-5 py-10 shadow-xl lg:h-[550px] h-[500px]">
                         <h3 className="font-semibold text-center lg:text-3xl md;text-2xl text-xl">Tap Targets</h3>
                         <div className="flex justify-center my-16">
-                            <StarRight></StarRight>
+                            <StarRight />
                         </div>
                         <div className="text-center">
                             <h3 className="font-bold lg:text-2xl md:text-xl text-lg md:pb-8 pb-5">Clicking is so easyy!</h3>

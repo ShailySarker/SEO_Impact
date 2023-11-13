@@ -1,9 +1,8 @@
-import FailBox from "../../../../../components/FailBox/FailBox";
-import PassedBox from "../../../../../components/PassedBox/PassedBox";
-import StarClose from "../../../../../components/StarClose/StarClose";
-import StarRight from "../../../../../components/StarRight/StarRight";
+import FailBox from "../../../../../components/Others/FailBox/FailBox";
+import PassedBox from "../../../../../components/Others/PassedBox/PassedBox";
+import StarClose from "../../../../../components/Others/StarClose/StarClose";
+import StarRight from "../../../../../components/Others/StarRight/StarRight";
 import banner from '../../../../../assets/images/Resources/RankingChecker/RankingCheckerAfterCheck/Security_banner.png';
-
 
 const Security = () => {
     return (
@@ -17,7 +16,6 @@ const Security = () => {
                             <p className="w-14 h-14 bg-[#F89E4B] rounded-full"></p>
                         </div>
                         <h3 className="font-semibold md:text-3xl text-2xl">Security</h3>
-
                     </div>
                     <div className="">
                         <div>
@@ -33,11 +31,11 @@ const Security = () => {
             <div className="mt-28 grid md:grid-cols-2 grid-cols-1 gap-16 md:mx-0 mx-4">
                 {/* 1 */}
                 <div className="">
-                    <PassedBox></PassedBox>
+                    <PassedBox />
                     <div className="border-2 px-5 py-10 shadow-xl lg:h-[550px] h-[500px]">
                         <h3 className="font-semibold text-center lg:text-3xl md:text-2xl text-xl">HTTPS SECURED</h3>
                         <div className="flex justify-center my-16">
-                            <StarRight></StarRight>
+                            <StarRight />
                         </div>
                         <div className="text-center">
                             <h3 className="font-bold lg:text-2xl md:text-xl text-lg pb-8">Hurray it is secured!</h3>
@@ -46,11 +44,11 @@ const Security = () => {
                     </div>
                 </div>
                 <div className="">
-                    <FailBox></FailBox>
+                    <FailBox />
                     <div className="border-2 px-5 py-10 shadow-xl lg:h-[550px] h-[500px]">
                         <h3 className="font-semibold text-center lg:text-3xl md:text-2xl text-xl">Secure JS Libraries</h3>
                         <div className="flex justify-center my-16">
-                            <StarClose></StarClose>
+                            <StarClose />
                         </div>
                         <div className="text-center">
                             <h3 className="font-bold lg:text-2xl md:text-xl text-lg pb-8">Am not feeling safe here!</h3>

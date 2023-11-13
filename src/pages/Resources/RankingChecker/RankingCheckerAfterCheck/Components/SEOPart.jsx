@@ -1,10 +1,9 @@
-import FailBox from "../../../../../components/FailBox/FailBox";
-import PassedBox from "../../../../../components/PassedBox/PassedBox";
-import StarClose from "../../../../../components/StarClose/StarClose";
-import StarRight from "../../../../../components/StarRight/StarRight";
+import FailBox from "../../../../../components/Others/FailBox/FailBox";
+import PassedBox from "../../../../../components/Others/PassedBox/PassedBox";
+import StarClose from "../../../../../components/Others/StarClose/StarClose";
+import StarRight from "../../../../../components/Others/StarRight/StarRight";
 import banner from '../../../../../assets/images/Resources/RankingChecker/RankingCheckerAfterCheck/SEOPart_banner.png';
 import search from '../../../../../assets/images/Resources/RankingChecker/RankingCheckerAfterCheck/SEOPart_search.png';
-
 
 const SEOPart = () => {
     return (
@@ -36,11 +35,11 @@ const SEOPart = () => {
 
                 {/* 1 */}
                 <div className="">
-                    <PassedBox></PassedBox>
+                    <PassedBox />
                     <div className="border-2 px-5 py-10 shadow-xl lg:h-[550px] h-[500px]">
                         <h3 className="font-semibold text-center lg:text-3xl md:text-2xl text-xl">Permission to Index</h3>
                         <div className="flex justify-center my-16">
-                            <StarRight></StarRight>
+                            <StarRight />
                         </div>
                         <div className="text-center">
                             <h3 className="font-bold lg:text-2xl md:text-xl text-lg pb-8">Granted</h3>
@@ -49,11 +48,11 @@ const SEOPart = () => {
                     </div>
                 </div>
                 <div className="">
-                    <FailBox></FailBox>
+                    <FailBox />
                     <div className="border-2 px-5 py-10 shadow-xl lg:h-[550px] h-[500px]">
                         <h3 className="font-semibold text-center lg:text-3xl md:text-2xl text-xl">Meta Description</h3>
                         <div className="flex justify-center my-16">
-                            <StarClose></StarClose>
+                            <StarClose />
                         </div>
                         <div className="text-center">
                             <h3 className="font-bold lg:text-2xl md:text-xl text-lg pb-8">Missed</h3>
@@ -64,11 +63,11 @@ const SEOPart = () => {
 
                 {/* 2 */}
                 <div className="">
-                    <PassedBox></PassedBox>
+                    <PassedBox />
                     <div className="border-2 px-5 py-10 shadow-xl lg:h-[550px] h-[500px]">
                         <h3 className="font-semibold text-center lg:text-3xl md:text-2xl text-xl">Content Plugin!</h3>
                         <div className="flex justify-center my-16">
-                            <StarRight></StarRight>
+                            <StarRight />
                         </div>
                         <div className="text-center">
                             <h3 className="font-bold lg:text-2xl md:text-xl text-lg pb-8">Nice, Nice, Nice!! Good Job.</h3>
@@ -77,11 +76,11 @@ const SEOPart = () => {
                     </div>
                 </div>
                 <div className="">
-                    <PassedBox></PassedBox>
+                    <PassedBox />
                     <div className="border-2 px-5 py-10 shadow-xl lg:h-[550px] h-[500px]">
                         <h3 className="font-semibold text-center lg:text-3xl md:text-2xl text-xl">Descriptive link text!</h3>
                         <div className="flex justify-center my-16">
-                            <StarRight></StarRight>
+                            <StarRight />
                         </div>
                         <div className="text-center">
                             <h3 className="font-bold lg:text-2xl md:text-xl text-lg pb-8">Here, Your links make sense!</h3>
@@ -89,7 +88,6 @@ const SEOPart = () => {
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
     );

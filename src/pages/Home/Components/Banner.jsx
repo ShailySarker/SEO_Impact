@@ -1,10 +1,8 @@
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
-
 import photo1 from '../../../assets/images/Home/Banner_introducing.png';
 import photo2 from '../../../assets/images/Home/Banner_carbonArrowUp.png';
 import photo3 from '../../../assets/images/Home/Banner_bannerPhoto.png';
-
 
 const Banner = () => {
     return (
@@ -17,7 +15,6 @@ const Banner = () => {
                     <button className="text-white bg-[#007BFE] md:py-3 md:px-6 p-2 rounded-xl font-semibold">Get Started</button>
                     <img src={photo2} alt="arrow left" />
                     <p className="text-slate-400">Click here to know more!</p>
-
                 </div>
                 <div className="mt-12 flex flex-col">
                     <input className="md:ml-40 lg:ml-0 md:py-4 md:px-7 p-2 border-2 rounded-lg lg:w-auto md:w-96" type="text" name="enterWebsite" id="" placeholder="Enter your website here...." />
@@ -29,7 +26,6 @@ const Banner = () => {
                     className="lg:w-auto md:w-3/4 md:ml-32 lg:ml-0 md:p-0 p-6" src={photo3} alt="Banner Image"
                     effect="blur"
                 />
-                {/* <img className="lg:w-auto md:w-3/4 md:ml-32 lg:ml-0 md:p-0 p-6" src={photo3} alt="Banner Image" /> */}
             </div>
         </div>
     );

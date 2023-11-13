@@ -1,4 +1,4 @@
-import CheckRound from "../../../../../components/CheckRound/CheckRound";
+import CheckRound from "../../../../../components/Others/CheckRound/CheckRound";
 import desktop from "../../../../../assets/images/Resources/KeywordChecker/KeywordCheckerAfterCheck/KeywordCheckerOverview_desktopWindow.png";
 
 
@@ -23,7 +23,6 @@ const KeywordCheckerOverview = () => {
                     </div>
                 </div>
             </div>
-
 
             {/* Meta Attributes Section */}
             <div className="mt-28 lg:mr-44">
@@ -58,7 +57,6 @@ const KeywordCheckerOverview = () => {
                     <h3 className="lg:text-3xl md:text-2xl text-xl font-semibold">Not within the first 120 characters : Google</h3>
                 </div>
             </div>
-
 
             {/* HTML Content Section */}
             <div className="mt-28 lg:mr-44">

@@ -2,7 +2,6 @@ import clockImage from '../../../assets/images/Home/SEOTools_materialSymbolsAlar
 import uploadImage from '../../../assets/images/Home/SEOTools_streamlineInterfaceUpload.png';
 import laptopImage from '../../../assets/images/Home/SEOTools_ionLaptopSharp.png';
 
-
 const SEOTools = () => {
     return (
         <div className="md:px-20 px-10 mb-36">

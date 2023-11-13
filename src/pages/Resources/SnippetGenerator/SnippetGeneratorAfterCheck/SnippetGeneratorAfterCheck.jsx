@@ -3,7 +3,7 @@ const SnippetGeneratorResultingToggleOn = React.lazy(() => import("./Components/
 const SnippetGeneratorResultingToggleOff = React.lazy(() => import("./Components/SnippetGeneratorResultingToggleOff"));
 const SnippetGeneratorHeader = React.lazy(() => import("./Components/SnippetGeneratorHeader"));
 import "./SnippetGeneratorAfterCheck.css";
-import ComponentLazyLoaderDesign from "../../../../components/ComponentLazyLoaderDesign/ComponentLazyLoaderDesign";
+import ComponentLazyLoaderDesign from "../../../../components/Others/ComponentLazyLoaderDesign/ComponentLazyLoaderDesign";
 
 const SnippetGeneratorAfterCheck = () => {
 
@@ -44,7 +44,6 @@ const SnippetGeneratorAfterCheck = () => {
                     </div>
                 </div>
             </Suspense>
-
         </div>
     );
 };

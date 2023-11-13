@@ -1,5 +1,5 @@
 import React, { Suspense } from "react";
-import ComponentLazyLoaderDesign from "../../../../components/ComponentLazyLoaderDesign/ComponentLazyLoaderDesign";
+import ComponentLazyLoaderDesign from "../../../../components/Others/ComponentLazyLoaderDesign/ComponentLazyLoaderDesign";
 const KeywordCheckerHeader = React.lazy(() => import("./Components/KeywordCheckerHeader"));
 const KeywordCheckerOverview = React.lazy(() => import("./Components/KeywordCheckerOverview"));
 const KeywordScore = React.lazy(() => import("./Components/KeywordScore"));

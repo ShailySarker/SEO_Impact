@@ -1,9 +1,9 @@
-import PopularLogo from "../../../components/PopularLogo/PopularLogo";
+import PopularLogo from "../../../components/Others/PopularLogo/PopularLogo";
 import logo from "../../../assets/images/Pricing/PopularPackages_logo.png";
 import Premium from "../../../assets/images/Pricing/PopularPackages_premium.png";
 import Enterprise from "../../../assets/images/Pricing/PopularPackages_enterprise.png";
 
-const data = [
+const popularPackagesData = [
     {
         id: 1,
         logoImage: Premium,
@@ -82,7 +82,7 @@ const PopularPackages = () => {
             </div>
             <div className="grid md:grid-cols-2 grid-cols-1 justify-center items-center gap-16 lg:mx-48 md:mx-5 mx-6 mt-24">
                 {
-                    data.map((item) => (
+                    popularPackagesData.map((item) => (
                         <PopularPackageInfo
                             item={item}
                             key={item.id}

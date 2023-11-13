@@ -1,6 +1,5 @@
 import React, { Suspense } from "react";
-import ComponentLazyLoaderDesign from "../../components/ComponentLazyLoaderDesign/ComponentLazyLoaderDesign";
-
+import ComponentLazyLoaderDesign from "../../components/Others/ComponentLazyLoaderDesign/ComponentLazyLoaderDesign";
 const AboutUsBanner = React.lazy(() => import("./Components/AboutUsBanner"));
 const Achievements = React.lazy(() => import("./Components/Achievements"));
 const Blogs = React.lazy(() => import("./Components/Blogs"));

@@ -1,6 +1,6 @@
 import "./FeaturesAdvertising.css";
 
-const data = [
+const featuresAdvertisingData = [
     {
         id: 1,
         title: "Get Best Deal !!"
@@ -51,7 +51,7 @@ const data = [
     }
 ];
 
-const Slider = ({ title }) => {
+const FeaturesAdvertisingInfo = ({ title }) => {
     return (
         <div className='slide'>
             <div className="mainBox bg-[#EBF5FF] rounded-lg flex justify-center items-center">
@@ -69,8 +69,8 @@ const FeaturesAdvertising = () => {
             <div className='slider'>
                 <div className='slide-track'>
                     {
-                        data.map((item) => (
-                            <Slider
+                        featuresAdvertisingData.map((item) => (
+                            <FeaturesAdvertisingInfo
                                 title={item.title}
                                 key={item.id}
                             />

@@ -1,4 +1,4 @@
-const data = [
+const stepsInfoData = [
     {
         id: 1,
         stepNo: "Step_01",
@@ -18,7 +18,7 @@ const data = [
     }
 ];
 
-const StepInfo = ({ stepNo, stepTitle }) => {
+const StepsInfo = ({ stepNo, stepTitle }) => {
     return (
         <div className="flex items-center lg:justify-center lg:gap-8 gap-12 ">
             <div>
@@ -30,6 +30,7 @@ const StepInfo = ({ stepNo, stepTitle }) => {
         </div>
     );
 };
+
 const Guide = () => {
     return (
         <div className="lg:mt-32 md:mt-16 mt-12 mb-36 lg:mx-16 md:mx-16 mx-6 grid lg:grid-cols-2 grid-cols-1 gap-20 items-center">
@@ -39,8 +40,8 @@ const Guide = () => {
             </div>
             <div className="flex flex-col gap-10">
                 {
-                    data.map((item) => (
-                        <StepInfo
+                    stepsInfoData.map((item) => (
+                        <StepsInfo
                             stepNo={item.stepNo}
                             stepTitle={item.stepTitle}
                             key={item.id}

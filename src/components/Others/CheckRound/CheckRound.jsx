@@ -1,4 +1,4 @@
-import design from '../../assets/images/Resources/KeywordChecker/KeywordCheckerAfterCheck/KeywordCheckerOverview_check.png';
+import design from '../../../assets/images/Resources/KeywordChecker/KeywordCheckerAfterCheck/KeywordCheckerOverview_check.png';
 const CheckRound = () => {
     return (
     

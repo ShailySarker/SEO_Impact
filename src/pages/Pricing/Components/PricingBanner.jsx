@@ -1,7 +1,6 @@
 import banner from "../../../assets/images/Pricing/PricingBanner_banner.png";
 import bg from "../../../assets/images/Pricing/PricingBanner_ellipse.png";
 
-
 const PricingBanner = () => {
     return (
         <div className="my-12">

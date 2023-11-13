@@ -1,5 +1,6 @@
-import NewLogo from "../../../components/NewLogo/NewLogo";
-const data = [
+import NewLogo from "../../../components/Others/NewLogo/NewLogo";
+
+const newFeaturesData = [
     {
         id: 1,
         title: "Snippet Generator",
@@ -17,10 +18,10 @@ const data = [
     }
 ];
 
-const InformationDetails = ({ title, description }) => {
+const NewFeaturesInfo = ({ title, description }) => {
     return (
         <div>
-            <NewLogo></NewLogo>
+            <NewLogo/>
             <div className="border-2 shadow-lg py-10 px-7 rounded-xl lg:h-[450px]">
                 <h2 className="lg:text-4xl md:text-3xl text-2xl font-semibold text-center mb-3">{title}</h2>`
                 <p className="text-lg  text-[#757575] font-medium mb-12">{description}</p>
@@ -40,8 +41,8 @@ const WhatIsNew = () => {
             <div className="mt-20 md:mr-0 mr-8">
                 <div className="grid lg:grid-cols-3 grid-cols-1 lg:gap-12 gap-16">
                     {
-                        data.map((item) => (
-                            <InformationDetails
+                        newFeaturesData.map((item) => (
+                            <NewFeaturesInfo
                                 title={item.title}
                                 description={item.description}
                                 key={item.id}

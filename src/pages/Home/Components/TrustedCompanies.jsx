@@ -3,7 +3,6 @@ import company2 from '../../../assets/images/Home/TrustedCompanies_microsoftLogo
 import company3 from '../../../assets/images/Home/TrustedCompanies_samsungLogo.png';
 import company4 from '../../../assets/images/Home/TrustedCompanies_nvidiaLogo.png';
 
-
 const TrustedCompanies = () => {
     return (
         <div>
